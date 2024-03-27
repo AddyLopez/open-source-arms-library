@@ -1,6 +1,6 @@
 import { MapContainer, TileLayer, LayersControl } from "react-leaflet";
 
-/*import { Panel } from "../Panel/Panel";*/
+import Panel from "../Panel/Panel";
 import "./App.css";
 
 const { BaseLayer } = LayersControl;
@@ -28,6 +28,7 @@ function App() {
             />
           </BaseLayer>
         </LayersControl>
+        <Panel />
       </MapContainer>
     </div>
   );

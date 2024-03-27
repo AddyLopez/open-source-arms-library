@@ -1,0 +1,14 @@
+h1 {
+  align-items: center;
+  background-color: hsl(173, 13%, 24%);
+  bottom: 0;
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  font-size: 36px;
+  height: 60px;
+  justify-content: center;
+  position: fixed;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
