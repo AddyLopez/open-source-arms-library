@@ -1,11 +1,11 @@
 .Panel {
-  background-color: #453d35;
+  background-color: hsl(30, 13%, 24%);
   bottom: 0px;
   color: hsl(0, 0%, 100%);
   font-family: "Orbitron", sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   font-style: normal;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   position: fixed;
   width: 100%;
 }
@@ -19,7 +19,6 @@
   margin: 0;
 }
 
-.Panel p {
-  background-color: #453d35;
-  text-align: center;
+.Panel section {
+  padding: 0 8px;
 }

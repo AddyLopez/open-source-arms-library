@@ -3,6 +3,6 @@ body {
 }
 
 .App .leaflet-container {
-  min-height: calc(100vh - 126px);
+  min-height: 56vh;
   width: 100%;
 }
