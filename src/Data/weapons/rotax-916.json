@@ -1,0 +1,52 @@
+{
+  "names": [
+    {
+      "name": "Rotax 916 iS",
+      "source": "https://en.wikipedia.org/wiki/Rotax_916_iS"
+    }
+  ],
+  "researchers": [
+    "Jim",
+    "Jim"
+  ],
+  "companies": [
+    {
+      "company": "Rotax",
+      "source": "https://en.wikipedia.org/wiki/Rotax_916_iS"
+    }
+  ],
+  "parent_item": [
+    {
+      "item": "Elbit Hermes 900",
+      "source": "https://en.wikipedia.org/wiki/Elbit_Hermes_900"
+    }
+  ],
+  "manufacturing": [
+    {
+      "site_name": "BRP-Rotax",
+      "site_address": "Rotaxstraße 1, 4623 Gunskirchen, Austria",
+      "source": [
+        "google.com/maps",
+        "https://www.brp.com/en/our-company/manufacturing-facilities.html"
+      ],
+      "notes": null
+    }
+  ],
+  "supply_chain": null,
+  "notes": [
+    {
+      "note": "This plant manufactures all the 900 series engines and all engines used by drones.",
+      "source": "https://www.brp.com/en/our-company/manufacturing-facilities.html"
+    },
+    {
+      "note": "Rotax is a in a partnership with (owned by?) Bombardier Recreation Products (BRP) which is why the factory is called BRP-Rotax. BRP is not owned by Bombardier but actually is a publicly traded company. Wikipedia claims to know who owns it but, as its publicly traded, I think that infos out of date.",
+      "source": [
+        "https://en.wikipedia.org/wiki/Bombardier_Recreational_Products",
+        "https://en.wikipedia.org/wiki/Caisse_de_d%C3%A9p%C3%B4t_et_placement_du_Qu%C3%A9bec",
+        "https://en.wikipedia.org/wiki/Rotax",
+        "https://news.brp.com/static-files/c9f0961d-e5f0-44de-958e-548c8d1a5df9#page=7",
+        "https://en.wikipedia.org/wiki/Kommanditgesellschaft"
+      ]
+    }
+  ]
+}

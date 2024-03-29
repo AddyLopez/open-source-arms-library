@@ -1,0 +1,79 @@
+{
+  "names": [
+    {
+      "name": "Spyder",
+      "source": "https://www.rafael.co.il/worlds/air-missile-defense/air-defense/"
+    },
+    {
+      "name": "Spyder-SR",
+      "note": "SR = Short Range",
+      "source": [
+        "https://rafael-uk.com/wp-content/uploads/2022/11/Spyder-Family-eng_compressed.pdf"
+      ]
+    },
+    {
+      "name": "Spyder-ER",
+      "note": "ER = Extended Range (short range + a little extra)",
+      "source": [
+        "https://rafael-uk.com/wp-content/uploads/2022/11/Spyder-Family-eng_compressed.pdf",
+        "https://dimse.info/spyder/"
+      ]
+    },
+    {
+      "name": "Spyder-MR",
+      "note": "MR = Medium Range",
+      "source": [
+        "https://rafael-uk.com/wp-content/uploads/2022/11/Spyder-Family-eng_compressed.pdf",
+        "https://dimse.info/spyder/"
+      ]
+    },
+    {
+      "name": "Spyder-LR",
+      "note": "LR = Long Range",
+      "source": [
+        "https://rafael-uk.com/wp-content/uploads/2022/11/Spyder-Family-eng_compressed.pdf",
+        "https://dimse.info/spyder/"
+      ]
+    }
+  ],
+  "researchers": [
+    "Jim I",
+    "Jim"
+  ],
+  "companies": [
+    {
+      "company": "Rafael Advanced Defense Systems",
+      "source": "https://www.rafael.co.il/worlds/air-missile-defense/air-defense/"
+    },
+    {
+      "company": "Israel Aerospace Industries",
+      "source": "https://www.army-technology.com/projects/spyder/?cf-view"
+    }
+  ],
+  "parent_item": null,
+  "manufacturing": null,
+  "supply_chain": [
+    {
+      "item": "EL/M 2106 ATAR Radar",
+      "note": "Manufacted by ELTA which is a subsidiary of IAI (Israel Aerospace Industries)",
+      "source": [
+        "https://dimse.info/spyder/",
+        "https://business.maryland.gov/industries/elta-north-america"
+      ]
+    },
+    {
+      "item": "EL/M-2084 MMR Radar",
+      "note": "Manufacted by ELTA which is a subsidiary of IAI (Israel Aerospace Industries)",
+      "source": [
+        "https://dimse.info/spyder/",
+        "https://business.maryland.gov/industries/elta-north-america"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "note": "There's an ELTA North America branch here (https://maps.app.goo.gl/Q71xqbQXPexqk33XA) but idk how much they manufacture.",
+      "source": "https://business.maryland.gov/industries/elta-north-america"
+    }
+  ]
+}

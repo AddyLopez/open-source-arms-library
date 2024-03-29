@@ -1,0 +1,27 @@
+{
+  "names": [
+    {
+      "name": "Dror light machine gun",
+      "source": "http://modernfirearms.net/en/machineguns/israel-machineguns/dror-eng/"
+    }
+  ],
+  "researchers": [
+    "Jim",
+    "Jim"
+  ],
+  "companies": [
+    {
+      "company": "Israel Military Industries",
+      "source": "http://modernfirearms.net/en/machineguns/israel-machineguns/dror-eng/"
+    }
+  ],
+  "parent_item": null,
+  "manufacturing": null,
+  "supply_chain": null,
+  "notes": [
+    {
+      "note": "Hasn't been used since the 50s",
+      "source": "http://modernfirearms.net/en/machineguns/israel-machineguns/dror-eng/"
+    }
+  ]
+}

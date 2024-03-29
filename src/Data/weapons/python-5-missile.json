@@ -1,0 +1,44 @@
+{
+  "names": [
+    {
+      "name": "Python 5",
+      "source": "https://www.rafael-usa.com/programs/python-5/"
+    }
+  ],
+  "researchers": [
+    "Jim I",
+    "Jim"
+  ],
+  "companies": [
+    {
+      "company": "Rafael USA",
+      "source": "https://www.rafael-usa.com/programs/python-5/"
+    }
+  ],
+  "parent_item": [
+    {
+      "item": "SPYDER",
+      "source": "https://www.rafael.co.il/worlds/air-missile-defense/air-defense/",
+      "note": "This is just like \"what if we launched this air to air missile from the ground\". So they made the SPYDER system which uses a modified Python missile."
+    }
+  ],
+  "manufacturing": [
+    {
+      "note": "It's probably made in the USA. The Rafael USA website shows the python 5 and it also says that it manufactures it's stuff in the USA. But it's unclear if it's like that they manufacture some stuff and not others or manufacture components that they send to Israel.",
+      "source": [
+        "https://www.rafael-usa.com/about/",
+        "https://www.rafael-usa.com/programs/python-5/"
+      ]
+    }
+  ],
+  "supply_chain": null,
+  "notes": [
+    {
+      "note": "I couldn't figure out where the production is. Furthermore, I looked at where the locations of Rafael USA are and I couldn't find any locations besides their office headquarters. We should look into if it's a holding company."
+    },
+    {
+      "note": "C4 Advanced Tactical Systems and PVP Advnaced EO Systems might make some components for the Python 5 missile. It's https://maps.app.goo.gl/b9MkTUYEzceJ7xrL7 https://maps.app.goo.gl/j5WVv1n9RccMC7ea8",
+      "source": "https://www.rafael-usa.com/about/"
+    }
+  ]
+}

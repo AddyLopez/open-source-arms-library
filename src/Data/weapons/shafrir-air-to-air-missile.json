@@ -1,0 +1,22 @@
+{
+  "names": [
+    {
+      "name": "Shafrir Air-To-Air Missile",
+      "source": null
+    }
+  ],
+  "researchers": [
+    "Jim I",
+    "Jim"
+  ],
+  "companies": null,
+  "parent_item": null,
+  "manufacturing": null,
+  "supply_chain": null,
+  "notes": [
+    {
+      "note": "Shafrir is the old name of the line of missiles that now the Python missile series.",
+      "source": "https://en.wikipedia.org/wiki/Python_(missile)"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "names": [
+    {
+      "name": "Eitan AFV",
+      "source": "https://en.wikipedia.org/wiki/Eitan_AFV"
+    },
+    {
+      "name": "Eitan APC/IFV",
+      "note": "APC is a version of this with few or no weapons and the IFV version would have a lot more weapons",
+      "source": "https://militaryleak.com/2023/05/30/israel-defense-forces-takes-delivery-of-eitan-armored-fighting-vehicles/"
+    }
+  ],
+  "researchers": [
+    "Jim",
+    "Jim"
+  ],
+  "companies": [
+    {
+      "company": "Israel Ministry of Defense",
+      "note": "Israel Ministry of Defense (IMOD) has a Ministry's Tank Development Program Directorate (Mantak) that designs armored vehicles in house.",
+      "source": [
+        "https://www.timesofisrael.com/defense-ministry-to-deliver-first-new-advanced-eitan-apc-to-idf/",
+        "https://english.mod.gov.il/Departments/Pages/Tank_and_APC_Administration.aspx"
+      ]
+    }
+  ],
+  "parent_item": null,
+  "manufacturing": [
+    {
+      "note": "Somewhere in Israel",
+      "source": "https://defense-update.com/20221228_eitan-4.html"
+    }
+  ],
+  "supply_chain": [
+    {
+      "item": "Hull",
+      "source": "https://www.israeldefense.co.il/en/node/56748"
+    },
+    {
+      "item": "MTU 6V890 diesel engine",
+      "source": "https://defense-update.com/20221228_eitan-4.html"
+    },
+    {
+      "item": "Caterpillar C18",
+      "note": "This is an engine",
+      "source": "https://defense-update.com/20221228_eitan-4.html"
+    },
+    {
+      "item": "Spike Missile",
+      "source": "https://militaryleak.com/2023/05/30/israel-defense-forces-takes-delivery-of-eitan-armored-fighting-vehicles/"
+    },
+    {
+      "item": "Iron Fist Light Decoupled",
+      "note": "This is an active protection system (APS) made by Elbit Systems.",
+      "source": [
+        "https://www.prnewswire.com/il/news-releases/israeli-ministry-of-defense-selects-elbit-systems-iron-fist-light-decoupled-active-protection-system-for-the-eitan-afv-895792789.html",
+        "https://www.militarytoday.com/apc/eitan.htm"
+      ]
+    },
+    {
+      "item": "Allison automatic transmission",
+      "source": "https://www.militarytoday.com/apc/eitan.htm"
+    }
+  ],
+  "notes": [
+    {
+      "note": "The hulls will be made by Oshkosh Defense and that $100 million deal is financed with US aid money to Israel",
+      "source": "https://defense-update.com/20221228_eitan-4.html"
+    },
+    {
+      "note": "This should have some Remote Weapons System package."
+    },
+    {
+      "note": "Wikipedia says that 60% of components are made in the US",
+      "source": "https://en.wikipedia.org/wiki/Eitan_AFV"
+    }
+  ]
+}
