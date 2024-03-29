@@ -1,3 +1,4 @@
+import React from "react";
 import { MapContainer, TileLayer, LayersControl } from "react-leaflet";
 
 import Panel from "../Panel/Panel";
