@@ -1,24 +1,28 @@
 .Panel {
-  background-color: hsl(30, 13%, 24%);
-  bottom: 0px;
-  color: hsl(0, 0%, 100%);
+  background-color: var(--primary-theme);
+  color: var(--text-color);
   font-family: "Orbitron", sans-serif;
   font-weight: 300;
   font-style: normal;
   letter-spacing: 1.5px;
-  position: fixed;
-  width: 100%;
 }
 
 .Panel h1 {
   align-items: center;
-  background-color: hsl(173, 13%, 24%);
+  background-color: var(--secondary-theme);
   display: flex;
-  font-size: 36px;
+  font-size: 30px;
   justify-content: center;
   margin: 0;
+  padding: 6px 0;
 }
 
 .Panel section {
-  padding: 0 8px;
+  padding: 0 6px;
+}
+
+.Panel p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-left: 16px;
 }
