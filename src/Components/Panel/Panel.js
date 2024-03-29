@@ -1,5 +1,6 @@
 import React from "react";
 import About from "../About/About";
+import Research from "../Research/Research";
 //import { weaponsArray } from "../../Data/arms-data.js";
 import "./Panel.css";
 
@@ -11,7 +12,7 @@ function Panel() {
       <h1>Open Source Arms Library</h1>
       <section>
         <About />
-        <p>paragraph</p>
+        <Research />
       </section>
     </main>
   );

@@ -5,6 +5,7 @@
   font-weight: 300;
   font-style: normal;
   letter-spacing: 1.5px;
+  padding-bottom: 20px;
 }
 
 .Panel h1 {
@@ -15,6 +16,10 @@
   justify-content: center;
   margin: 0;
   padding: 6px 0;
+}
+
+.Panel h2 {
+  margin-bottom: 0;
 }
 
 .Panel section {
