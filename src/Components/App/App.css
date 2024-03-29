@@ -1,8 +1,16 @@
+:root {
+  --accent-color: hsl(69, 41%, 56%);
+  --primary-theme: hsl(214, 13%, 24%);
+  --secondary-theme: hsl(215, 19%, 40%);
+  --text-color: hsl(35, 44%, 92%);
+}
+
 body {
   margin: 0;
 }
 
 .App .leaflet-container {
-  min-height: 56vh;
+  min-height: 50vh;
+  max-height: 75vh;
   width: 100%;
 }

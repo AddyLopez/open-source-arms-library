@@ -29,8 +29,8 @@ function App() {
             />
           </BaseLayer>
         </LayersControl>
-        <Panel />
       </MapContainer>
+      <Panel />
     </div>
   );
 }
