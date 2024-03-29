@@ -1,0 +1,57 @@
+{
+  "names": [
+    {
+      "name": "ELM-2080",
+      "note": "Long range Anti-ballstic Missle Radar",
+      "source": "https://www.iai.co.il/p/elm-20802080s-green-pine"
+    },
+    {
+      "name": "Green Pine",
+      "source": "https://www.iai.co.il/p/elm-20802080s-green-pine"
+    }
+  ],
+  "researchers": [
+    "Brian",
+    "Sayrah",
+    "Che"
+  ],
+  "companies": [
+    {
+      "company": "Israeli Aerospace industries",
+      "note": "Elta Division",
+      "source": "https://www.iai.co.il/p/elm-20802080s-green-pine"
+    }
+  ],
+  "parent_item": [
+    {
+      "item": "Arrow System",
+      "source": "https://www.iai.co.il/p/elm-20802080s-green-pine"
+    },
+    {
+      "item": "Iron Dome",
+      "source": "https://www.israeldefense.co.il/en/content/singapore-buys-iron-dome-radar"
+    },
+    {
+      "item": "David's Sling",
+      "source": "https://missilethreat.csis.org/defsys/davids-sling/"
+    }
+  ],
+  "manufacturing": [
+    {
+      "site_name": "Elta systems Ltd.",
+      "site_address": "Yitshak HaNassi St 100, Ashdod, Israel",
+      "note": "The address in question looks like an office building but it looks like theres a manufacturing plant the next building over to the north.",
+      "source": [
+        "https://www.iai.co.il/news-media/iai-action/green-pine-radar-key-israels-historic-ballistic-missile-interception-success",
+        "https://maps.app.goo.gl/3zYH8RCeYBhjFTnf7"
+      ]
+    }
+  ],
+  "supply_chain": null,
+  "notes": [
+    {
+      "note": "The entire system, from individual microwave components to the large electronic assemblies, was developed by IAI-Elta, which maintains full control over production and assembly at its facility in Ashdod, Israel which some may refer as the startup nation.",
+      "source": "https://www.iai.co.il/news-media/iai-action/green-pine-radar-key-israels-historic-ballistic-missile-interception-success"
+    }
+  ]
+}

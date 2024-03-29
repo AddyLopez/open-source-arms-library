@@ -1,0 +1,43 @@
+{
+  "names": [
+    {
+      "name": "Mitznefet Camouflage",
+      "source": null
+    }
+  ],
+  "researchers": [
+    "<me_name>"
+  ],
+  "companies": [
+    {
+      "company": null,
+      "source": null
+    }
+  ],
+  "parent_item": [
+    {
+      "item": null,
+      "source": null
+    }
+  ],
+  "manufacturing": [
+    {
+      "site_name": null,
+      "site_address": null,
+      "notes": null,
+      "source": null
+    }
+  ],
+  "supply_chain": [
+    {
+      "item": null,
+      "source": null
+    }
+  ],
+  "notes": [
+    {
+      "note": null,
+      "source": null
+    }
+  ]
+}

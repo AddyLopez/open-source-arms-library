@@ -1,0 +1,63 @@
+{
+  "names": [
+    {
+      "name": "Dolphin Class Submarine",
+      "source": "https://web.archive.org/web/20141222054116/http://www.worldtribune.com/2013/12/05/spy-tool-commander-touts-strategic-role-of-new-israeli-submarines/"
+    }
+  ],
+  "researchers": [
+    "Alicia Robinson-Welsh",
+    "Che"
+  ],
+  "companies": [
+    {
+      "company": "ThyssenKrupp Marine Systems",
+      "source": "https://web.archive.org/web/20141222054116/http://www.worldtribune.com/2013/12/05/spy-tool-commander-touts-strategic-role-of-new-israeli-submarines/"
+    }
+  ],
+  "parent_item": [
+    {
+      "item": null,
+      "source": null
+    }
+  ],
+  "manufacturing": [
+    {
+      "site_name": "Howaldtswerke Shipyard",
+      "site_address": "Werftstraße 112-114, 24143 Kiel, Germany",
+      "notes": "This place does submarine construction and ship servicing.\n\nThe locations page mentions submarine building in Kiel. I found the Howaldtswerke shipyard in Kiel when I went to\ngoogle and searched \"thyssenkrupp\" in the city of Kiel. The company page mentions the merger of\nHowaldtswerke-Deutsche Werft and something else all under thyssenkrupp and the wikipedia shows that\nHowaldtswerke-Deutsche Werft has a marine yard in Kiel. So multiple fingers all point at this building boat stuff.\n",
+      "source": [
+        "https://maps.app.goo.gl/V4xv9ABKpThJuPQU7",
+        "https://www.thyssenkrupp-marinesystems.com/en/company",
+        "https://en.wikipedia.org/wiki/Howaldtswerke-Deutsche_Werft",
+        "https://www.thyssenkrupp-marinesystems.com/en/company/locations"
+      ]
+    },
+    {
+      "site_name": "Hagenuk Marinekommunikation",
+      "site_address": "Hamburger Chaussee 25, 24220 Flintbek, Germany",
+      "notes": "This place seems to manufacture communication equipment for boat/submarine stuff. (marinekommunikation translates to\n\"marine communications\"). \"Hagenuk Marinekommunikation\" is the company name and it's a subsidiary of the ATLAS\nELECTRONIK Group.\n",
+      "source": [
+        "https://maps.app.goo.gl/E4oCvV6wSwmzRedM9",
+        "https://www.thyssenkrupp-marinesystems.com/en/company/locations",
+        "https://www.hmk.atlas-elektronik.com/index.html"
+      ]
+    },
+    {
+      "site_name": "ATLAS ELECTRONIK",
+      "site_address": "Sebaldsbrücker Heerstraße 235, 28309 Bremen, Germany"
+    }
+  ],
+  "supply_chain": [
+    {
+      "item": null,
+      "source": null
+    }
+  ],
+  "notes": [
+    {
+      "note": null,
+      "source": null
+    }
+  ]
+}

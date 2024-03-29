@@ -1,0 +1,55 @@
+{
+  "names": [
+    {
+      "name": "M89SR",
+      "source": [
+        "https://modernfirearms.net/en/sniper-rifles/standart-caliber-rifles/israel-standart-caliber-rifles/tei-m89-sr-eng/",
+        "https://guns.fandom.com/wiki/TEI_M89SR"
+      ],
+      "note": "M89SR = Model 89 Sniper Rifle"
+    },
+    {
+      "name": "Sardius M36 Sniper Weapon System",
+      "source": [
+        "https://modernfirearms.net/en/sniper-rifles/standart-caliber-rifles/israel-standart-caliber-rifles/tei-m89-sr-eng/",
+        "https://guns.fandom.com/wiki/TEI_M89SR"
+      ]
+    }
+  ],
+  "researchers": [
+    "Alicia RW",
+    "Che"
+  ],
+  "companies": [
+    {
+      "company": "Technical Equipment International",
+      "source": "https://modernfirearms.net/en/sniper-rifles/standart-caliber-rifles/israel-standart-caliber-rifles/tei-m89-sr-eng/",
+      "note": "TEI owns the license and produces the rifle but didn't design it."
+    },
+    {
+      "company": "Sardius",
+      "source": [
+        "https://modernfirearms.net/en/sniper-rifles/standart-caliber-rifles/israel-standart-caliber-rifles/tei-m89-sr-eng/",
+        "http://www.dogswar.ru/oryjeinaia-ekzotika/strelkovoe-oryjie/1406-snaiperskaia-vintovk.html"
+      ],
+      "note": "Sardius designed the rifle then promptly went out of business and TCI took over the patent and manufacturing."
+    }
+  ],
+  "parent_item": null,
+  "manufacturing": [
+    {
+      "site_name": "Hod Hasharon (Israel)",
+      "source": "https://modernfirearms.net/en/sniper-rifles/standart-caliber-rifles/israel-standart-caliber-rifles/tei-m89-sr-eng/"
+    }
+  ],
+  "supply_chain": null,
+  "notes": [
+    {
+      "note": "The M39SR has never in wide usage in the IDF. Probably is even less of a thing now.",
+      "source": [
+        "https://en.wikipedia.org/wiki/M89SR_sniper_rifle",
+        "https://www.militaryfactory.com/smallarms/detail.php?smallarms_id=1174"
+      ]
+    }
+  ]
+}

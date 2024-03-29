@@ -1,0 +1,83 @@
+{
+  "names": [
+    {
+      "name": "Tamir Interceptor",
+      "source": "https://www.rtx.com/raytheon/what-we-do/integrated-air-and-missile-defense/irondome"
+    },
+    {
+      "name": "SkyHunter",
+      "source": "https://www.rtx.com/raytheon/what-we-do/integrated-air-and-missile-defense/irondome"
+    }
+  ],
+  "researchers": [
+    "Oliver",
+    "Che"
+  ],
+  "companies": [
+    {
+      "company": "Rafael Advanced Defense Systems",
+      "source": "http://web.archive.org/web/20110414105118/http://www.janes.com/products/janes/defence-security-report.aspx?ID=1065927116&pu=1&rd=janes_com#"
+    },
+    {
+      "company": "Israel Aerospace Industries",
+      "source": "http://web.archive.org/web/20110414105118/http://www.janes.com/products/janes/defence-security-report.aspx?ID=1065927116&pu=1&rd=janes_com#"
+    },
+    {
+      "company": "Raytheon",
+      "source": "https://www.defencenews.in/article/israel-readies-first-us-co-production-order-for-iron-dome/"
+    }
+  ],
+  "parent_item": [
+    {
+      "item": "Iron Dome",
+      "source": "https://www.rtx.com/raytheon/what-we-do/integrated-air-and-missile-defense/irondome"
+    }
+  ],
+  "manufacturing": [
+    {
+      "note": "There's no NM manufacturing of Iron Dome, Arrow-3, or David's Sling.",
+      "source": "https://www.defensenews.com/smr/2017/08/03/us-israel-teams-ramp-up-interceptor-builds/"
+    },
+    {
+      "site_address": "State Hwy 203, Camden, AR 71701",
+      "source": "https://breakingdefense.com/2023/10/raytheon-rafael-officially-pick-arkansas-site-for-iron-dome-missile-production/",
+      "note": "Joint Raytheon and Rafael facility under the company Raytheon-Rafael Area Protection Systems. This is from October 2023 so the facility is not built yet I think. Found the address on google maps"
+    }
+  ],
+  "supply_chain": [
+    {
+      "item": "EL/M-2084 multi-mission radar",
+      "note": "Made by ELTA which is a subsidiary of Israel Aerospace Industries",
+      "source": [
+        "https://en.wikipedia.org/wiki/EL/M-2084",
+        "https://missilethreat.csis.org/defsys/iron-dome/"
+      ]
+    },
+    {
+      "item": "Iron Glow",
+      "note": "This is the battle management control (BMC) system made by mPrest which was bought by Rafael",
+      "source": [
+        "https://en.wikipedia.org/wiki/MPrest_Systems#cite_note-tsj-1",
+        "https://web.archive.org/web/20110720134604/http://www.tsjonline.com/story.php?F=4265663",
+        "https://missilethreat.csis.org/defsys/iron-dome/"
+      ]
+    },
+    {
+      "item": "Launcher for Iron Dome",
+      "note": "Dynetics makes it",
+      "source": [
+        "https://en.wikipedia.org/wiki/Iron_Dome",
+        "https://www.defensenews.com/land/2021/08/24/heres-who-the-us-army-has-tapped-to-build-an-enduring-capability-to-counter-drones-and-cruise-missiles/"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "note": "Tamir is 75% made in the US",
+      "source": [
+        "https://www.defensenews.com/smr/2017/08/03/us-israel-teams-ramp-up-interceptor-builds/",
+        "https://www.militarytoday.com/missiles/iron_dome.htm"
+      ]
+    }
+  ]
+}

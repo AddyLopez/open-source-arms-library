@@ -1,0 +1,123 @@
+{
+  "names": [
+    {
+      "name": "Joint Tactical Light Vehicle (JLTV)",
+      "source": "https://oshkoshdefense.com/oshkosh-defense-receives-jltv-order-for-208-million/"
+    }
+  ],
+  "researchers": [
+    "Brian",
+    "Che"
+  ],
+  "companies": [
+    {
+      "company": "Oshkosh Defense",
+      "source": "https://oshkoshdefense.com/oshkosh-defense-receives-jltv-order-for-208-million/"
+    }
+  ],
+  "parent_item": null,
+  "manufacturing": [
+    {
+      "site_address": "2705 Harrison St, Oshkosh, WI 54901",
+      "notes": "The wiki sites Janes that there's a manufacturing facility in Oshkosh and google maps satallite view shows a huge building with a shitload of JLTV lookin trucks parked outside.",
+      "source": [
+        "google.com/maps",
+        "https://en.wikipedia.org/wiki/Joint_Light_Tactical_Vehicle#Production_and_deliveries"
+      ]
+    },
+    {
+      "site_name": "Mishawaka Manufacturing Campus",
+      "site_address": "13200 McKinley Highway Mishawaka, IN 46545",
+      "note": "Oshkosh Defense won the contract for the design and initial production. Oshkosh Defense also provided the Technical Data Package so that the gov could re-bid the production. AM General won the follow up bid and Oshkosh Defense is suing. This is ongoing but AM General is expanding their facility to accomodate the new production.",
+      "source": [
+        "https://www.amgeneral.com/who-we-are/operations-facilities/",
+        "https://breakingdefense.com/2023/03/after-upset-win-am-general-moves-ahead-with-jltv-a2-production-facility/"
+      ]
+    }
+  ],
+  "supply_chain": [
+    {
+      "item": "R-400S-MK2 remote weapon system",
+      "note": "Made by EOS Defense Systems. Picture in the non-wiki source is a JLTV",
+      "source": [
+        "https://en.wikipedia.org/wiki/Joint_Light_Tactical_Vehicle#Production_and_deliveries",
+        "https://www.militarysystems-tech.com/sites/militarysystems/files/supplier_docs/R400BrochureAUS.pdf"
+      ]
+    },
+    {
+      "item": "M230 LF 30 mm lightweight automatic chain gun.",
+      "note": "Made by Orbital ATK",
+      "source": [
+        "https://en.wikipedia.org/wiki/Joint_Light_Tactical_Vehicle#Production_and_deliveries"
+      ]
+    },
+    {
+      "item": "Protector LW 30 remote weapon system",
+      "note": "Made by Kongsberg",
+      "source": [
+        "https://en.wikipedia.org/wiki/Joint_Light_Tactical_Vehicle#Production_and_deliveries"
+      ]
+    },
+    {
+      "item": "Thales VRC-111 and Thales VRC-121 VIPER",
+      "note": "Made by Thales",
+      "source": [
+        "https://en.wikipedia.org/wiki/Joint_Light_Tactical_Vehicle#Production_and_deliveries"
+      ]
+    },
+    {
+      "item": "Boeing Maneuver short range air defense launcher",
+      "source": [
+        "https://en.wikipedia.org/wiki/Joint_Light_Tactical_Vehicle#Production_and_deliveries"
+      ]
+    },
+    {
+      "item": "M299 Launcher",
+      "source": [
+        "https://en.wikipedia.org/wiki/Joint_Light_Tactical_Vehicle#Production_and_deliveries"
+      ]
+    },
+    {
+      "item": "Longbow Hellfire Missiles",
+      "source": [
+        "https://en.wikipedia.org/wiki/Joint_Light_Tactical_Vehicle#Production_and_deliveries"
+      ]
+    },
+    {
+      "item": "Boeing compact laser weapon system",
+      "source": [
+        "https://en.wikipedia.org/wiki/Joint_Light_Tactical_Vehicle#Production_and_deliveries"
+      ]
+    },
+    {
+      "item": "Samson dual stabilized remote weapon system",
+      "source": [
+        "https://en.wikipedia.org/wiki/Joint_Light_Tactical_Vehicle#Production_and_deliveries"
+      ]
+    },
+    {
+      "item": "Trophy light active protection system",
+      "source": [
+        "https://en.wikipedia.org/wiki/Joint_Light_Tactical_Vehicle#Production_and_deliveries"
+      ]
+    },
+    {
+      "item": "Armored cab",
+      "note": "Plasan makes this. Also this contract is for the manufacturing that will be done by AM General.",
+      "source": "https://plasan.com/news_posts/plasan-to-supply-armored-cab-for-am-generals-jltv/"
+    },
+    {
+      "item": "Bullet proof glass",
+      "note": "Oran Safety Glass (OSG) is the company. I can't find any mention of specifics so I'm not sure this is real. However, the antiwar.com source shows that, earlier, OSB had contracts to provide the glass for other Oshkosh Defense vehicles.",
+      "source": [
+        "https://defense-update.com/20221228_eitan-4.html",
+        "https://original.antiwar.com/smith-grant/2019/11/24/fraud-at-israeli-military-contractor-oran-safety-glass/"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "note": "A lot of information came from the one wikipedia page with Janes as a reference."
+    }
+  ]
+}

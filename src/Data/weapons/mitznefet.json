@@ -1,0 +1,42 @@
+{
+  "names": [
+    {
+      "name": "Mitznefet",
+      "note": "This is a type of hat thing",
+      "source": "https://en.wikipedia.org/wiki/Mitznefet_(Israeli_military)"
+    }
+  ],
+  "researchers": [
+    "Brian I",
+    "Che"
+  ],
+  "companies": [
+    {
+      "company": "Agilite Gear",
+      "source": "https://agilitegear.com/products/mitznefet-multicam"
+    }
+  ],
+  "parent_item": [
+    {
+      "item": "IDF tactical helmets",
+      "source": "https://agilitegear.com/products/mitznefet-multicam"
+    }
+  ],
+  "manufacturing": [
+    {
+      "note": "I get the impressions that they farm out most of their textile manufacturing to subcontractors. There's probably a location in Thailand. They do make Berry compliant gear but I don't know whether that Berry compliant stuff includes textiles.",
+      "source": [
+        "https://www.reddit.com/r/QualityTacticalGear/comments/rcwc3b/agilite_k19_made_in_thailand/",
+        "https://soldiersystems.net/2010/08/15/agilit-goes-international/",
+        "https://agilitegear.com/pages/govsales",
+        "https://agilitegear.com/products/level-3-ceramic-armor-plate-raider"
+      ]
+    },
+    {
+      "note": "They're location in Holon Israel seems to be mostly high level people. Manufacturing is probably all done elsewhere. They're a private company so subcontractors aren't readily available.",
+      "source": "https://www.linkedin.com/company/agilite/people/"
+    }
+  ],
+  "supply_chain": null,
+  "notes": null
+}
