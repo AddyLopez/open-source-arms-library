@@ -1,5 +1,11 @@
 import React from "react";
-import { MapContainer, TileLayer, LayersControl } from "react-leaflet";
+import {
+  MapContainer,
+  TileLayer,
+  LayersControl,
+  Marker,
+  Popup,
+} from "react-leaflet";
 
 import Panel from "../Panel/Panel";
 import "./App.css";
@@ -29,6 +35,11 @@ function App() {
             />
           </BaseLayer>
         </LayersControl>
+        <Marker position={[51.505, -0.09]}>
+          <Popup>
+            A pretty CSS3 popup. <br /> Easily customizable.
+          </Popup>
+        </Marker>
       </MapContainer>
       <Panel />
     </div>
