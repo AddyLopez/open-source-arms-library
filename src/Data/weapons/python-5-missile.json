@@ -5,10 +5,7 @@
       "source": "https://www.rafael-usa.com/programs/python-5/"
     }
   ],
-  "researchers": [
-    "Jim I",
-    "Jim"
-  ],
+  "researchers": ["Jim I", "Jim"],
   "companies": [
     {
       "company": "Rafael USA",
@@ -24,7 +21,13 @@
   ],
   "manufacturing": [
     {
-      "note": "It's probably made in the USA. The Rafael USA website shows the python 5 and it also says that it manufactures it's stuff in the USA. But it's unclear if it's like that they manufacture some stuff and not others or manufacture components that they send to Israel.",
+      "site_name": null,
+      "site_address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "notes": "It's probably made in the USA. The Rafael USA website shows the python 5 and it also says that it manufactures it's stuff in the USA. But it's unclear if it's like that they manufacture some stuff and not others or manufacture components that they send to Israel.",
       "source": [
         "https://www.rafael-usa.com/about/",
         "https://www.rafael-usa.com/programs/python-5/"

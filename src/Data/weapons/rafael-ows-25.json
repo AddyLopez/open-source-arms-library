@@ -9,10 +9,7 @@
       "source": "http://www.army-guide.com/eng/product3193.html"
     }
   ],
-  "researchers": [
-    "Jim",
-    "Jim"
-  ],
+  "researchers": ["Jim", "Jim"],
   "companies": [
     {
       "company": "Rafael Advanced Defense Systems",
@@ -52,7 +49,18 @@
       "source": "https://military-history.fandom.com/wiki/Rafael_Overhead_Weapon_Station"
     }
   ],
-  "manufacturing": null,
+  "manufacturing": [
+    {
+      "site_name": null,
+      "site_address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "notes": null,
+      "source": null
+    }
+  ],
   "supply_chain": [
     {
       "item": "SPIKE Missile",

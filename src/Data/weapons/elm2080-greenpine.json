@@ -10,11 +10,7 @@
       "source": "https://www.iai.co.il/p/elm-20802080s-green-pine"
     }
   ],
-  "researchers": [
-    "Jim",
-    "Jim",
-    "Jim"
-  ],
+  "researchers": ["Jim", "Jim", "Jim"],
   "companies": [
     {
       "company": "Israeli Aerospace industries",
@@ -40,7 +36,11 @@
     {
       "site_name": "Elta systems Ltd.",
       "site_address": "Yitshak HaNassi St 100, Ashdod, Israel",
-      "note": "The address in question looks like an office building but it looks like theres a manufacturing plant the next building over to the north.",
+      "coordinates": {
+        "latitude": "31.7954155",
+        "longitude": "34.6601577"
+      },
+      "notes": "The address in question looks like an office building but it looks like theres a manufacturing plant the next building over to the north.",
       "source": [
         "https://www.iai.co.il/news-media/iai-action/green-pine-radar-key-israels-historic-ballistic-missile-interception-success",
         "https://maps.app.goo.gl/3zYH8RCeYBhjFTnf7"

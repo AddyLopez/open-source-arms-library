@@ -37,10 +37,7 @@
       "source": "https://www.rafael-usa.com/programs/samson-mk-ii-30mm/"
     }
   ],
-  "researchers": [
-    "Jim",
-    "Jim"
-  ],
+  "researchers": ["Jim", "Jim"],
   "companies": [
     {
       "company": "Rafael Advanced Defense System",
@@ -98,7 +95,18 @@
       "source": "https://www.rafael.co.il/wp-content/uploads/2019/03/Sentry-Tech.pdf"
     }
   ],
-  "manufacturing": null,
+  "manufacturing": [
+    {
+      "site_name": null,
+      "site_address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "notes": null,
+      "source": null
+    }
+  ],
   "supply_chain": [
     {
       "item": "SPIKE Missile",

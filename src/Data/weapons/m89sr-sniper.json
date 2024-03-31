@@ -16,10 +16,7 @@
       ]
     }
   ],
-  "researchers": [
-    "Jim",
-    "Jim"
-  ],
+  "researchers": ["Jim", "Jim"],
   "companies": [
     {
       "company": "Technical Equipment International",
@@ -39,6 +36,12 @@
   "manufacturing": [
     {
       "site_name": "Hod Hasharon (Israel)",
+      "site_address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "notes": null,
       "source": "https://modernfirearms.net/en/sniper-rifles/standart-caliber-rifles/israel-standart-caliber-rifles/tei-m89-sr-eng/"
     }
   ],
