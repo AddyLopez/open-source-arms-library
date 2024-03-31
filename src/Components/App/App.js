@@ -1,13 +1,7 @@
 import React from "react";
-import {
-  MapContainer,
-  TileLayer,
-  LayersControl,
-  Marker,
-  Popup,
-} from "react-leaflet";
+import { MapContainer, TileLayer, LayersControl } from "react-leaflet";
 import Panel from "../Panel/Panel";
-//import MarkerPopup from "../MarkerPopup/MarkerPopup";
+import Markers from "../Markers/Markers";
 import { weaponsArray } from "../../Data/arms-data.js";
 
 import "./App.css";
@@ -15,37 +9,6 @@ import "./App.css";
 const { BaseLayer } = LayersControl;
 
 function App() {
-  const plotMarkers = () => {
-    const coordinatesList = weaponsArray.map((weaponElement) => {
-      return weaponElement.manufacturing.map((site) => {
-        if (site.coordinates.latitude !== null) {
-          const latitudeFloat = parseFloat(site.coordinates.latitude);
-          const longitudeFloat = parseFloat(site.coordinates.longitude);
-          return [latitudeFloat, longitudeFloat];
-        } else {
-          return `${site.coordinates.latitude}, ${site.coordinates.longitude}`;
-        }
-      });
-    });
-    //console.log(coordinatesList);
-    const filteredCoordinatesList = coordinatesList.filter(
-      (item) => item.includes("null, null") === false
-    );
-    const markers = filteredCoordinatesList.map((item) => {
-      return item.map((element) => {
-        console.log(element);
-        console.log(typeof element);
-        return (
-          <Marker key={element} position={element}>
-            <Popup>{element}</Popup>
-          </Marker>
-        );
-      });
-    });
-    return markers;
-    // console.log(filteredCoordinates);
-  };
-
   return (
     <div className="App">
       <MapContainer
@@ -68,7 +31,7 @@ function App() {
             />
           </BaseLayer>
         </LayersControl>
-        {plotMarkers()}
+        <Markers weaponsArray={weaponsArray} />
       </MapContainer>
       <Panel data={weaponsArray} />
     </div>
