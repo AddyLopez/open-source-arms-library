@@ -9,10 +9,7 @@
       "source": "https://www.rtx.com/raytheon/what-we-do/integrated-air-and-missile-defense/irondome"
     }
   ],
-  "researchers": [
-    "Oliver",
-    "Che"
-  ],
+  "researchers": ["Oliver", "Che"],
   "companies": [
     {
       "company": "Rafael Advanced Defense Systems",
@@ -35,13 +32,24 @@
   ],
   "manufacturing": [
     {
-      "note": "There's no NM manufacturing of Iron Dome, Arrow-3, or David's Sling.",
+      "site_name": null,
+      "site_address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "notes": "There's no NM manufacturing of Iron Dome, Arrow-3, or David's Sling.",
       "source": "https://www.defensenews.com/smr/2017/08/03/us-israel-teams-ramp-up-interceptor-builds/"
     },
     {
+      "site_name": null,
       "site_address": "State Hwy 203, Camden, AR 71701",
-      "source": "https://breakingdefense.com/2023/10/raytheon-rafael-officially-pick-arkansas-site-for-iron-dome-missile-production/",
-      "note": "Joint Raytheon and Rafael facility under the company Raytheon-Rafael Area Protection Systems. This is from October 2023 so the facility is not built yet I think. Found the address on google maps"
+      "coordinates": {
+        "latitude": "33.6533456",
+        "longitude": "-92.6826001"
+      },
+      "notes": "Joint Raytheon and Rafael facility under the company Raytheon-Rafael Area Protection Systems. This is from October 2023 so the facility is not built yet I think. Found the address on google maps",
+      "source": "https://breakingdefense.com/2023/10/raytheon-rafael-officially-pick-arkansas-site-for-iron-dome-missile-production/"
     }
   ],
   "supply_chain": [

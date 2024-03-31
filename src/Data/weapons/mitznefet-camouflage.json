@@ -5,9 +5,7 @@
       "source": null
     }
   ],
-  "researchers": [
-    "<me_name>"
-  ],
+  "researchers": ["<me_name>"],
   "companies": [
     {
       "company": null,
@@ -24,6 +22,10 @@
     {
       "site_name": null,
       "site_address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
       "notes": null,
       "source": null
     }

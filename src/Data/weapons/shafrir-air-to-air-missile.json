@@ -5,13 +5,21 @@
       "source": null
     }
   ],
-  "researchers": [
-    "Brian I",
-    "Che"
-  ],
+  "researchers": ["Brian I", "Che"],
   "companies": null,
   "parent_item": null,
-  "manufacturing": null,
+  "manufacturing": [
+    {
+      "site_name": null,
+      "site_address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "notes": null,
+      "source": null
+    }
+  ],
   "supply_chain": null,
   "notes": [
     {

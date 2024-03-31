@@ -6,10 +6,7 @@
       "source": "https://en.wikipedia.org/wiki/Mitznefet_(Israeli_military)"
     }
   ],
-  "researchers": [
-    "Brian I",
-    "Che"
-  ],
+  "researchers": ["Brian I", "Che"],
   "companies": [
     {
       "company": "Agilite Gear",
@@ -24,7 +21,13 @@
   ],
   "manufacturing": [
     {
-      "note": "I get the impressions that they farm out most of their textile manufacturing to subcontractors. There's probably a location in Thailand. They do make Berry compliant gear but I don't know whether that Berry compliant stuff includes textiles.",
+      "site_name": null,
+      "site_address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "notes": "I get the impressions that they farm out most of their textile manufacturing to subcontractors. There's probably a location in Thailand. They do make Berry compliant gear but I don't know whether that Berry compliant stuff includes textiles.",
       "source": [
         "https://www.reddit.com/r/QualityTacticalGear/comments/rcwc3b/agilite_k19_made_in_thailand/",
         "https://soldiersystems.net/2010/08/15/agilit-goes-international/",

@@ -10,10 +10,7 @@
       "source": "https://militaryleak.com/2023/05/30/israel-defense-forces-takes-delivery-of-eitan-armored-fighting-vehicles/"
     }
   ],
-  "researchers": [
-    "Brian",
-    "Che"
-  ],
+  "researchers": ["Brian", "Che"],
   "companies": [
     {
       "company": "Israel Ministry of Defense",
@@ -27,10 +24,17 @@
   "parent_item": null,
   "manufacturing": [
     {
-      "note": "Somewhere in Israel",
+      "site_name": null,
+      "site_address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "notes": "Somewhere in Israel",
       "source": "https://defense-update.com/20221228_eitan-4.html"
     }
   ],
+
   "supply_chain": [
     {
       "item": "Hull",

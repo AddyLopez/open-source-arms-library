@@ -6,8 +6,10 @@ import {
   Marker,
   Popup,
 } from "react-leaflet";
-
 import Panel from "../Panel/Panel";
+//import MarkerPopup from "../MarkerPopup/MarkerPopup";
+import { weaponsArray } from "../../Data/arms-data.js";
+
 import "./App.css";
 
 const { BaseLayer } = LayersControl;
@@ -41,7 +43,7 @@ function App() {
           </Popup>
         </Marker>
       </MapContainer>
-      <Panel />
+      <Panel data={weaponsArray} />
     </div>
   );
 }

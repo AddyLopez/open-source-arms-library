@@ -39,7 +39,18 @@
       "source": "https://www.rafael.co.il/worlds/air-missile-defense/air-defense/"
     }
   ],
-  "manufacturing": null,
+  "manufacturing": [
+    {
+      "site_name": null,
+      "site_address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
+      "notes": null,
+      "source": null
+    }
+  ],
   "supply_chain": null,
   "notes": [
     {
