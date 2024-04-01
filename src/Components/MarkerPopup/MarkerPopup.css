@@ -1,11 +1,20 @@
 .leaflet-popup-content-wrapper,
 .leaflet-popup-tip,
 .MarkerPopup span {
-  background-color: var(--secondary-theme);
+  background-color: var(--primary-theme);
   color: var(--text-color);
   font-family: var(--primary-font);
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-weight: 300;
+}
+
+.leaflet-popup-content {
+  margin-right: 0;
+  margin-left: 8px;
+}
+
+.leaflet-popup-content-wrapper {
+  margin: 0 0 0 8px;
 }
 
 .MarkerPopup ul {
@@ -14,11 +23,14 @@
 }
 
 .MarkerPopup h3 {
-  font-size: 14px;
-  margin-bottom: 0;
+  background-color: var(--secondary-theme);
+  border-radius: 6px;
+  font-size: 12x;
+  padding: 6px 8px;
+  width: 85%;
 }
 
 .MarkerPopup li {
-  font-size: 12px;
+  font-size: 11px;
   margin: 6px 0;
 }
