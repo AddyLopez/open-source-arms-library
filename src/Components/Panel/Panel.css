@@ -19,20 +19,23 @@ h6 {
 
 .Panel h1 {
   align-items: center;
-  background-color: var(--secondary-theme);
+  background-color: var(--primary-theme);
+  border-bottom: 1px ridge var(--secondary-theme);
   display: flex;
-  font-size: 30px;
+  font-size: 27px;
   justify-content: center;
-  margin: 0;
-  padding: 6px 0;
+  margin: 0 auto;
+  padding: 8px 0;
+  width: 90%;
 }
 
 .Panel h2 {
+  font-size: 18px;
   margin-bottom: 0;
 }
 
 .Panel section {
-  padding: 0 6px;
+  padding: 0 13px;
 }
 
 .Panel p {
