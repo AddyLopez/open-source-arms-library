@@ -8,6 +8,15 @@
   padding-bottom: 20px;
 }
 
+.Panel h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+}
+
 .Panel h1 {
   align-items: center;
   background-color: var(--secondary-theme);
