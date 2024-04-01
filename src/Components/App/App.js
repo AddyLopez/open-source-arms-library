@@ -1,13 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import { MapContainer, TileLayer, LayersControl } from "react-leaflet";
 import Panel from "../Panel/Panel";
 import Markers from "../Markers/Markers";
+import { weaponsArray } from "../../Data/arms-data";
 
 import "./App.css";
 
 const { BaseLayer } = LayersControl;
 
 function App() {
+  const [weaponsIndex, setWeaponsIndex] = useState("");
+  const [manufacturingIndex, setManufacturingIndex] = useState("");
+  const updatePanel = (weaponsIndex, manufacturingIndex) => {
+    setWeaponsIndex(weaponsArray[weaponsIndex]);
+    setManufacturingIndex([manufacturingIndex]);
+  };
+
   return (
     <div className="App">
       <MapContainer
@@ -30,9 +38,12 @@ function App() {
             />
           </BaseLayer>
         </LayersControl>
-        <Markers />
+        <Markers updatePanel={updatePanel} />
       </MapContainer>
-      <Panel />
+      <Panel
+        weaponsIndex={weaponsIndex}
+        manufacturingIndex={manufacturingIndex}
+      />
     </div>
   );
 }
