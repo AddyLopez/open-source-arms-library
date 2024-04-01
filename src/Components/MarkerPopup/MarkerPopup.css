@@ -23,8 +23,7 @@
 }
 
 .MarkerPopup h3 {
-  background-color: var(--secondary-theme);
-  border-radius: 6px;
+  border-bottom: 1px ridge var(--secondary-theme);
   font-size: 12x;
   padding: 6px 8px;
   width: 85%;
