@@ -1,0 +1,24 @@
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip,
+.MarkerPopup span {
+  background-color: var(--secondary-theme);
+  color: var(--text-color);
+  font-family: var(--primary-font);
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+.MarkerPopup ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+.MarkerPopup h3 {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.MarkerPopup li {
+  font-size: 12px;
+  margin: 6px 0;
+}

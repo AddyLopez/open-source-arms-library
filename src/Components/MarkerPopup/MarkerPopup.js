@@ -11,12 +11,13 @@ function MarkerPopup({ weaponsIndex, manufacturingIndex }) {
   let address =
     weaponsArray[weaponsIndex].manufacturing[manufacturingIndex].site_address;
   let coordinates = `${weaponsArray[weaponsIndex].manufacturing[manufacturingIndex].coordinates.latitude}, ${weaponsArray[weaponsIndex].manufacturing[manufacturingIndex].coordinates.longitude}`;
-  console.log(title, address, coordinates);
+  // console.log(title, address, coordinates);
   return (
-    <Popup>
-      <h3>{title !== null ? title : "Location's name unspecified."}</h3>
-      <p>{address !== null ? address : "Address unspecified."}</p>
-      <p>{coordinates}</p>
+    <Popup className="MarkerPopup">
+      <h3>{title !== null ? title : "Location's name unspecified"}</h3>
+      <ul>
+        <li>{address !== null ? address : "Address unspecified"}</li>
+      </ul>
     </Popup>
   );
 }
