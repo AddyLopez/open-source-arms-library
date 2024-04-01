@@ -23,7 +23,7 @@ for (let i = 0; i < weaponsArray.length; i++) {
     }
   });
 }
-console.log(locationsList);
+//console.log(locationsList);
 
 function Markers() {
   const plotMarkers = () => {
