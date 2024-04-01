@@ -28,7 +28,7 @@ for (let i = 0; i < weaponsArray.length; i++) {
 }
 //console.log(locationsList);
 
-function Markers() {
+function Markers({ updatePanel }) {
   const plotMarkers = () => {
     const markers = locationsList.map((locationItem) => {
       return (
@@ -36,6 +36,7 @@ function Markers() {
           <MarkerPopup
             weaponsIndex={locationItem.weaponsIndex}
             manufacturingIndex={locationItem.manufacturingIndex}
+            updatePanel={updatePanel}
           />
         </Marker>
       );
