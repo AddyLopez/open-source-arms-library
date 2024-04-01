@@ -15,6 +15,7 @@
   "parent_item": null,
   "manufacturing": [
     {
+      "site_name": null,
       "site_address": "2705 Harrison St, Oshkosh, WI 54901",
       "coordinates": {
         "latitude": "44.0498387",
