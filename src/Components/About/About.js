@@ -9,7 +9,7 @@ function About() {
         pertaining to the manufacture of arms and arms' components known to be
         used in U.S. imperialist wars.
       </p>
-      <h3>How to Use This Applicaton:</h3>
+      <h2>How to Use This Applicaton:</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ex
         orci, rutrum sit amet bibendum eget, volutpat eu turpis. Morbi eu
