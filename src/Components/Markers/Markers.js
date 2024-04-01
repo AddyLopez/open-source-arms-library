@@ -1,39 +1,41 @@
 import React from "react";
 import { Marker, Popup } from "react-leaflet";
 //import MarkerPopup from "../MarkerPopup/MarkerPopup";
+import { weaponsArray } from "../../Data/arms-data.js";
 
-function Markers({ weaponsArray }) {
+//console.log(weaponsArray);
+const locationsList = [];
+for (let i = 0; i < weaponsArray.length; i++) {
+  weaponsArray[i].manufacturing.forEach((manufacturingSubset) => {
+    if (
+      manufacturingSubset.coordinates.latitude === null ||
+      manufacturingSubset.coordinates.latitude === undefined
+    ) {
+      //console.log(manufacturingSubset.coordinates.latitude);
+      return;
+    } else {
+      let lat = parseFloat(manufacturingSubset.coordinates.latitude);
+      let long = parseFloat(manufacturingSubset.coordinates.longitude);
+      locationsList.push({
+        coords: [lat, long],
+        weaponsIndex: i,
+      });
+    }
+  });
+}
+console.log(locationsList);
+
+function Markers() {
   const plotMarkers = () => {
-    const coordinatesList = weaponsArray.map((weaponElement) => {
-      return weaponElement.manufacturing.map((site) => {
-        if (site.coordinates.latitude !== null) {
-          const latitudeFloat = parseFloat(site.coordinates.latitude);
-          const longitudeFloat = parseFloat(site.coordinates.longitude);
-          return [latitudeFloat, longitudeFloat];
-        } else {
-          return `${site.coordinates.latitude}, ${site.coordinates.longitude}`;
-        }
-      });
-    });
-    //console.log(coordinatesList);
-    const filteredCoordinatesList = coordinatesList.filter(
-      (item) => item.includes("null, null") === false
-    );
-    const markers = filteredCoordinatesList.map((item) => {
-      return item.map((element) => {
-        //console.log(element);
-        //console.log(typeof element);
-        return (
-          <Marker key={element} position={element}>
-            <Popup>{element}</Popup>
-          </Marker>
-        );
-      });
+    const markers = locationsList.map((locationItem) => {
+      return (
+        <Marker key={locationItem.coords} position={locationItem.coords}>
+          <Popup>weaponsIndex: {locationItem.weaponsIndex}</Popup>
+        </Marker>
+      );
     });
     return markers;
-    // console.log(filteredCoordinates);
   };
-
   return <>{plotMarkers()}</>;
 }
 
