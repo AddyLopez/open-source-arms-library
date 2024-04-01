@@ -1,6 +1,6 @@
 import React from "react";
-import { Marker, Popup } from "react-leaflet";
-//import MarkerPopup from "../MarkerPopup/MarkerPopup";
+import { Marker } from "react-leaflet";
+import MarkerPopup from "../MarkerPopup/MarkerPopup";
 import { weaponsArray } from "../../Data/arms-data.js";
 
 //console.log(weaponsArray);
@@ -30,7 +30,7 @@ function Markers() {
     const markers = locationsList.map((locationItem) => {
       return (
         <Marker key={locationItem.coords} position={locationItem.coords}>
-          <Popup>weaponsIndex: {locationItem.weaponsIndex}</Popup>
+          <MarkerPopup weaponsIndex={locationItem.weaponsIndex} />
         </Marker>
       );
     });
