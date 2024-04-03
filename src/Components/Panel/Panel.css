@@ -37,7 +37,7 @@ h6 {
 .Panel p {
   font-size: 14px;
   line-height: 1.5;
-  margin-left: 16px;
+  margin: 0 0 0 16px;
 }
 
 .Panel .accordion section {
@@ -52,7 +52,7 @@ h6 {
   display: flex;
   cursor: pointer;
   justify-content: space-between;
-  margin: 10px;
+  padding: 10px;
 }
 
 .Panel .accordion h2 {
@@ -63,4 +63,30 @@ h6 {
 
 .Panel .accordion-icon {
   font-size: 20px;
+}
+
+.Panel .accordion-content-hide {
+  display: none;
+}
+
+.Panel .accordion-content-show {
+  display: block;
+}
+
+.accordion-paragraph-enter {
+  opacity: 0;
+}
+
+.accordion-paragraph-enter-active {
+  opacity: 1;
+  transition: all 375ms ease-in-out;
+}
+
+.accordion-paragraph-exit {
+  opacity: 1;
+}
+
+.accordion-paragraph-exit-active {
+  opacity: 0;
+  transition: all 375ms ease-in-out;
 }
