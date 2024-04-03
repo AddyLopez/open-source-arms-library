@@ -65,12 +65,14 @@ h6 {
   font-size: 20px;
 }
 
-.Panel .accordion-content-hide {
-  display: none;
+.accordion-content-hide {
+  overflow: hidden;
+  max-height: 0;
 }
 
-.Panel .accordion-content-show {
-  display: block;
+.accordion-content-show {
+  height: auto;
+  max-height: auto;
 }
 
 .accordion-paragraph-enter {
