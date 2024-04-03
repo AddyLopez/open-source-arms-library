@@ -1,5 +1,6 @@
 import React from "react";
 import About from "../About/About";
+import Instructions from "../Instructions/Instructions";
 import Research from "../Research/Research";
 import "./Panel.css";
 
@@ -8,18 +9,27 @@ function Panel({ weaponsIndex, manufacturingIndex }) {
     `weaponsIndex: ${weaponsIndex}, manufacturingIndex: ${manufacturingIndex}`
   );*/
   return (
-    <main className="Panel">
-      <h1>Open Source Arms Library</h1>
-      <section>
-        <About />
-      </section>
-      <section>
-        <Research
-          weaponsIndex={weaponsIndex}
-          manufacturingIndex={manufacturingIndex}
-        />
-      </section>
-    </main>
+    <div className="Panel">
+      <header>
+        <h1>Open Source Arms Library</h1>
+      </header>
+      <main>
+        <ul id="accordian">
+          <li>
+            <About />
+          </li>
+          <li>
+            <Instructions />
+          </li>
+          <li>
+            <Research
+              weaponsIndex={weaponsIndex}
+              manufacturingIndex={manufacturingIndex}
+            />
+          </li>
+        </ul>
+      </main>
+    </div>
   );
 }
 

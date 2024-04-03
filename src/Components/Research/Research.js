@@ -1,5 +1,5 @@
 import React from "react";
-import { weaponsArray } from "../../Data/arms-data";
+//import { weaponsArray } from "../../Data/arms-data";
 import "./Research.css";
 
 function Research({ weaponsIndex, manufacturingIndex }) {

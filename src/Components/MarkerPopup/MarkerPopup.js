@@ -23,9 +23,9 @@ function MarkerPopup({ weaponsIndex, manufacturingIndex, updatePanel }) {
       <ul>
         <li>{address !== null ? address : "Address unspecified"}</li>
       </ul>
-      <a type="button" className="button" onClick={handleClick}>
+      <button type="button" className="button" onClick={handleClick}>
         See Details
-      </a>
+      </button>
     </Popup>
   );
 }
