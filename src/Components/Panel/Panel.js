@@ -9,7 +9,7 @@ function Panel({ weaponsIndex, manufacturingIndex }) {
     `weaponsIndex: ${weaponsIndex}, manufacturingIndex: ${manufacturingIndex}`
   );*/
   const [selected, setSelected] = useState("");
-  console.log(selected);
+  //console.log(selected);
   const toggleSelected = (event) => {
     if (event.target === selected) {
       return setSelected(null);
