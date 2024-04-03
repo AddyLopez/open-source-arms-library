@@ -34,7 +34,8 @@ h6 {
   margin-bottom: 0;
 }
 
-.Panel section {
+.Panel header,
+.Panel main {
   padding: 0 13px;
 }
 
