@@ -2,15 +2,23 @@ import React from "react";
 //import { weaponsArray } from "../../Data/arms-data";
 import "./Research.css";
 
-function Research(/*{ weaponsIndex, manufacturingIndex }*/) {
+function Research(
+  { selected, toggle } /*{ weaponsIndex, manufacturingIndex }*/
+) {
   /*console.log(
     `weaponsIndex: ${weaponsIndex}, manufacturingIndex: ${manufacturingIndex}`
   );*/
+  const researchHeader = document.getElementById("research-header");
+
   return (
     <section className="Research">
-      <label for="third">About This Application</label>
-      <input type="radio" name="accordian" id="third" />
-      <p className="accordian-content">Research info...</p>
+      <header id="research-header" onClick={toggle}>
+        <h2>About This Application</h2>
+        <div className="accordion-icon">
+          {selected !== researchHeader ? "+" : "-"}
+        </div>
+      </header>
+      <p className="accordion-content">Research info...</p>
     </section>
   );
 }

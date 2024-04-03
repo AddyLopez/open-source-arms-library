@@ -20,18 +20,13 @@ h6 {
 .Panel h1 {
   align-items: center;
   background-color: var(--primary-theme);
-  border-bottom: 1px ridge var(--secondary-theme);
+  /*border-bottom: 1px ridge var(--secondary-theme);*/
+  border-bottom: 1px solid var(--text-color);
   display: flex;
   font-size: 27px;
   justify-content: center;
   margin: 0 auto;
   padding: 8px 0;
-  width: 90%;
-}
-
-.Panel h2 {
-  font-size: 18px;
-  margin-bottom: 0;
 }
 
 .Panel header,
@@ -43,4 +38,29 @@ h6 {
   font-size: 14px;
   line-height: 1.5;
   margin-left: 16px;
+}
+
+.Panel .accordion section {
+  /*border-top: 1px solid var(--text-color);*/
+  border-top: 1px ridge var(--secondary-theme);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Panel .accordion header {
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.Panel .accordion h2 {
+  font-size: 18px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.Panel .accordion-icon {
+  font-size: 20px;
 }
