@@ -43,27 +43,27 @@ h6 {
 .Panel .accordion section {
   /*border-top: 1px solid var(--text-color);*/
   border-top: 1px ridge var(--secondary-theme);
-  padding-top: 10px;
   padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .Panel .accordion article {
-  margin: 0 0 0 35px;
   font-size: 14px;
+  margin: 0 0 0 35px;
 }
 
 .Panel .accordion header {
   align-items: center;
-  display: flex;
   cursor: pointer;
+  display: flex;
   justify-content: space-between;
   padding: 10px;
 }
 
 .Panel .accordion h2 {
+  cursor: pointer;
   font-size: 18px;
   margin: 0;
-  cursor: pointer;
 }
 
 .Panel .accordion h3 {
@@ -75,8 +75,8 @@ h6 {
 }
 
 .accordion-content-hide {
-  overflow: hidden;
   max-height: 0;
+  overflow: hidden;
 }
 
 .accordion-content-show {
