@@ -14,7 +14,8 @@ function MarkerPopup({ weaponsIndex, manufacturingIndex, updatePanel }) {
   const handleClick = (event) => {
     // console.log(event.target);
     //console.log(weaponsIndex, manufacturingIndex);
-    updatePanel(weaponsIndex, manufacturingIndex);
+    const researchHeader = document.getElementById("research-header");
+    updatePanel(weaponsIndex, manufacturingIndex, researchHeader);
   };
 
   return (
