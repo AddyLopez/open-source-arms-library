@@ -27,7 +27,7 @@ function Instructions({ selected, toggle }) {
       <CSSTransition
         nodeRef={nodeRef}
         in={inProp}
-        timeout={375}
+        timeout={200}
         classNames="accordion-paragraph"
       >
         <p
