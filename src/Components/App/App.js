@@ -10,7 +10,7 @@ const { BaseLayer } = LayersControl;
 function App() {
   const [weaponsIndex, setWeaponsIndex] = useState(null);
   const [manufacturingIndex, setManufacturingIndex] = useState(null);
-  const [selected, setSelected] = useState("");
+  const [selected, setSelected] = useState(null);
   //console.log(selected);
 
   const toggleSelected = (event) => {

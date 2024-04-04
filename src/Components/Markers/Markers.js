@@ -38,6 +38,7 @@ function Markers({ updatePanel }) {
             weaponsIndex={locationItem.weaponsIndex}
             manufacturingIndex={locationItem.manufacturingIndex}
             updatePanel={updatePanel}
+            weaponsArray={weaponsArray}
           />
         </Marker>
       );
