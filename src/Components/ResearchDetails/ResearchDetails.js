@@ -38,7 +38,12 @@ function ResearchDetails({ weaponsIndex, manufacturingIndex }) {
                 <li key={index}>
                   {nameItem.name !== null ? nameItem.name : "Name unspecified"}{" "}
                   {nameItem.source !== null ? (
-                    <a href={nameItem.source} target="_blank">
+                    <a
+                      href={nameItem.source}
+                      target="_blank"
+                      rel="noreferrer"
+                      key={index}
+                    >
                       &#40;SOURCE&#41;
                     </a>
                   ) : (
@@ -62,7 +67,12 @@ function ResearchDetails({ weaponsIndex, manufacturingIndex }) {
                     {companiesItem.source.map((sourceItem, index) => {
                       if (sourceItem !== null) {
                         return (
-                          <a href={sourceItem} target="_blank" key={index}>
+                          <a
+                            href={sourceItem}
+                            target="_blank"
+                            rel="noreferrer"
+                            key={index}
+                          >
                             &#40;SOURCE{index > 0 ? `-0${index + 1}` : ""}&#41;
                           </a>
                         );
@@ -90,7 +100,11 @@ function ResearchDetails({ weaponsIndex, manufacturingIndex }) {
                       ? parentItemElement.item
                       : "Parent item unspecified"}{" "}
                     {parentItemElement.source !== null ? (
-                      <a href={parentItemElement.source} target="_blank">
+                      <a
+                        href={parentItemElement.source}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         &#40;SOURCE&#41;
                       </a>
                     ) : (
@@ -115,7 +129,12 @@ function ResearchDetails({ weaponsIndex, manufacturingIndex }) {
                     {supplyChainItem.source.map((sourceItem, index) => {
                       if (sourceItem !== null) {
                         return (
-                          <a href={sourceItem} target="_blank" key={index}>
+                          <a
+                            href={sourceItem}
+                            target="_blank"
+                            key={index}
+                            rel="noreferrer"
+                          >
                             &#40;SOURCE{index > 0 ? `-0${index + 1}` : ""}&#41;{" "}
                           </a>
                         );
