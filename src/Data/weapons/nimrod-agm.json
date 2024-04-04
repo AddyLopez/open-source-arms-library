@@ -13,7 +13,7 @@
   "companies": [
     {
       "company": "Israel Aerospace Industries",
-      "source": "https://en-academic.com/dic.nsf/enwiki/6393735"
+      "source": ["https://en-academic.com/dic.nsf/enwiki/6393735"]
     }
   ],
   "parent_item": [
@@ -30,7 +30,7 @@
         "latitude": "32.009871",
         "longitude": "34.904265"
       },
-      "notes": "At the aero-assemblies division of the IAI just north of the Ben Gurion Airport SE of Tel Aviv. Note that the official address (P.O. Box 105, Yehod Industrial Zone, 56000, Israel) is about a mile north of the airport.",
+      "note": "At the aero-assemblies division of the IAI just north of the Ben Gurion Airport SE of Tel Aviv. Note that the official address (P.O. Box 105, Yehod Industrial Zone, 56000, Israel) is about a mile north of the airport.",
       "source": [
         "https://www.compositesworld.com/articles/israels-aerodefense-cornerstone-poised-for-greater-global-outreach-",
         "https://www.israeldefense.co.il/company/mbt-missiles-division",
@@ -38,6 +38,12 @@
       ]
     }
   ],
-  "supply_chain": null,
+  "supply_chain": [
+    {
+      "item": null,
+      "note": null,
+      "source": [null]
+    }
+  ],
   "notes": null
 }

@@ -40,14 +40,21 @@
   "companies": [
     {
       "company": "Rafael Advanced Defense Systems",
-      "source": "https://www.rafael.co.il/worlds/air-missile-defense/air-defense/"
+      "source": [
+        "https://www.rafael.co.il/worlds/air-missile-defense/air-defense/"
+      ]
     },
     {
       "company": "Israel Aerospace Industries",
-      "source": "https://www.army-technology.com/projects/spyder/?cf-view"
+      "source": ["https://www.army-technology.com/projects/spyder/?cf-view"]
     }
   ],
-  "parent_item": null,
+  "parent_item": [
+    {
+      "item": null,
+      "source": null
+    }
+  ],
   "manufacturing": [
     {
       "site_name": null,
@@ -56,8 +63,8 @@
         "latitude": null,
         "longitude": null
       },
-      "notes": null,
-      "source": null
+      "note": null,
+      "source": [null]
     }
   ],
   "supply_chain": [

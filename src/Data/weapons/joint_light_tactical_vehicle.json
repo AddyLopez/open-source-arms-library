@@ -9,10 +9,17 @@
   "companies": [
     {
       "company": "Oshkosh Defense",
-      "source": "https://oshkoshdefense.com/oshkosh-defense-receives-jltv-order-for-208-million/"
+      "source": [
+        "https://oshkoshdefense.com/oshkosh-defense-receives-jltv-order-for-208-million/"
+      ]
     }
   ],
-  "parent_item": null,
+  "parent_item": [
+    {
+      "item": null,
+      "source": null
+    }
+  ],
   "manufacturing": [
     {
       "site_name": null,
@@ -21,7 +28,7 @@
         "latitude": "44.0498387",
         "longitude": "-88.5362494"
       },
-      "notes": "The wiki sites Janes that there's a manufacturing facility in Oshkosh and google maps satallite view shows a huge building with a shitload of JLTV lookin trucks parked outside.",
+      "note": "The wiki sites Janes that there's a manufacturing facility in Oshkosh and google maps satallite view shows a huge building with a shitload of JLTV lookin trucks parked outside.",
       "source": [
         "google.com/maps",
         "https://en.wikipedia.org/wiki/Joint_Light_Tactical_Vehicle#Production_and_deliveries"
@@ -34,7 +41,7 @@
         "latitude": "41.6799986",
         "longitude": "-86.1241582"
       },
-      "notes": "Oshkosh Defense won the contract for the design and initial production. Oshkosh Defense also provided the Technical Data Package so that the gov could re-bid the production. AM General won the follow up bid and Oshkosh Defense is suing. This is ongoing but AM General is expanding their facility to accomodate the new production.",
+      "note": "Oshkosh Defense won the contract for the design and initial production. Oshkosh Defense also provided the Technical Data Package so that the gov could re-bid the production. AM General won the follow up bid and Oshkosh Defense is suing. This is ongoing but AM General is expanding their facility to accomodate the new production.",
       "source": [
         "https://www.amgeneral.com/who-we-are/operations-facilities/",
         "https://breakingdefense.com/2023/03/after-upset-win-am-general-moves-ahead-with-jltv-a2-production-facility/"
@@ -110,7 +117,9 @@
     {
       "item": "Armored cab",
       "note": "Plasan makes this. Also this contract is for the manufacturing that will be done by AM General.",
-      "source": "https://plasan.com/news_posts/plasan-to-supply-armored-cab-for-am-generals-jltv/"
+      "source": [
+        "https://plasan.com/news_posts/plasan-to-supply-armored-cab-for-am-generals-jltv/"
+      ]
     },
     {
       "item": "Bullet proof glass",

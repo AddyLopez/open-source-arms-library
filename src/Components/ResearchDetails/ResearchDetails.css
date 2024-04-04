@@ -1,0 +1,33 @@
+ul {
+  list-style: square;
+  font-size: 14px;
+}
+
+li {
+  margin: 10px 0;
+}
+
+li a {
+  color: var(--accent-color);
+  font-weight: 700;
+  text-decoration: none;
+}
+li a:visited {
+  color: var(--accent-color);
+}
+li a:hover {
+  text-decoration: underline;
+}
+
+.researchdetails-thin {
+  font-weight: 300;
+}
+
+.researchdetails-tag {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.researchdetails-small {
+  font-size: 12px;
+}

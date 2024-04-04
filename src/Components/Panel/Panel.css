@@ -26,7 +26,7 @@ h6 {
   font-size: 27px;
   justify-content: center;
   margin: 0 auto;
-  padding: 8px 0;
+  padding: 15px 0;
   text-align: center;
 }
 
@@ -38,7 +38,6 @@ h6 {
 .Panel p {
   font-size: 14px;
   line-height: 1.5;
-  margin: 0 0 0 16px;
 }
 
 .Panel .accordion section {
@@ -46,6 +45,10 @@ h6 {
   border-top: 1px ridge var(--secondary-theme);
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.Panel .accordion article {
+  margin: 0 0 0 35px;
 }
 
 .Panel .accordion header {
@@ -60,6 +63,10 @@ h6 {
   font-size: 18px;
   margin: 0;
   cursor: pointer;
+}
+
+.Panel .accordion h3 {
+  font-size: 15px;
 }
 
 .Panel .accordion-icon {

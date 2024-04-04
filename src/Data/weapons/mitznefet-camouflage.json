@@ -9,7 +9,7 @@
   "companies": [
     {
       "company": null,
-      "source": null
+      "source": [null]
     }
   ],
   "parent_item": [
@@ -26,14 +26,15 @@
         "latitude": null,
         "longitude": null
       },
-      "notes": null,
-      "source": null
+      "note": null,
+      "source": [null]
     }
   ],
   "supply_chain": [
     {
       "item": null,
-      "source": null
+      "note": null,
+      "source": [null]
     }
   ],
   "notes": [

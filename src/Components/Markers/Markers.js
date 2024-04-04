@@ -31,6 +31,7 @@ for (let i = 0; i < weaponsArray.length; i++) {
 function Markers({ updatePanel }) {
   const plotMarkers = () => {
     const markers = locationsList.map((locationItem) => {
+      //console.log(locationItem);
       return (
         <Marker key={locationItem.coords} position={locationItem.coords}>
           <MarkerPopup

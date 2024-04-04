@@ -1,20 +1,17 @@
 import React, { useState, useRef } from "react";
+import ResearchDetails from "../ResearchDetails/ResearchDetails";
 import { CSSTransition } from "react-transition-group";
-//import { weaponsArray } from "../../Data/arms-data";
+
 import "./Research.css";
 
-function Research(
-  { selected, toggle } /*{ weaponsIndex, manufacturingIndex }*/
-) {
-  /*console.log(
-    `weaponsIndex: ${weaponsIndex}, manufacturingIndex: ${manufacturingIndex}`
-  );*/
+function Research({ selected, toggle, weaponsIndex, manufacturingIndex }) {
   const [inProp, setInProp] = useState(false);
   const nodeRef = useRef(null);
 
   const triggerTransition = () => {
     setInProp(!inProp);
   };
+
   const researchHeader = document.getElementById("research-header");
 
   return (
@@ -37,7 +34,7 @@ function Research(
         timeout={200}
         classNames="accordion-paragraph"
       >
-        <p
+        <article
           ref={nodeRef}
           className={
             selected !== researchHeader
@@ -45,8 +42,15 @@ function Research(
               : "accordion-content-show"
           }
         >
-          Research info...
-        </p>
+          {manufacturingIndex !== null ? (
+            <ResearchDetails
+              weaponsIndex={weaponsIndex}
+              manufacturingIndex={manufacturingIndex}
+            />
+          ) : (
+            'Select a marker on the map and click "See Details."'
+          )}
+        </article>
       </CSSTransition>
     </section>
   );

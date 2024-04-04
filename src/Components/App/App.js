@@ -2,20 +2,19 @@ import React, { useState } from "react";
 import { MapContainer, TileLayer, LayersControl } from "react-leaflet";
 import Panel from "../Panel/Panel";
 import Markers from "../Markers/Markers";
-import { weaponsArray } from "../../Data/arms-data";
 
 import "./App.css";
 
 const { BaseLayer } = LayersControl;
 
 function App() {
-  const [weaponsIndex, setWeaponsIndex] = useState("");
-  const [manufacturingIndex, setManufacturingIndex] = useState("");
+  const [weaponsIndex, setWeaponsIndex] = useState(null);
+  const [manufacturingIndex, setManufacturingIndex] = useState(null);
   const updatePanel = (weaponsIndex, manufacturingIndex) => {
-    setWeaponsIndex(weaponsArray[weaponsIndex]);
-    setManufacturingIndex([manufacturingIndex]);
+    setWeaponsIndex(weaponsIndex);
+    setManufacturingIndex(manufacturingIndex);
+    //console.log(weaponsIndex, manufacturingIndex);
   };
-
   return (
     <div className="App">
       <MapContainer

@@ -13,15 +13,21 @@
   "companies": [
     {
       "company": "Rafael Advanced Defense Systems",
-      "source": "http://web.archive.org/web/20110414105118/http://www.janes.com/products/janes/defence-security-report.aspx?ID=1065927116&pu=1&rd=janes_com#"
+      "source": [
+        "http://web.archive.org/web/20110414105118/http://www.janes.com/products/janes/defence-security-report.aspx?ID=1065927116&pu=1&rd=janes_com#"
+      ]
     },
     {
       "company": "Israel Aerospace Industries",
-      "source": "http://web.archive.org/web/20110414105118/http://www.janes.com/products/janes/defence-security-report.aspx?ID=1065927116&pu=1&rd=janes_com#"
+      "source": [
+        "http://web.archive.org/web/20110414105118/http://www.janes.com/products/janes/defence-security-report.aspx?ID=1065927116&pu=1&rd=janes_com#"
+      ]
     },
     {
       "company": "Raytheon",
-      "source": "https://www.defencenews.in/article/israel-readies-first-us-co-production-order-for-iron-dome/"
+      "source": [
+        "https://www.defencenews.in/article/israel-readies-first-us-co-production-order-for-iron-dome/"
+      ]
     }
   ],
   "parent_item": [
@@ -38,8 +44,10 @@
         "latitude": null,
         "longitude": null
       },
-      "notes": "There's no NM manufacturing of Iron Dome, Arrow-3, or David's Sling.",
-      "source": "https://www.defensenews.com/smr/2017/08/03/us-israel-teams-ramp-up-interceptor-builds/"
+      "note": "There's no NM manufacturing of Iron Dome, Arrow-3, or David's Sling.",
+      "source": [
+        "https://www.defensenews.com/smr/2017/08/03/us-israel-teams-ramp-up-interceptor-builds/"
+      ]
     },
     {
       "site_name": null,
@@ -48,7 +56,7 @@
         "latitude": "33.6533456",
         "longitude": "-92.6826001"
       },
-      "notes": "Joint Raytheon and Rafael facility under the company Raytheon-Rafael Area Protection Systems. This is from October 2023 so the facility is not built yet I think. Found the address on google maps",
+      "note": "Joint Raytheon and Rafael facility under the company Raytheon-Rafael Area Protection Systems. This is from October 2023 so the facility is not built yet I think. Found the address on google maps",
       "source": "https://breakingdefense.com/2023/10/raytheon-rafael-officially-pick-arkansas-site-for-iron-dome-missile-production/"
     }
   ],

@@ -5,9 +5,6 @@ import Research from "../Research/Research";
 import "./Panel.css";
 
 function Panel({ weaponsIndex, manufacturingIndex }) {
-  /*console.log(
-    `weaponsIndex: ${weaponsIndex}, manufacturingIndex: ${manufacturingIndex}`
-  );*/
   const [selected, setSelected] = useState("");
   //console.log(selected);
   const toggleSelected = (event) => {

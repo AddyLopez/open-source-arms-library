@@ -30,7 +30,9 @@
     },
     {
       "company": "Israel Aircraft Industries",
-      "source": "https://web.archive.org/web/20060718065607/http://www.israeli-weapons.com/weapons/missile_systems/air_missiles/derby/Derby.html"
+      "source": [
+        "https://web.archive.org/web/20060718065607/http://www.israeli-weapons.com/weapons/missile_systems/air_missiles/derby/Derby.html"
+      ]
     }
   ],
   "parent_item": [
@@ -47,11 +49,17 @@
         "latitude": null,
         "longitude": null
       },
-      "notes": null,
-      "source": null
+      "note": null,
+      "source": [null]
     }
   ],
-  "supply_chain": null,
+  "supply_chain": [
+    {
+      "item": null,
+      "note": null,
+      "source": [null]
+    }
+  ],
   "notes": [
     {
       "note": "This is just a big version of a Python 4 with a radar system in it so it's probably made in the same place. IAI made the radar system.",
