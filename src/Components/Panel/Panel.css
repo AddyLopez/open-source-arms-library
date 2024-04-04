@@ -35,11 +35,6 @@ h6 {
   padding: 0 13px;
 }
 
-.Panel p {
-  font-size: 14px;
-  line-height: 1.5;
-}
-
 .Panel .accordion section {
   /*border-top: 1px solid var(--text-color);*/
   border-top: 1px ridge var(--secondary-theme);
@@ -50,6 +45,7 @@ h6 {
 .Panel .accordion article {
   font-size: 14px;
   margin: 0 0 0 35px;
+  line-height: 1.5;
 }
 
 .Panel .accordion header {
