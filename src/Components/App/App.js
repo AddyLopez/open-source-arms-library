@@ -10,11 +10,24 @@ const { BaseLayer } = LayersControl;
 function App() {
   const [weaponsIndex, setWeaponsIndex] = useState(null);
   const [manufacturingIndex, setManufacturingIndex] = useState(null);
-  const updatePanel = (weaponsIndex, manufacturingIndex) => {
+  const [selected, setSelected] = useState("");
+  //console.log(selected);
+
+  const toggleSelected = (event) => {
+    if (event.target === selected) {
+      return setSelected(null);
+    }
+    setSelected(event.target);
+  };
+
+  const updatePanel = (weaponsIndex, manufacturingIndex, researchHeader) => {
     setWeaponsIndex(weaponsIndex);
     setManufacturingIndex(manufacturingIndex);
+    setSelected(researchHeader);
+    //console.log(selected);
     //console.log(weaponsIndex, manufacturingIndex);
   };
+
   return (
     <div className="App">
       <MapContainer
@@ -42,6 +55,8 @@ function App() {
       <Panel
         weaponsIndex={weaponsIndex}
         manufacturingIndex={manufacturingIndex}
+        toggle={toggleSelected}
+        selected={selected}
       />
     </div>
   );
