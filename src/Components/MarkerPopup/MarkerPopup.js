@@ -1,10 +1,13 @@
 import React from "react";
 import { Popup } from "react-leaflet";
-import { weaponsArray } from "../../Data/arms-data.js";
 import "./MarkerPopup.css";
 
-//console.log(weaponsArray);
-function MarkerPopup({ weaponsIndex, manufacturingIndex, updatePanel }) {
+function MarkerPopup({
+  weaponsArray,
+  weaponsIndex,
+  manufacturingIndex,
+  updatePanel,
+}) {
   let title =
     weaponsArray[weaponsIndex].manufacturing[manufacturingIndex].site_name;
   let address =
