@@ -31,3 +31,9 @@ li a:hover {
 .researchdetails-small {
   font-size: 12px;
 }
+
+@media only screen and (max-width: 480px) {
+  ul {
+    padding-left: 20px;
+  }
+}
