@@ -36,7 +36,6 @@ function Research({ selected, toggle, weaponsIndex, manufacturingIndex }) {
       >
         <article
           ref={nodeRef}
-          id="research-article"
           className={
             selected !== researchHeader
               ? "accordion-content-hide"
