@@ -15,7 +15,7 @@
     {
       "company": "Israeli Aerospace industries",
       "note": "Elta Division",
-      "source": "https://www.iai.co.il/p/elm-20802080s-green-pine"
+      "source": ["https://www.iai.co.il/p/elm-20802080s-green-pine"]
     }
   ],
   "parent_item": [
@@ -40,14 +40,20 @@
         "latitude": "31.7954155",
         "longitude": "34.6601577"
       },
-      "notes": "The address in question looks like an office building but it looks like theres a manufacturing plant the next building over to the north.",
+      "note": "The address in question looks like an office building but it looks like theres a manufacturing plant the next building over to the north.",
       "source": [
         "https://www.iai.co.il/news-media/iai-action/green-pine-radar-key-israels-historic-ballistic-missile-interception-success",
         "https://maps.app.goo.gl/3zYH8RCeYBhjFTnf7"
       ]
     }
   ],
-  "supply_chain": null,
+  "supply_chain": [
+    {
+      "item": null,
+      "note": null,
+      "source": [null]
+    }
+  ],
   "notes": [
     {
       "note": "The entire system, from individual microwave components to the large electronic assemblies, was developed by IAI-Elta, which maintains full control over production and assembly at its facility in Ashdod, Israel which some may refer as the startup nation.",

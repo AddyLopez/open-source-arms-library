@@ -5,7 +5,6 @@ import "./MarkerPopup.css";
 
 console.log(weaponsArray);
 function MarkerPopup({ weaponsIndex, manufacturingIndex, updatePanel }) {
-  //console.log(weaponsIndex, manufacturingIndex);
   let title =
     weaponsArray[weaponsIndex].manufacturing[manufacturingIndex].site_name;
   let address =
@@ -14,6 +13,7 @@ function MarkerPopup({ weaponsIndex, manufacturingIndex, updatePanel }) {
 
   const handleClick = (event) => {
     // console.log(event.target);
+    //console.log(weaponsIndex, manufacturingIndex);
     updatePanel(weaponsIndex, manufacturingIndex);
   };
 

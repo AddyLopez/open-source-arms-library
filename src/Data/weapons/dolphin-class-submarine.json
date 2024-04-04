@@ -9,7 +9,9 @@
   "companies": [
     {
       "company": "ThyssenKrupp Marine Systems",
-      "source": "https://web.archive.org/web/20141222054116/http://www.worldtribune.com/2013/12/05/spy-tool-commander-touts-strategic-role-of-new-israeli-submarines/"
+      "source": [
+        "https://web.archive.org/web/20141222054116/http://www.worldtribune.com/2013/12/05/spy-tool-commander-touts-strategic-role-of-new-israeli-submarines/"
+      ]
     }
   ],
   "parent_item": [
@@ -26,7 +28,7 @@
         "latitude": "54.3166656",
         "longitude": "10.151447"
       },
-      "notes": "This place does submarine construction and ship servicing.\n\nThe locations page mentions submarine building in Kiel. I found the Howaldtswerke shipyard in Kiel when I went to\ngoogle and searched \"thyssenkrupp\" in the city of Kiel. The company page mentions the merger of\nHowaldtswerke-Deutsche Werft and something else all under thyssenkrupp and the wikipedia shows that\nHowaldtswerke-Deutsche Werft has a marine yard in Kiel. So multiple fingers all point at this building boat stuff.\n",
+      "note": "This place does submarine construction and ship servicing.\n\nThe locations page mentions submarine building in Kiel. I found the Howaldtswerke shipyard in Kiel when I went to\ngoogle and searched \"thyssenkrupp\" in the city of Kiel. The company page mentions the merger of\nHowaldtswerke-Deutsche Werft and something else all under thyssenkrupp and the wikipedia shows that\nHowaldtswerke-Deutsche Werft has a marine yard in Kiel. So multiple fingers all point at this building boat stuff.\n",
       "source": [
         "https://maps.app.goo.gl/V4xv9ABKpThJuPQU7",
         "https://www.thyssenkrupp-marinesystems.com/en/company",
@@ -41,7 +43,7 @@
         "latitude": "54.2471263",
         "longitude": "10.0503719"
       },
-      "notes": "This place seems to manufacture communication equipment for boat/submarine stuff. (marinekommunikation translates to\n\"marine communications\"). \"Hagenuk Marinekommunikation\" is the company name and it's a subsidiary of the ATLAS\nELECTRONIK Group.\n",
+      "note": "This place seems to manufacture communication equipment for boat/submarine stuff. (marinekommunikation translates to\n\"marine communications\"). \"Hagenuk Marinekommunikation\" is the company name and it's a subsidiary of the ATLAS\nELECTRONIK Group.\n",
       "source": [
         "https://maps.app.goo.gl/E4oCvV6wSwmzRedM9",
         "https://www.thyssenkrupp-marinesystems.com/en/company/locations",
@@ -55,14 +57,15 @@
         "latitude": "53.0586837",
         "longitude": "8.8974063"
       },
-      "notes": null,
-      "source": null
+      "note": null,
+      "source": [null]
     }
   ],
   "supply_chain": [
     {
       "item": null,
-      "source": null
+      "note": null,
+      "source": [null]
     }
   ],
   "notes": [

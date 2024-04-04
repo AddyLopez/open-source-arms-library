@@ -9,7 +9,7 @@
   "companies": [
     {
       "company": "Rafael USA",
-      "source": "https://www.rafael-usa.com/programs/python-5/"
+      "source": ["https://www.rafael-usa.com/programs/python-5/"]
     }
   ],
   "parent_item": [
@@ -27,14 +27,20 @@
         "latitude": null,
         "longitude": null
       },
-      "notes": "It's probably made in the USA. The Rafael USA website shows the python 5 and it also says that it manufactures it's stuff in the USA. But it's unclear if it's like that they manufacture some stuff and not others or manufacture components that they send to Israel.",
+      "note": "It's probably made in the USA. The Rafael USA website shows the python 5 and it also says that it manufactures it's stuff in the USA. But it's unclear if it's like that they manufacture some stuff and not others or manufacture components that they send to Israel.",
       "source": [
         "https://www.rafael-usa.com/about/",
         "https://www.rafael-usa.com/programs/python-5/"
       ]
     }
   ],
-  "supply_chain": null,
+  "supply_chain": [
+    {
+      "item": null,
+      "note": null,
+      "source": [null]
+    }
+  ],
   "notes": [
     {
       "note": "I couldn't figure out where the production is. Furthermore, I looked at where the locations of Rafael USA are and I couldn't find any locations besides their office headquarters. We should look into if it's a holding company."

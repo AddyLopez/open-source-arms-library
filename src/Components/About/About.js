@@ -30,7 +30,7 @@ function About({ selected, toggle }) {
         timeout={200}
         classNames="accordion-paragraph"
       >
-        <p
+        <article
           ref={nodeRef}
           className={
             selected !== aboutHeader
@@ -38,10 +38,12 @@ function About({ selected, toggle }) {
               : "accordion-content-show"
           }
         >
-          This application presents data from an open-source library of research
-          pertaining to the manufacture of arms and arms' components known to be
-          used in U.S. imperialist wars.
-        </p>
+          <p>
+            This application presents data from an open-source library of
+            research pertaining to the manufacture of arms and arms' components
+            known to be used in U.S. imperialist wars.
+          </p>
+        </article>
       </CSSTransition>
     </section>
   );

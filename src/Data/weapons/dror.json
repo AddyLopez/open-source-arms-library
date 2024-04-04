@@ -9,10 +9,17 @@
   "companies": [
     {
       "company": "Israel Military Industries",
-      "source": "http://modernfirearms.net/en/machineguns/israel-machineguns/dror-eng/"
+      "source": [
+        "http://modernfirearms.net/en/machineguns/israel-machineguns/dror-eng/"
+      ]
     }
   ],
-  "parent_item": null,
+  "parent_item": [
+    {
+      "item": null,
+      "source": null
+    }
+  ],
   "manufacturing": [
     {
       "site_name": null,
@@ -21,11 +28,17 @@
         "latitude": null,
         "longitude": null
       },
-      "notes": null,
-      "source": null
+      "note": null,
+      "source": [null]
     }
   ],
-  "supply_chain": null,
+  "supply_chain": [
+    {
+      "item": null,
+      "note": null,
+      "source": [null]
+    }
+  ],
   "notes": [
     {
       "note": "Hasn't been used since the 50s",

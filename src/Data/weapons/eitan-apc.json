@@ -21,7 +21,12 @@
       ]
     }
   ],
-  "parent_item": null,
+  "parent_item": [
+    {
+      "item": null,
+      "source": null
+    }
+  ],
   "manufacturing": [
     {
       "site_name": null,
@@ -30,28 +35,33 @@
         "latitude": null,
         "longitude": null
       },
-      "notes": "Somewhere in Israel",
-      "source": "https://defense-update.com/20221228_eitan-4.html"
+      "note": "Somewhere in Israel",
+      "source": ["https://defense-update.com/20221228_eitan-4.html"]
     }
   ],
 
   "supply_chain": [
     {
       "item": "Hull",
-      "source": "https://www.israeldefense.co.il/en/node/56748"
+      "note": null,
+      "source": ["https://www.israeldefense.co.il/en/node/56748"]
     },
     {
       "item": "MTU 6V890 diesel engine",
-      "source": "https://defense-update.com/20221228_eitan-4.html"
+      "note": null,
+      "source": ["https://defense-update.com/20221228_eitan-4.html"]
     },
     {
       "item": "Caterpillar C18",
       "note": "This is an engine",
-      "source": "https://defense-update.com/20221228_eitan-4.html"
+      "source": ["https://defense-update.com/20221228_eitan-4.html"]
     },
     {
       "item": "Spike Missile",
-      "source": "https://militaryleak.com/2023/05/30/israel-defense-forces-takes-delivery-of-eitan-armored-fighting-vehicles/"
+      "note": null,
+      "source": [
+        "https://militaryleak.com/2023/05/30/israel-defense-forces-takes-delivery-of-eitan-armored-fighting-vehicles/"
+      ]
     },
     {
       "item": "Iron Fist Light Decoupled",
@@ -63,7 +73,8 @@
     },
     {
       "item": "Allison automatic transmission",
-      "source": "https://www.militarytoday.com/apc/eitan.htm"
+      "note": null,
+      "source": ["https://www.militarytoday.com/apc/eitan.htm"]
     }
   ],
   "notes": [

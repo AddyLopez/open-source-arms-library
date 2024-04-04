@@ -10,7 +10,7 @@
   "companies": [
     {
       "company": "Agilite Gear",
-      "source": "https://agilitegear.com/products/mitznefet-multicam"
+      "source": ["https://agilitegear.com/products/mitznefet-multicam"]
     }
   ],
   "parent_item": [
@@ -27,7 +27,7 @@
         "latitude": null,
         "longitude": null
       },
-      "notes": "I get the impressions that they farm out most of their textile manufacturing to subcontractors. There's probably a location in Thailand. They do make Berry compliant gear but I don't know whether that Berry compliant stuff includes textiles.",
+      "note": "I get the impressions that they farm out most of their textile manufacturing to subcontractors. There's probably a location in Thailand. They do make Berry compliant gear but I don't know whether that Berry compliant stuff includes textiles.",
       "source": [
         "https://www.reddit.com/r/QualityTacticalGear/comments/rcwc3b/agilite_k19_made_in_thailand/",
         "https://soldiersystems.net/2010/08/15/agilit-goes-international/",
@@ -36,10 +36,22 @@
       ]
     },
     {
+      "site_name": null,
+      "site_address": null,
+      "coordinates": {
+        "latitude": null,
+        "longitude": null
+      },
       "note": "They're location in Holon Israel seems to be mostly high level people. Manufacturing is probably all done elsewhere. They're a private company so subcontractors aren't readily available.",
-      "source": "https://www.linkedin.com/company/agilite/people/"
+      "source": ["https://www.linkedin.com/company/agilite/people/"]
     }
   ],
-  "supply_chain": null,
+  "supply_chain": [
+    {
+      "item": null,
+      "note": null,
+      "source": [null]
+    }
+  ],
   "notes": null
 }

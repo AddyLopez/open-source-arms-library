@@ -6,8 +6,18 @@
     }
   ],
   "researchers": ["Jim I", "Jim"],
-  "companies": null,
-  "parent_item": null,
+  "companies": [
+    {
+      "company": null,
+      "source": [null]
+    }
+  ],
+  "parent_item": [
+    {
+      "item": null,
+      "source": null
+    }
+  ],
   "manufacturing": [
     {
       "site_name": null,
@@ -16,11 +26,17 @@
         "latitude": null,
         "longitude": null
       },
-      "notes": null,
-      "source": null
+      "note": null,
+      "source": [null]
     }
   ],
-  "supply_chain": null,
+  "supply_chain": [
+    {
+      "item": null,
+      "note": null,
+      "source": [null]
+    }
+  ],
   "notes": [
     {
       "note": "Shafrir is the old name of the line of missiles that now the Python missile series.",

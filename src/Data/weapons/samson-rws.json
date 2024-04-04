@@ -41,38 +41,52 @@
   "companies": [
     {
       "company": "Rafael Advanced Defense System",
-      "source": "https://www.rafael.co.il/wp-content/uploads/2019/03/Samson-Family-.pdf"
+      "source": [
+        "https://www.rafael.co.il/wp-content/uploads/2019/03/Samson-Family-.pdf"
+      ]
     },
     {
       "company": "Rafael USA",
       "note": "According to the website it seems like it only makes the 30mm version",
-      "source": "https://www.rafael-usa.com/programs/samson-mk-ii-30mm/"
+      "source": ["https://www.rafael-usa.com/programs/samson-mk-ii-30mm/"]
     }
   ],
   "parent_item": [
     {
       "item": "LAV III",
-      "source": "www.armyrecognition.com/december_2012_new_army_military_defence_industry/army_colombia_has_selected_lav_iii_8x8_armoured_vehicle_for_its_mechanized_infantry_units_2912123.html"
+      "source": [
+        "www.armyrecognition.com/december_2012_new_army_military_defence_industry/army_colombia_has_selected_lav_iii_8x8_armoured_vehicle_for_its_mechanized_infantry_units_2912123.html"
+      ]
     },
     {
       "item": "Pandur II",
-      "source": "https://en.wikipedia.org/wiki/Samson_Remote_Controlled_Weapon_Station"
+      "source": [
+        "https://en.wikipedia.org/wiki/Samson_Remote_Controlled_Weapon_Station"
+      ]
     },
     {
       "item": "Namer",
-      "source": "https://en.wikipedia.org/wiki/Samson_Remote_Controlled_Weapon_Station"
+      "source": [
+        "https://en.wikipedia.org/wiki/Samson_Remote_Controlled_Weapon_Station"
+      ]
     },
     {
       "item": "Achzarit",
-      "source": "https://en.wikipedia.org/wiki/Samson_Remote_Controlled_Weapon_Station"
+      "source": [
+        "https://en.wikipedia.org/wiki/Samson_Remote_Controlled_Weapon_Station"
+      ]
     },
     {
       "item": "RG-31 Nyala",
-      "source": "https://en.wikipedia.org/wiki/Samson_Remote_Controlled_Weapon_Station"
+      "source": [
+        "https://en.wikipedia.org/wiki/Samson_Remote_Controlled_Weapon_Station"
+      ]
     },
     {
       "item": "Otokar Cobra",
-      "source": "https://en.wikipedia.org/wiki/Samson_Remote_Controlled_Weapon_Station"
+      "source": [
+        "https://en.wikipedia.org/wiki/Samson_Remote_Controlled_Weapon_Station"
+      ]
     },
     {
       "item": "Hunter AFV",
@@ -92,7 +106,9 @@
     },
     {
       "item": "SentryTech",
-      "source": "https://www.rafael.co.il/wp-content/uploads/2019/03/Sentry-Tech.pdf"
+      "source": [
+        "https://www.rafael.co.il/wp-content/uploads/2019/03/Sentry-Tech.pdf"
+      ]
     }
   ],
   "manufacturing": [
@@ -103,14 +119,17 @@
         "latitude": null,
         "longitude": null
       },
-      "notes": null,
-      "source": null
+      "note": null,
+      "source": [null]
     }
   ],
   "supply_chain": [
     {
       "item": "SPIKE Missile",
-      "source": "https://web.archive.org/web/20150924084513/http://www.rafael.co.il/marketing/SIP_STORAGE/FILES/8/628.pdf"
+      "note": null,
+      "source": [
+        "https://web.archive.org/web/20150924084513/http://www.rafael.co.il/marketing/SIP_STORAGE/FILES/8/628.pdf"
+      ]
     }
   ],
   "notes": null

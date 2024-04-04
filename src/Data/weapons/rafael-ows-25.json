@@ -57,18 +57,24 @@
         "latitude": null,
         "longitude": null
       },
-      "notes": null,
-      "source": null
+      "note": null,
+      "source": [null]
     }
   ],
   "supply_chain": [
     {
       "item": "SPIKE Missile",
-      "source": "https://web.archive.org/web/20160303175950/http://www.rafael.co.il/marketing/SIP_STORAGE/FILES/0/540.pdf"
+      "note": null,
+      "source": [
+        "https://web.archive.org/web/20160303175950/http://www.rafael.co.il/marketing/SIP_STORAGE/FILES/0/540.pdf"
+      ]
     },
     {
       "item": "Malyutka Missile",
-      "source": "https://web.archive.org/web/20160303175950/http://www.rafael.co.il/marketing/SIP_STORAGE/FILES/0/540.pdf"
+      "note": null,
+      "source": [
+        "https://web.archive.org/web/20160303175950/http://www.rafael.co.il/marketing/SIP_STORAGE/FILES/0/540.pdf"
+      ]
     }
   ],
   "notes": [

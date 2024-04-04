@@ -17,11 +17,16 @@
   "companies": [
     {
       "company": "IWI",
-      "source": "https://iwi.us/product/upp9t/",
+      "source": ["https://iwi.us/product/upp9t/"],
       "note": "This particular Uzi was designed and manufactured by IWI."
     }
   ],
-  "parent_item": null,
+  "parent_item": [
+    {
+      "item": null,
+      "source": null
+    }
+  ],
   "manufacturing": [
     {
       "site_name": null,
@@ -30,14 +35,20 @@
         "latitude": "40.2367129",
         "longitude": "-76.7566157"
       },
-      "notes": "This is just IWI US. There are other manufacturing facilities in other parts of the world. It also manufactures Tavor, Galil, and Jericho.",
+      "note": "This is just IWI US. There are other manufacturing facilities in other parts of the world. It also manufactures Tavor, Galil, and Jericho.",
       "source": [
         "https://iwi.us/iwi-us-company-grows-requires-move-to-new-larger-facility/",
         "google.com/maps"
       ]
     }
   ],
-  "supply_chain": null,
+  "supply_chain": [
+    {
+      "item": null,
+      "note": null,
+      "source": [null]
+    }
+  ],
   "notes": [
     {
       "note": "Uzi is not the name of one gun but the name of line of guns. And an old line of guns at that. There's knockoff Uzis, there's uzi's that were designed by IWI but made licensed to different companies, there's uzi's made after patent expiration, etc. etc.",
