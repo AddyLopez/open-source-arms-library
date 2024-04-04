@@ -82,7 +82,7 @@ h6 {
 
 .accordion-paragraph-enter-active {
   opacity: 1;
-  transition: all 375ms ease-in-out;
+  transition: opacity 375ms ease-in-out;
 }
 
 .accordion-paragraph-exit {
@@ -91,5 +91,5 @@ h6 {
 
 .accordion-paragraph-exit-active {
   opacity: 0;
-  transition: all 375ms ease-in-out;
+  transition: opacity 375ms ease-in-out;
 }
