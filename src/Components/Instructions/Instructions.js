@@ -10,6 +10,7 @@ function Instructions({ selected, toggle }) {
     setInProp(!inProp);
   };
   const instructionsHeader = document.getElementById("instructions-header");
+
   return (
     <section className="Instructions">
       <header
