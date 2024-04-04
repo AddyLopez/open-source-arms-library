@@ -106,6 +106,10 @@ h6 {
   .Panel h1 {
     font-size: 22px;
   }
+  .Panel article,
+  .Panel p {
+    font-size: 12px;
+  }
   .Panel .accordion article {
     margin: 0 0 0 15px;
   }
