@@ -10,16 +10,20 @@ function ResearchDetails({ weaponsIndex, manufacturingIndex }) {
   const manufacturingSite =
     weaponsArray[weaponsIndex].manufacturing[manufacturingIndex];
 
+  const detailsHeader = (
+    <h3>
+      Manufacturing Site:{" "}
+      <span className="researchdetails-thin">
+        {manufacturingSite.site_name !== null
+          ? manufacturingSite.site_name
+          : "Location's name unspecified"}
+      </span>
+    </h3>
+  );
+
   return (
     <>
-      <h3>
-        Manufacturing Site:{" "}
-        <span className="researchdetails-thin">
-          {manufacturingSite.site_name !== null
-            ? manufacturingSite.site_name
-            : "Location's name unspecified"}
-        </span>
-      </h3>
+      {detailsHeader}
       <ul>
         <li>
           <span className="researchdetails-tag">Site's Address:</span>{" "}
