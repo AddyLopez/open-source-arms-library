@@ -15,5 +15,7 @@ known to be used in U.S. imperialist wars.
 
 ## Accessibility Ratings
 
-Results of Lighthouse accessibility audit for desktops: 100/100
-Results of Lighthouse accessibility audito for mobile devices: 100/100
+Results of Lighthouse accessibility audits:
+
+- for desktops: 100/100
+- for mobile devices: 100/100
