@@ -19,13 +19,13 @@ li a:hover {
   text-decoration: underline;
 }
 
-.researchdetails-thin {
-  font-weight: 300;
-}
-
 .researchdetails-tag {
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.researchdetails-thin {
+  font-weight: 300;
 }
 
 .researchdetails-small {
