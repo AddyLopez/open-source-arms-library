@@ -12,3 +12,8 @@ known to be used in U.S. imperialist wars.
 
 - React
 - React Leaflet JS
+
+## Accessibility Ratings
+
+Results of Lighthouse accessibility audit for desktops: 100/100
+Results of Lighthouse accessibility audito for mobile devices: 100/100
