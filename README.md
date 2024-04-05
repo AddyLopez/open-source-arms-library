@@ -8,12 +8,12 @@ This application presents data from an open-source library of
 research pertaining to the manufacture of arms and arms' components
 known to be used in U.S. imperialist wars.
 
-## Technologies
+### Technologies
 
 - React
 - React Leaflet JS
 
-## Accessibility Ratings
+### Accessibility Ratings
 
 Results of Lighthouse accessibility audits:
 
