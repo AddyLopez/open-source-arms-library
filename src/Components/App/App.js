@@ -30,6 +30,12 @@ function App() {
 
   return (
     <div className="App">
+      <Panel
+        weaponsIndex={weaponsIndex}
+        manufacturingIndex={manufacturingIndex}
+        toggle={toggleSelected}
+        selected={selected}
+      />
       <MapContainer
         className="Map"
         center={[40, -40]}
@@ -52,12 +58,6 @@ function App() {
         </LayersControl>
         <Markers updatePanel={updatePanel} />
       </MapContainer>
-      <Panel
-        weaponsIndex={weaponsIndex}
-        manufacturingIndex={manufacturingIndex}
-        toggle={toggleSelected}
-        selected={selected}
-      />
     </div>
   );
 }
