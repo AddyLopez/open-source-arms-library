@@ -1,4 +1,8 @@
-.Research {
-  padding-top: 13px;
-  padding-bottom: 13px;
+.Research .full-screen {
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

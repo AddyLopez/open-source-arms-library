@@ -46,11 +46,11 @@
   font-size: 11px;
   font-weight: 900;
   letter-spacing: 0.5px;
-  margin: 0 auto;
+  margin: 10px auto;
   padding: 10px 4px;
   text-align: center;
   text-transform: uppercase;
-  width: 45%;
+  width: 50%;
 }
 
 .MarkerPopup .button:hover,
