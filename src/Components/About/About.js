@@ -1,6 +1,8 @@
 import React, { useState, useRef } from "react";
 import { CSSTransition } from "react-transition-group";
 
+import "./About.css";
+
 function About({ selected, toggle }) {
   const [inProp, setInProp] = useState(false);
   const nodeRef = useRef(null);
@@ -8,39 +10,37 @@ function About({ selected, toggle }) {
   const triggerTransition = () => {
     setInProp(!inProp);
   };
-  const aboutHeader = document.getElementById("about-header");
+  const aboutSection = document.getElementById("about");
 
   return (
-    <section className="About">
-      <header
-        id="about-header"
-        onClick={(event) => {
-          toggle(event);
-          triggerTransition();
-        }}
-      >
-        <h2>About This Application</h2>
-        <div className="accordion-icon">
-          {selected !== aboutHeader ? "+" : "-"}
-        </div>
-      </header>
+    <section
+      id="about"
+      ref={nodeRef}
+      className={
+        selected === aboutSection
+          ? "accordion-content-show"
+          : "accordion-content-hide"
+      }
+    >
       <CSSTransition
         nodeRef={nodeRef}
         in={inProp}
         timeout={200}
         classNames="accordion-paragraph"
       >
-        <article
-          ref={nodeRef}
-          className={
-            selected !== aboutHeader
-              ? "accordion-content-hide"
-              : "accordion-content-show"
-          }
-        >
+        <article id="about-article">
           <p>
             Explore the map to view where Israeli-used arms are manufactured.
           </p>
+          <div
+            className="about-icon"
+            onClick={(event) => {
+              toggle(event);
+              triggerTransition();
+            }}
+          >
+            {selected !== aboutSection ? "" : "x"}
+          </div>
         </article>
       </CSSTransition>
     </section>

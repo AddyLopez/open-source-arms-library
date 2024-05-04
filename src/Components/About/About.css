@@ -1,0 +1,11 @@
+#about-article {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 10px;
+}
+
+.about-icon {
+  cursor: pointer;
+}

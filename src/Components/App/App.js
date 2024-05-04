@@ -36,6 +36,7 @@ function App() {
         manufacturingIndex={manufacturingIndex}
         toggle={toggleSelected}
         selected={selected}
+        setSelected={setSelected}
         profileIsActive={profileIsActive}
       />
 
