@@ -31,3 +31,21 @@ body {
 .leaflet-right {
   right: 13px;
 }
+
+@media only screen and (max-width: 992px) {
+  .leaflet-top {
+    bottom: 45px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .leaflet-top {
+    bottom: 36px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .leaflet-top {
+    bottom: 65px;
+  }
+}

@@ -23,7 +23,7 @@ function Research({ selected, toggle, weaponsIndex, manufacturingIndex }) {
           triggerTransition();
         }}
       >
-        <h2>Details of Research</h2>
+        <h2>Profile</h2>
         <div className="accordion-icon">
           {selected === null || selected !== researchHeader ? "+" : "-"}
         </div>
