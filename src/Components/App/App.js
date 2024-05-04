@@ -10,8 +10,8 @@ const { BaseLayer } = LayersControl;
 function App() {
   const [weaponsIndex, setWeaponsIndex] = useState(null);
   const [manufacturingIndex, setManufacturingIndex] = useState(null);
-  const [selected, setSelected] = useState("");
-  //console.log(selected);
+  const [selected, setSelected] = useState(null);
+  const [profileIsActive, setProfileIsActive] = useState(false);
 
   const toggleSelected = (event) => {
     if (event.target === selected) {
@@ -24,6 +24,7 @@ function App() {
     setWeaponsIndex(weaponsIndex);
     setManufacturingIndex(manufacturingIndex);
     setSelected(researchHeader);
+    setProfileIsActive(true);
     //console.log(selected);
     //console.log(weaponsIndex, manufacturingIndex);
   };
@@ -35,9 +36,11 @@ function App() {
         manufacturingIndex={manufacturingIndex}
         toggle={toggleSelected}
         selected={selected}
+        profileIsActive={profileIsActive}
       />
+
       <MapContainer
-        className="Map"
+        id={"map"}
         center={[40, -40]}
         zoom={3}
         scrollWheelZoom={false}

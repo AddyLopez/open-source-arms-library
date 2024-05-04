@@ -39,9 +39,7 @@ function About({ selected, toggle }) {
           }
         >
           <p>
-            This application presents data from an open-source library of
-            research pertaining to the manufacture of arms and arms' components
-            known to be used in U.S. imperialist wars.
+            Explore the map to view where Israeli-used arms are manufactured.
           </p>
         </article>
       </CSSTransition>

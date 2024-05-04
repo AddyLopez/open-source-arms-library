@@ -28,7 +28,7 @@ function MarkerPopup({
         <li>{address !== null ? address : "Address unspecified"}</li>
       </ul>
       <button type="button" className="button" onClick={handleClick}>
-        See Details
+        View Profile
       </button>
     </Popup>
   );

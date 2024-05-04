@@ -43,14 +43,14 @@
   cursor: pointer;
   display: block;
   font-family: var(--primary-font);
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 900;
   letter-spacing: 0.5px;
   margin: 0 auto;
   padding: 10px 4px;
   text-align: center;
   text-transform: uppercase;
-  width: 33%;
+  width: 45%;
 }
 
 .MarkerPopup .button:hover,
