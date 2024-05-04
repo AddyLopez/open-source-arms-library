@@ -8,7 +8,7 @@
 }
 
 .Contribute h4 {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 900;
 }
 
@@ -18,7 +18,7 @@
   border-radius: 6px;
   color: var(--accent-color);
   display: block;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 14px;
   margin-left: 16px;
   padding: 10px 8px;
@@ -30,7 +30,6 @@
 
 .Contribute a:visited {
   color: var(--accent-color);
-  font-weight: 700;
   text-decoration: none;
 }
 
@@ -43,4 +42,21 @@
 
 .Contribute a:active {
   transform: translate(1px, 1px);
+}
+
+@media only screen and (max-width: 768px) {
+  .Contribute {
+    justify-content: space-between;
+    padding: 4px 23px 4px 23px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .Contribute h4 {
+    font-size: 12px;
+  }
+  .Contribute a {
+    font-size: 11px;
+    margin-left: 0;
+  }
 }

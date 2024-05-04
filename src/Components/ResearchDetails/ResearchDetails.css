@@ -3,13 +3,14 @@
 }
 
 .ResearchDetails h3 {
-  margin: 20px 0 0 47px;
+  padding: 20px 23px;
 }
 
 .ResearchDetails ul {
   list-style: square;
   font-size: 14px;
-  margin: 0 0 0 47px;
+  padding-left: 47px;
+  padding-right: 23px;
 }
 
 .ResearchDetails li {
@@ -44,7 +45,9 @@
 }
 
 @media only screen and (max-width: 480px) {
-  ul {
-    padding-left: 20px;
+  .ResearchDetails ul {
+    font-size: 14px;
+    list-style: square;
+    padding-left: 36px;
   }
 }
