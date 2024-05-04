@@ -1,21 +1,32 @@
-ul {
-  list-style: square;
-  font-size: 14px;
+.ResearchDetails {
+  margin-bottom: 60px;
 }
 
-li {
+.ResearchDetails h3 {
+  margin: 20px 0 0 47px;
+}
+
+.ResearchDetails ul {
+  list-style: square;
+  font-size: 14px;
+  margin: 0 0 0 47px;
+}
+
+.ResearchDetails li {
   margin: 10px 0;
 }
 
-li a {
+.ResearchDetails li a {
   color: var(--accent-color);
   font-weight: 700;
   text-decoration: none;
 }
-li a:visited {
+
+.ResearchDetails li a:visited {
   color: var(--accent-color);
 }
-li a:hover {
+
+.ResearchDetails li a:hover {
   text-decoration: underline;
 }
 

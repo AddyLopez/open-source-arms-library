@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
 import ResearchDetails from "../ResearchDetails/ResearchDetails";
+import Contribute from "../Contribute/Contribute";
 import { CSSTransition } from "react-transition-group";
 
 import "./Research.css";
@@ -43,12 +44,15 @@ function Research({ selected, toggle, weaponsIndex, manufacturingIndex }) {
           }
         >
           {manufacturingIndex !== null ? (
-            <ResearchDetails
-              weaponsIndex={weaponsIndex}
-              manufacturingIndex={manufacturingIndex}
-            />
+            <>
+              <ResearchDetails
+                weaponsIndex={weaponsIndex}
+                manufacturingIndex={manufacturingIndex}
+              />
+              <Contribute />
+            </>
           ) : (
-            'Select a marker on the map and click "See Details."'
+            ""
           )}
         </article>
       </CSSTransition>

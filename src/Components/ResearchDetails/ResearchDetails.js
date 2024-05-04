@@ -16,7 +16,7 @@ function ResearchDetails({ weaponsIndex, manufacturingIndex }) {
  console.log(weaponsArray[weaponsIndex]);*/
 
   return (
-    <>
+    <section className="ResearchDetails">
       <h3>
         <DetailsHeader
           weaponsArray={weaponsArray}
@@ -58,7 +58,7 @@ function ResearchDetails({ weaponsIndex, manufacturingIndex }) {
           />
         </li>
       </ul>
-    </>
+    </section>
   );
 }
 

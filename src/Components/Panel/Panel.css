@@ -10,12 +10,6 @@
   width: 100%;
 }
 
-.Panel .full-screen {
-  height: 100vh;
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
-
 .Panel h1,
 h2,
 h3,
@@ -75,8 +69,7 @@ h6 {
   transform: translate(1px, 1px);
 }
 
-.Panel header,
-.Panel main {
+.Panel header {
   padding: 0 13px;
 }
 
@@ -88,7 +81,6 @@ h6 {
 .Panel .accordion article {
   font-size: 14px;
   line-height: 1.5;
-  margin: 0 0 0 35px;
 }
 
 .Panel .accordion header {
@@ -96,7 +88,7 @@ h6 {
   cursor: pointer;
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 22px 23px;
 }
 
 .Panel .accordion h2 {
