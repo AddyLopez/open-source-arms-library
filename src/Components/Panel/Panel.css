@@ -6,6 +6,15 @@
   font-style: normal;
   letter-spacing: 1.5px;
   padding-bottom: 20px;
+  position: sticky;
+  z-index: 1000;
+  width: 100%;
+}
+
+.Panel .full-screen {
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .Panel h1,
@@ -17,17 +26,53 @@ h6 {
   text-transform: uppercase;
 }
 
-.Panel h1 {
+.Panel .header {
   align-items: center;
   background-color: var(--primary-theme);
   /*border-bottom: 1px ridge var(--secondary-theme);*/
   border-bottom: 1px solid var(--text-color);
   display: flex;
+  justify-content: space-around;
+  padding: 0 23px;
+}
+
+.Panel .desktop {
+  display: block;
+}
+
+.Panel .mobile {
+  display: none;
+}
+
+.Panel h1 {
   font-size: 27px;
-  justify-content: center;
-  margin: 0 auto;
-  padding: 15px 0;
+}
+
+.Panel button {
+  background-color: var(--accent-color);
+  border: 1px solid hsl(214, 13%, 14%);
+  border-radius: 6px;
+  color: var(--primary-theme);
+  cursor: pointer;
+  display: block;
+  font-family: var(--primary-font);
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  padding: 10px 8px;
   text-align: center;
+  text-transform: uppercase;
+}
+.Panel button:hover,
+.Panel button:active {
+  background-color: var(--primary-theme);
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  transition: all 150ms ease-in-out;
+}
+
+.Panel button:active {
+  transform: translate(1px, 1px);
 }
 
 .Panel header,
@@ -97,7 +142,21 @@ h6 {
   transition: opacity 375ms ease-in-out;
 }
 
+@media only screen and (max-width: 768px) {
+  .Panel .desktop {
+    display: none;
+  }
+
+  .Panel .mobile {
+    display: block;
+  }
+}
+
 @media only screen and (max-width: 480px) {
+  .Panel .header {
+    justify-content: space-between;
+  }
+
   .Panel h1 {
     font-size: 22px;
   }

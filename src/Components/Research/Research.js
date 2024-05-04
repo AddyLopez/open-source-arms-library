@@ -25,7 +25,7 @@ function Research({ selected, toggle, weaponsIndex, manufacturingIndex }) {
       >
         <h2>Details of Research</h2>
         <div className="accordion-icon">
-          {selected !== researchHeader ? "+" : "-"}
+          {selected === null || selected !== researchHeader ? "+" : "-"}
         </div>
       </header>
       <CSSTransition
@@ -37,9 +37,9 @@ function Research({ selected, toggle, weaponsIndex, manufacturingIndex }) {
         <article
           ref={nodeRef}
           className={
-            selected !== researchHeader
+            selected === null || selected !== researchHeader
               ? "accordion-content-hide"
-              : "accordion-content-show"
+              : "accordion-content-show full-screen"
           }
         >
           {manufacturingIndex !== null ? (
