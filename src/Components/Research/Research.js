@@ -24,7 +24,9 @@ function Research({ selected, toggle, weaponsIndex, manufacturingIndex }) {
           triggerTransition();
         }}
       >
-        <h2>Profile</h2>
+        <h2>
+          {selected === researchHeader ? "BACK TO MAP" : "EXPAND PROFILE"}
+        </h2>
         <div className="accordion-icon">
           {selected === null || selected !== researchHeader ? "+" : "-"}
         </div>
