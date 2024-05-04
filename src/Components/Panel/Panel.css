@@ -31,7 +31,7 @@ h6 {
   /*border-bottom: 1px ridge var(--secondary-theme);*/
   border-bottom: 1px solid var(--text-color);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 0 23px;
 }
 
@@ -61,6 +61,7 @@ h6 {
   padding: 10px 8px;
   text-align: center;
   text-transform: uppercase;
+  min-width: 15%;
 }
 .Panel button:hover,
 .Panel button:active {
@@ -150,10 +151,6 @@ h6 {
 }
 
 @media only screen and (max-width: 480px) {
-  .Panel .header {
-    justify-content: space-between;
-  }
-
   .Panel h1 {
     font-size: 22px;
   }
