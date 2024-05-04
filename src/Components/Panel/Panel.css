@@ -5,7 +5,6 @@
   font-weight: 300;
   font-style: normal;
   letter-spacing: 1.5px;
-  padding-bottom: 20px;
   position: sticky;
   z-index: 1000;
   width: 100%;
@@ -83,14 +82,12 @@ h6 {
 .Panel .accordion section {
   /*border-top: 1px solid var(--text-color);*/
   border-top: 1px ridge var(--secondary-theme);
-  padding-bottom: 10px;
-  padding-top: 10px;
 }
 
 .Panel .accordion article {
   font-size: 14px;
-  margin: 0 0 0 35px;
   line-height: 1.5;
+  margin: 0 0 0 35px;
 }
 
 .Panel .accordion header {
