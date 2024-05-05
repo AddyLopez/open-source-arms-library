@@ -13,22 +13,21 @@ function Research({ selected, toggle, weaponsIndex, manufacturingIndex }) {
     setInProp(!inProp);
   };
 
-  const researchHeader = document.getElementById("research-header");
+  const accordionIcon = document.getElementById("accordion-icon");
 
   return (
     <section className="Research">
-      <header
-        id="research-header"
-        onClick={(event) => {
-          toggle(event);
-          triggerTransition();
-        }}
-      >
-        <h2>
-          {selected !== researchHeader ? "EXPAND PROFILE" : "BACK TO MAP"}
-        </h2>
-        <div className="accordion-icon">
-          {selected === null || selected !== researchHeader ? "+" : "-"}
+      <header>
+        <h2>{selected !== accordionIcon ? "EXPAND PROFILE" : "BACK TO MAP"}</h2>
+        <div
+          id="accordion-icon"
+          className="accordion-icon"
+          onClick={(event) => {
+            toggle(event);
+            triggerTransition();
+          }}
+        >
+          {selected === accordionIcon ? "-" : "+"}
         </div>
       </header>
       <CSSTransition
@@ -40,7 +39,7 @@ function Research({ selected, toggle, weaponsIndex, manufacturingIndex }) {
         <article
           ref={nodeRef}
           className={
-            selected === researchHeader
+            selected === accordionIcon
               ? "accordion-content-show full-screen"
               : "accordion-content-hide"
           }

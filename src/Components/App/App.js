@@ -20,10 +20,10 @@ function App() {
     setSelected(event.target);
   };
 
-  const updatePanel = (weaponsIndex, manufacturingIndex, researchHeader) => {
+  const updatePanel = (weaponsIndex, manufacturingIndex, accordionIcon) => {
     setWeaponsIndex(weaponsIndex);
     setManufacturingIndex(manufacturingIndex);
-    setSelected(researchHeader);
+    setSelected(accordionIcon);
     setProfileIsActive(true);
     //console.log(selected);
     //console.log(weaponsIndex, manufacturingIndex);

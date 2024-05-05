@@ -8,7 +8,6 @@ function MarkerPopup({
   manufacturingIndex,
   updatePanel,
 }) {
-  console.log(weaponsArray[weaponsIndex]);
   let weaponNames = weaponsArray[weaponsIndex].names.map((element) => {
     return ` ${element.name}`;
   });
@@ -22,8 +21,8 @@ function MarkerPopup({
   const handleClick = (event) => {
     // console.log(event.target);
     //console.log(weaponsIndex, manufacturingIndex);
-    const researchHeader = document.getElementById("research-header");
-    updatePanel(weaponsIndex, manufacturingIndex, researchHeader);
+    const accordionIcon = document.getElementById("accordion-icon");
+    updatePanel(weaponsIndex, manufacturingIndex, accordionIcon);
   };
 
   return (
@@ -54,7 +53,12 @@ function MarkerPopup({
           )}
         </li>
       </ul>
-      <button type="button" className="button" onClick={handleClick}>
+      <button
+        type="button"
+        id="markerpopup-button"
+        className="button"
+        onClick={handleClick}
+      >
         View Profile
       </button>
     </Popup>
