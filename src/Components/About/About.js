@@ -30,7 +30,7 @@ function About({ selected, toggle }) {
       >
         <article id="about-article">
           <p>
-            Explore the map and select a marker. Click "View Profile" on the
+            Explore the map and select a marker. Click "VIEW PROFILE" on the
             pop-up to learn more about where Israeli-used arms are manufactured.
           </p>
           <div
