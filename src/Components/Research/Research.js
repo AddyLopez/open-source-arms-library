@@ -51,7 +51,7 @@ function Research({ selected, toggle, weaponsIndex, manufacturingIndex }) {
                 weaponsIndex={weaponsIndex}
                 manufacturingIndex={manufacturingIndex}
               />
-              <Contribute />
+              <Contribute selected={selected} />
             </>
           ) : (
             ""

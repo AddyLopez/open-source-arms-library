@@ -1,15 +1,14 @@
 .Contribute {
   align-items: center;
-  background-color: var(--text-color);
-  color: var(--primary-theme);
+  background-color: var(--secondary-theme);
   display: flex;
   justify-content: flex-end;
-  padding: 4px 23px 4px 0;
+  padding: 4px 23px;
+  box-sizing: border-box;
 }
 
 .Contribute h4 {
   font-size: 15px;
-  font-weight: 900;
 }
 
 .Contribute a {
@@ -26,6 +25,18 @@
   text-decoration: none;
   transition: all 150ms ease-in-out;
   min-width: 15%;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.static {
+  position: static;
+  bottom: auto;
+  width: auto;
 }
 
 .Contribute a:visited {
