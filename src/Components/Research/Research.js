@@ -25,7 +25,7 @@ function Research({ selected, toggle, weaponsIndex, manufacturingIndex }) {
         }}
       >
         <h2>
-          {selected === researchHeader ? "BACK TO MAP" : "EXPAND PROFILE"}
+          {selected !== researchHeader ? "EXPAND PROFILE" : "BACK TO MAP"}
         </h2>
         <div className="accordion-icon">
           {selected === null || selected !== researchHeader ? "+" : "-"}
@@ -40,9 +40,9 @@ function Research({ selected, toggle, weaponsIndex, manufacturingIndex }) {
         <article
           ref={nodeRef}
           className={
-            selected === null || selected !== researchHeader
-              ? "accordion-content-hide"
-              : "accordion-content-show full-screen"
+            selected === researchHeader
+              ? "accordion-content-show full-screen"
+              : "accordion-content-hide"
           }
         >
           {manufacturingIndex !== null ? (
