@@ -8,4 +8,23 @@
 
 .about-icon {
   cursor: pointer;
+  background-color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  color: var(--primary-theme);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.about-icon:hover,
+.about-icon:active {
+  background-color: var(--primary-theme);
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  transition: all 150ms ease-in-out;
+}
+
+.about-icon:active {
+  transform: translate(1px, 1px);
 }
