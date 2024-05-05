@@ -22,8 +22,6 @@ h6 {
 .Panel .header {
   align-items: center;
   background-color: var(--primary-theme);
-  /*border-bottom: 1px ridge var(--secondary-theme);*/
-  border-bottom: 1px solid var(--text-color);
   display: flex;
   justify-content: space-between;
   padding: 0 23px;
@@ -69,13 +67,14 @@ h6 {
   transform: translate(1px, 1px);
 }
 
-.Panel header {
-  padding: 0 13px;
+.Panel main {
+  background-color: var(--text-color);
+  color: var(--primary-theme);
 }
 
-.Panel .accordion section {
-  /*border-top: 1px solid var(--text-color);*/
-  border-top: 1px ridge var(--secondary-theme);
+.Panel header {
+  padding: 0 13px;
+  border-bottom: 1px ridge var(--secondary-theme);
 }
 
 .Panel .accordion article {
@@ -87,7 +86,7 @@ h6 {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 22px 23px;
+  padding: 12px 23px;
 }
 
 .Panel .accordion h2 {
@@ -101,9 +100,9 @@ h6 {
 
 .Panel .accordion-icon {
   cursor: pointer;
-  background-color: var(--accent-color);
-  border: 1px solid var(--accent-color);
-  color: var(--primary-theme);
+  background-color: var(--primary-theme);
+  border: 1px solid var(--primary-theme);
+  color: var(--accent-color);
   padding: 0px 10px;
   border-radius: 6px;
   font-size: 25.5px;
@@ -112,9 +111,8 @@ h6 {
 
 .Panel .accordion-icon:hover,
 .Panel .accordion-icon:active {
-  background-color: var(--primary-theme);
-  border: 1px solid var(--accent-color);
-  color: var(--accent-color);
+  background-color: var(--accent-color);
+  color: var(--primary-theme);
   transition: all 150ms ease-in-out;
 }
 

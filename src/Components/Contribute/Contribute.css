@@ -1,6 +1,7 @@
 .Contribute {
   align-items: center;
   background-color: var(--secondary-theme);
+  color: var(--text-color);
   display: flex;
   justify-content: flex-end;
   padding: 8px 23px;
