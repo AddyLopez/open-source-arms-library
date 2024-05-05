@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { Marker } from "react-leaflet";
 import MarkerPopup from "../MarkerPopup/MarkerPopup";
 import { weaponsArray } from "../../Data/arms-data.js";
@@ -28,7 +28,7 @@ for (let i = 0; i < weaponsArray.length; i++) {
 }
 //console.log(locationsList);
 
-function Markers({ updatePanel }) {
+const Markers = memo(function Markers({ updatePanel }) {
   const plotMarkers = () => {
     const markers = locationsList.map((locationItem) => {
       //console.log(locationItem);
@@ -46,6 +46,6 @@ function Markers({ updatePanel }) {
     return markers;
   };
   return <>{plotMarkers()}</>;
-}
+});
 
 export default Markers;
