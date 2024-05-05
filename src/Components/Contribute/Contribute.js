@@ -6,7 +6,7 @@ function Contribute({ selected }) {
   return (
     <footer
       className={
-        selected === accordionIcon ? "Contribute fixed" : "Contribute static"
+        selected !== accordionIcon ? "Contribute fixed" : "Contribute static"
       }
     >
       <h4>To contribute to OSAL: </h4>
