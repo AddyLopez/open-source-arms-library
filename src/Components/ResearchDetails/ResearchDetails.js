@@ -24,7 +24,7 @@ function ResearchDetails({ weaponsIndex, manufacturingIndex }) {
           manufacturingIndex={manufacturingIndex}
         />
       </h3>
-      <ul>
+      <ul className="outer-list">
         <li>
           <DetailsAddress
             weaponsArray={weaponsArray}

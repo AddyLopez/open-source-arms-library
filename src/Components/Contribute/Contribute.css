@@ -3,12 +3,14 @@
   background-color: var(--secondary-theme);
   display: flex;
   justify-content: flex-end;
-  padding: 4px 23px;
+  padding: 8px 23px;
   box-sizing: border-box;
 }
 
 .Contribute h4 {
   font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .Contribute a {
@@ -58,7 +60,6 @@
 @media only screen and (max-width: 768px) {
   .Contribute {
     justify-content: space-between;
-    padding: 4px 23px 4px 23px;
   }
 }
 

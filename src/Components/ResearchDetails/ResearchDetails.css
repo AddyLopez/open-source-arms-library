@@ -1,5 +1,5 @@
-.ResearchDetails {
-  margin-bottom: 60px;
+.ResearchBottom {
+  margin-bottom: 30px;
 }
 
 .ResearchDetails h3 {
@@ -11,6 +11,10 @@
   font-size: 14px;
   padding-left: 47px;
   padding-right: 23px;
+}
+
+.ResearchDetails ul.outer-list {
+  padding-bottom: 60px;
 }
 
 .ResearchDetails li {
