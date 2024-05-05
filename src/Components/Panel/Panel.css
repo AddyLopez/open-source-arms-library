@@ -85,14 +85,12 @@ h6 {
 
 .Panel .accordion header {
   align-items: center;
-  cursor: pointer;
   display: flex;
   justify-content: space-between;
   padding: 22px 23px;
 }
 
 .Panel .accordion h2 {
-  cursor: pointer;
   font-size: 18px;
   margin: 0;
 }

@@ -2,11 +2,11 @@ import React from "react";
 import "./Contribute.css";
 
 function Contribute({ selected }) {
-  const researchHeader = document.getElementById("research-header");
+  const accordionIcon = document.getElementById("accordion-icon");
   return (
     <footer
       className={
-        selected === researchHeader ? "Contribute fixed" : "Contribute static"
+        selected === accordionIcon ? "Contribute fixed" : "Contribute static"
       }
     >
       <h4>To contribute to OSAL: </h4>
