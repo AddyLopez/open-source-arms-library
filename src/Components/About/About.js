@@ -10,14 +10,14 @@ function About({ selected, toggle }) {
   const triggerTransition = () => {
     setInProp(!inProp);
   };
-  const aboutSection = document.getElementById("about");
+  const aboutButton = document.getElementById("about-button");
 
   return (
     <section
       id="about"
       ref={nodeRef}
       className={
-        selected === aboutSection
+        selected === aboutButton
           ? "accordion-content-show"
           : "accordion-content-hide"
       }
@@ -40,7 +40,7 @@ function About({ selected, toggle }) {
               triggerTransition();
             }}
           >
-            {selected !== aboutSection ? "" : "x"}
+            {selected !== aboutButton ? "" : "x"}
           </div>
         </article>
       </CSSTransition>

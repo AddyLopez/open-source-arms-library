@@ -22,18 +22,17 @@
 }
 
 .ResearchDetails li a {
-  background-color: var(--primary-theme);
   border: 1px solid var(--primary-theme);
-  padding: 0 6px;
-  margin-right: 6px;
   border-radius: 4px;
-  color: var(--accent-color);
+  color: var(--primary-theme);
   font-weight: 700;
+  margin-right: 6px;
+  padding: 0 6px;
   text-decoration: none;
 }
 
 .ResearchDetails li a:visited {
-  color: var(--accent-color);
+  color: var(--primary-theme);
 }
 
 .ResearchDetails li a:hover {

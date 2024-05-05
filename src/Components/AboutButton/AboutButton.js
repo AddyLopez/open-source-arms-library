@@ -2,12 +2,12 @@ import React from "react";
 
 function AboutButton({ setSelected }) {
   const handleClick = () => {
-    const about = document.getElementById("about");
-    return setSelected(about);
+    const aboutButton = document.getElementById("about-button");
+    return setSelected(aboutButton);
   };
 
   return (
-    <button className="About-Button" onClick={handleClick}>
+    <button id="about-button" className="About-Button" onClick={handleClick}>
       ABOUT
     </button>
   );

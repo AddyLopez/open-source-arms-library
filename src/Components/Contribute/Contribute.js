@@ -3,10 +3,13 @@ import "./Contribute.css";
 
 function Contribute({ selected }) {
   const accordionIcon = document.getElementById("accordion-icon");
+  const aboutButton = document.getElementById("about-button");
   return (
     <footer
       className={
-        selected !== accordionIcon ? "Contribute fixed" : "Contribute static"
+        selected !== accordionIcon && selected !== aboutButton
+          ? "Contribute fixed"
+          : "Contribute static"
       }
     >
       <h4>To contribute to OSAL: </h4>
