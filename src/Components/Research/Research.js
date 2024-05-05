@@ -1,11 +1,16 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, memo } from "react";
 import ResearchDetails from "../ResearchDetails/ResearchDetails";
 import Contribute from "../Contribute/Contribute";
 import { CSSTransition } from "react-transition-group";
 
 import "./Research.css";
 
-function Research({ selected, toggle, weaponsIndex, manufacturingIndex }) {
+const Research = memo(function Research({
+  selected,
+  toggle,
+  weaponsIndex,
+  manufacturingIndex,
+}) {
   const [inProp, setInProp] = useState(false);
   const nodeRef = useRef(null);
 
@@ -59,6 +64,6 @@ function Research({ selected, toggle, weaponsIndex, manufacturingIndex }) {
       </CSSTransition>
     </section>
   );
-}
+});
 
 export default Research;
