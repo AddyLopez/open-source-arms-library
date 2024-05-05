@@ -30,7 +30,8 @@ function About({ selected, toggle }) {
       >
         <article id="about-article">
           <p>
-            Explore the map to view where Israeli-used arms are manufactured.
+            Explore the map and select a marker to view info about where
+            Israeli-used arms are manufactured.
           </p>
           <div
             className="about-icon"

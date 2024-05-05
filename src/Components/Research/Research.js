@@ -10,6 +10,7 @@ const Research = memo(function Research({
   toggle,
   weaponsIndex,
   manufacturingIndex,
+  setSelected,
 }) {
   const [inProp, setInProp] = useState(false);
   const nodeRef = useRef(null);
@@ -19,20 +20,24 @@ const Research = memo(function Research({
   };
 
   const accordionIcon = document.getElementById("accordion-icon");
+  const markerPopupButton = document.getElementById("markerpopup-button");
 
   return (
     <section className="Research">
       <header>
-        <h2>{selected !== accordionIcon ? "EXPAND PROFILE" : "BACK TO MAP"}</h2>
+        <h2>{selected !== accordionIcon ? "BACK TO MAP" : "EXPAND PROFILE"}</h2>
         <div
           id="accordion-icon"
           className="accordion-icon"
           onClick={(event) => {
+            if (selected === markerPopupButton) {
+              setSelected(accordionIcon);
+            }
             toggle(event);
             triggerTransition();
           }}
         >
-          {selected === accordionIcon ? "-" : "+"}
+          {selected !== accordionIcon ? "-" : "+"}
         </div>
       </header>
       <CSSTransition
@@ -44,7 +49,7 @@ const Research = memo(function Research({
         <article
           ref={nodeRef}
           className={
-            selected === accordionIcon
+            selected !== accordionIcon
               ? "accordion-content-show full-screen"
               : "accordion-content-hide"
           }

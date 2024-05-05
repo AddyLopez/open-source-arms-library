@@ -14,20 +14,20 @@ function App() {
   const [profileIsActive, setProfileIsActive] = useState(false);
 
   const toggleSelected = (event) => {
-    if (event.target === selected) {
+    if (selected === event.target) {
       return setSelected(null);
     }
-    setSelected(event.target);
+    return setSelected(event.target);
   };
 
-  const updatePanel = (weaponsIndex, manufacturingIndex, accordionIcon) => {
+  const updatePanel = (weaponsIndex, manufacturingIndex, markerPopupButton) => {
+    setProfileIsActive(true);
     setWeaponsIndex(weaponsIndex);
     setManufacturingIndex(manufacturingIndex);
-    setSelected(accordionIcon);
-    setProfileIsActive(true);
-    //console.log(selected);
+    setSelected(markerPopupButton);
     //console.log(weaponsIndex, manufacturingIndex);
   };
+  console.log(selected);
 
   return (
     <div className="App">
@@ -41,7 +41,7 @@ function App() {
       />
 
       <MapContainer
-        id={"map"}
+        id="map"
         center={[40, -40]}
         zoom={3}
         scrollWheelZoom={false}

@@ -29,6 +29,7 @@ function Panel({
             weaponsIndex={weaponsIndex}
             manufacturingIndex={manufacturingIndex}
             selected={selected}
+            setSelected={setSelected}
           />
         )}
       </main>

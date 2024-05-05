@@ -21,8 +21,8 @@ function MarkerPopup({
   const handleClick = (event) => {
     // console.log(event.target);
     //console.log(weaponsIndex, manufacturingIndex);
-    const accordionIcon = document.getElementById("accordion-icon");
-    updatePanel(weaponsIndex, manufacturingIndex, accordionIcon);
+    const markerPopupButton = document.getElementById("markerpopup-button");
+    updatePanel(weaponsIndex, manufacturingIndex, markerPopupButton);
   };
 
   return (
