@@ -39,10 +39,9 @@ function App() {
         setSelected={setSelected}
         profileIsActive={profileIsActive}
       />
-
       <MapContainer
         id="map"
-        center={[40, -40]}
+        center={[41, -86]}
         zoom={3}
         scrollWheelZoom={false}
       >
