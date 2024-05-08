@@ -3,10 +3,7 @@ import React from "react";
 function DetailsParentItem({ weaponsArray, weaponsIndex }) {
   const detailsParentItem = (
     <>
-      <span className="researchdetails-tag">
-        Parent Item&#40;<span className="researchdetails-small">s</span>
-        &#41;:
-      </span>
+      <span className="researchdetails-tag">Parent Item&#40;s&#41;:</span>
       <ul>
         {weaponsArray[weaponsIndex].parent_item.map(
           (parentItemElement, index) => {
