@@ -25,12 +25,12 @@ function About({ aboutIsOpen, setAboutIsOpen }) {
       >
         <article id="about-article">
           <p>
-            Explore the map and select a marker. Click "View More" for more
-            information on the weapon.
+            Explore the world map and select a marker. Click "View More" for
+            more information on the weapon.
           </p>
           <div
             className="about-icon"
-            onClick={(event) => {
+            onClick={() => {
               setAboutIsOpen(!aboutIsOpen);
               triggerTransition();
             }}
