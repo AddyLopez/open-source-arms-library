@@ -1,4 +1,5 @@
 #about-article {
+  background-color: var(--primary-theme);
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -14,23 +15,9 @@
 }
 
 .about-icon {
-  background-color: var(--primary-theme);
-  border: 1px solid var(--primary-theme);
   border-radius: 6px;
   cursor: pointer;
-  color: var(--accent-color);
-  font-size: 16px;
-  font-weight: 700;
-  padding: 4px 10px;
-}
-
-.about-icon:hover,
-.about-icon:active {
-  background-color: var(--accent-color);
-  color: var(--primary-theme);
-  transition: all 150ms ease-in-out;
-}
-
-.about-icon:active {
-  transform: translate(1px, 1px);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 6px;
 }
