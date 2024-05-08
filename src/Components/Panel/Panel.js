@@ -9,8 +9,9 @@ function Panel({
   manufacturingIndex,
   toggle,
   selected,
-  profileIsActive,
   setSelected,
+  profileIsActive,
+  setProfileIsActive,
 }) {
   const [aboutIsOpen, setAboutIsOpen] = useState(true);
 
@@ -41,6 +42,8 @@ function Panel({
             manufacturingIndex={manufacturingIndex}
             selected={selected}
             setSelected={setSelected}
+            profileIsActive={profileIsActive}
+            setProfileIsActive={setProfileIsActive}
           />
         )}
       </main>

@@ -37,6 +37,7 @@ function App() {
         toggle={toggleSelected}
         selected={selected}
         setSelected={setSelected}
+        setProfileIsActive={setProfileIsActive}
         profileIsActive={profileIsActive}
       />
       <MapContainer
