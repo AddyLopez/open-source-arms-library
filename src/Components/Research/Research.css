@@ -6,6 +6,13 @@
   flex-direction: column;
 }
 
+.Panel .accordion header {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px 23px;
+}
+
 .Research .accordion-icon {
   cursor: pointer;
   font-size: 25.5px;
