@@ -16,13 +16,17 @@ function DetailsParentItem({ weaponsArray, weaponsIndex }) {
                   ? parentItemElement.item
                   : "Parent item unspecified"}{" "}
                 {parentItemElement.source !== null ? (
-                  <a
-                    href={parentItemElement.source}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    &#40;source&#41;
-                  </a>
+                  <span>
+                    &#40;
+                    <a
+                      href={parentItemElement.source}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      source
+                    </a>
+                    &#41;
+                  </span>
                 ) : (
                   ""
                 )}
