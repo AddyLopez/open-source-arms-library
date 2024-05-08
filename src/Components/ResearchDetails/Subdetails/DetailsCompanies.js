@@ -20,7 +20,7 @@ function DetailsCompanies({ weaponsArray, weaponsIndex }) {
                       rel="noreferrer"
                       key={index}
                     >
-                      &#40;SOURCE{index > 0 ? `-0${index + 1}` : ""}&#41;
+                      SOURCE{index > 0 ? `-0${index + 1}` : ""}
                     </a>
                   );
                 } else {

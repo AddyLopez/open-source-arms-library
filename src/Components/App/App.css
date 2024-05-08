@@ -1,5 +1,5 @@
 :root {
-  --accent-color: hsl(69, 41%, 56%);
+  --accent-color: hsl(69, 41%, 57%);
   --primary-theme: hsl(214, 13%, 24%);
   --secondary-theme: hsl(215, 19%, 40%);
   --text-color: hsl(35, 44%, 92%);
@@ -11,8 +11,44 @@ body {
   background-color: var(--primary-theme);
 }
 
-.App .leaflet-container {
-  min-height: 50vh;
-  max-height: 75vh;
+#map {
+  position: fixed;
+  bottom: 0;
+  z-index: 0;
+  height: calc(100vh - 72px);
   width: 100%;
+}
+
+.leaflet-top {
+  bottom: 25px;
+  top: auto;
+}
+
+.leaflet-left {
+  left: 13px;
+}
+
+.leaflet-right {
+  right: 13px;
+}
+
+@media only screen and (max-width: 992px) {
+  .leaflet-top {
+    bottom: 45px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .leaflet-top {
+    bottom: 36px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .leaflet-top {
+    bottom: 65px;
+  }
+  #map {
+    height: calc(100vh - 58px);
+  }
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import DetailsHeader from "./Subdetails/DetailsHeader";
 import DetailsAddress from "./Subdetails/DetailsAddress";
 import DetailsWeaponsName from "./Subdetails/DetailsWeaponsName";
@@ -9,14 +9,17 @@ import DetailsSupplyChain from "./Subdetails/DetailsSupplyChain";
 import { weaponsArray } from "../../Data/arms-data";
 import "./ResearchDetails.css";
 
-function ResearchDetails({ weaponsIndex, manufacturingIndex }) {
+const ResearchDetails = memo(function ResearchDetails({
+  weaponsIndex,
+  manufacturingIndex,
+}) {
   /*console.log(
     `weaponsIndex: ${weaponsIndex}, manufacturingIndex: ${manufacturingIndex}`
   );
  console.log(weaponsArray[weaponsIndex]);*/
 
   return (
-    <>
+    <section className="ResearchDetails">
       <h3>
         <DetailsHeader
           weaponsArray={weaponsArray}
@@ -24,7 +27,7 @@ function ResearchDetails({ weaponsIndex, manufacturingIndex }) {
           manufacturingIndex={manufacturingIndex}
         />
       </h3>
-      <ul>
+      <ul className="outer-list">
         <li>
           <DetailsAddress
             weaponsArray={weaponsArray}
@@ -58,8 +61,8 @@ function ResearchDetails({ weaponsIndex, manufacturingIndex }) {
           />
         </li>
       </ul>
-    </>
+    </section>
   );
-}
+});
 
 export default ResearchDetails;

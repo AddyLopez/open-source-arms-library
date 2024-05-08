@@ -5,7 +5,9 @@
   font-weight: 300;
   font-style: normal;
   letter-spacing: 1.5px;
-  padding-bottom: 20px;
+  position: sticky;
+  z-index: 1000;
+  width: 100%;
 }
 
 .Panel h1,
@@ -17,47 +19,77 @@ h6 {
   text-transform: uppercase;
 }
 
-.Panel h1 {
+.Panel .header {
   align-items: center;
   background-color: var(--primary-theme);
-  /*border-bottom: 1px ridge var(--secondary-theme);*/
-  border-bottom: 1px solid var(--text-color);
   display: flex;
+  justify-content: space-between;
+  padding: 0 23px;
+}
+
+.Panel .desktop {
+  display: block;
+}
+
+.Panel .mobile {
+  display: none;
+}
+
+.Panel h1 {
   font-size: 27px;
-  justify-content: center;
-  margin: 0 auto;
-  padding: 15px 0;
+}
+
+.Panel button {
+  background-color: var(--accent-color);
+  border: 1px solid hsl(214, 13%, 14%);
+  border-radius: 6px;
+  color: var(--primary-theme);
+  cursor: pointer;
+  display: block;
+  font-family: var(--primary-font);
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  padding: 10px 8px;
   text-align: center;
+  text-transform: uppercase;
+  min-width: 15%;
+}
+.Panel button:hover,
+.Panel button:active {
+  background-color: var(--primary-theme);
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  transition: all 150ms ease-in-out;
 }
 
-.Panel header,
+.Panel button:active {
+  transform: translate(1px, 1px);
+}
+
 .Panel main {
-  padding: 0 13px;
+  background-color: var(--text-color);
+  color: var(--primary-theme);
 }
 
-.Panel .accordion section {
-  /*border-top: 1px solid var(--text-color);*/
-  border-top: 1px ridge var(--secondary-theme);
-  padding-bottom: 10px;
-  padding-top: 10px;
+.Panel header {
+  padding: 0 13px;
+  border-bottom: 1px ridge var(--secondary-theme);
 }
 
 .Panel .accordion article {
   font-size: 14px;
-  margin: 0 0 0 35px;
   line-height: 1.5;
 }
 
 .Panel .accordion header {
   align-items: center;
-  cursor: pointer;
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 12px 23px;
 }
 
 .Panel .accordion h2 {
-  cursor: pointer;
   font-size: 18px;
   margin: 0;
 }
@@ -67,7 +99,25 @@ h6 {
 }
 
 .Panel .accordion-icon {
-  font-size: 20px;
+  cursor: pointer;
+  background-color: var(--primary-theme);
+  border: 1px solid var(--primary-theme);
+  color: var(--accent-color);
+  padding: 0px 10px;
+  border-radius: 6px;
+  font-size: 25.5px;
+  font-weight: 450;
+}
+
+.Panel .accordion-icon:hover,
+.Panel .accordion-icon:active {
+  background-color: var(--accent-color);
+  color: var(--primary-theme);
+  transition: all 150ms ease-in-out;
+}
+
+.Panel .accordion-icon:active {
+  transform: translate(1px, 1px);
 }
 
 .accordion-content-hide {
@@ -97,6 +147,16 @@ h6 {
   transition: opacity 375ms ease-in-out;
 }
 
+@media only screen and (max-width: 768px) {
+  .Panel .desktop {
+    display: none;
+  }
+
+  .Panel .mobile {
+    display: block;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .Panel h1 {
     font-size: 22px;
@@ -104,8 +164,5 @@ h6 {
   .Panel article,
   .Panel p {
     font-size: 12px;
-  }
-  .Panel .accordion article {
-    margin: 0 0 0 15px;
   }
 }

@@ -1,0 +1,36 @@
+#about-article {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 10px 23px;
+  border-bottom: 1px ridge var(--secondary-theme);
+}
+
+#about-article p {
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-right: 6px;
+}
+
+.about-icon {
+  background-color: var(--primary-theme);
+  border: 1px solid var(--primary-theme);
+  border-radius: 6px;
+  cursor: pointer;
+  color: var(--accent-color);
+  font-size: 16px;
+  font-weight: 700;
+  padding: 4px 10px;
+}
+
+.about-icon:hover,
+.about-icon:active {
+  background-color: var(--accent-color);
+  color: var(--primary-theme);
+  transition: all 150ms ease-in-out;
+}
+
+.about-icon:active {
+  transform: translate(1px, 1px);
+}

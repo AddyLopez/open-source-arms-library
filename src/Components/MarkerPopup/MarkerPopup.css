@@ -1,15 +1,19 @@
 .leaflet-popup-content-wrapper,
 .leaflet-popup-tip,
 .MarkerPopup span {
-  background-color: var(--primary-theme);
+  background-color: hsla(216, 12%, 24%, 0.8);
   color: var(--text-color);
   font-family: var(--primary-font);
   letter-spacing: 1px;
   font-weight: 300;
 }
 
+.MarkerPopup span {
+  background: transparent;
+}
+
 .leaflet-popup-content {
-  margin-right: 0;
+  margin-right: 8px;
   margin-left: 8px;
 }
 
@@ -17,15 +21,25 @@
   margin: 0 0 0 8px;
 }
 
+.leaflet-popup-tip,
+.leaflet-popup-content-wrapper {
+  border: 1px solid var(--secondary-theme);
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  background: transparent;
+}
+
 .MarkerPopup ul {
   list-style: square;
   padding-left: 20px;
+  padding-right: 6px;
   line-height: 1.5;
 }
 
 .MarkerPopup h3 {
   border-bottom: 1px ridge var(--secondary-theme);
-  font-size: 12x;
+  font-size: 12px;
   padding: 6px 8px;
   width: 85%;
 }
@@ -43,14 +57,14 @@
   cursor: pointer;
   display: block;
   font-family: var(--primary-font);
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 900;
   letter-spacing: 0.5px;
-  margin: 0 auto;
+  margin: 10px auto;
   padding: 10px 4px;
   text-align: center;
   text-transform: uppercase;
-  width: 33%;
+  width: 50%;
 }
 
 .MarkerPopup .button:hover,
