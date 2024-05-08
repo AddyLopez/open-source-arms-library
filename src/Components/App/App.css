@@ -31,6 +31,17 @@ body {
   right: 13px;
 }
 
+.leaflet-controls-expanded,
+.leaflet-control-layers,
+.leaflet-control,
+.leaflet-control-layers-expanded {
+  font-family: var(--primary-font);
+}
+
+.leaflet-control-layers label {
+  background-color: var(--text-color);
+}
+
 @media only screen and (max-width: 992px) {
   .leaflet-top {
     bottom: 45px;
