@@ -6,7 +6,7 @@
   flex-direction: column;
 }
 
-.Panel .accordion header {
+.accordion .Research header {
   align-items: center;
   display: flex;
   justify-content: flex-end;
