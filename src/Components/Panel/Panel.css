@@ -61,12 +61,12 @@ h6 {
   line-height: 1.5;
 }
 
-.accordion-content-hide {
+.content-hide {
   max-height: 0;
   overflow: hidden;
 }
 
-.accordion-content-show {
+.content-show {
   height: auto;
 }
 

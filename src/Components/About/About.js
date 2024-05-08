@@ -10,15 +10,12 @@ function About({ aboutIsOpen, setAboutIsOpen }) {
   const triggerTransition = () => {
     setInProp(!inProp);
   };
-  const aboutButton = document.getElementById("about-button");
 
   return (
     <section
       id="about"
       ref={nodeRef}
-      className={
-        aboutIsOpen ? "accordion-content-show" : "accordion-content-hide"
-      }
+      className={aboutIsOpen ? "content-show" : "content-hide"}
     >
       <CSSTransition
         nodeRef={nodeRef}
