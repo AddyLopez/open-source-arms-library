@@ -13,15 +13,17 @@ function Contribute({ selected }) {
           : "Contribute static"
       }
     >
-      <h4>Have something to contribute? </h4>
-      <a
-        href="/"
-        title="Contribute to this project"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Click here
-      </a>
+      <h4>
+        Have something to contribute?{" "}
+        <a
+          href="/"
+          title="Contribute to this project"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Click here
+        </a>
+      </h4>
     </footer>
   );
 }
