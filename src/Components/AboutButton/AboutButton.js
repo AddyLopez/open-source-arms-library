@@ -8,7 +8,7 @@ function AboutButton({ setSelected }) {
 
   return (
     <button id="about-button" className="About-Button" onClick={handleClick}>
-      ABOUT
+      About
     </button>
   );
 }
