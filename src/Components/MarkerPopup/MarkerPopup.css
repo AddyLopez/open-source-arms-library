@@ -45,34 +45,20 @@
 
 .MarkerPopup li {
   font-size: 11px;
-  margin: 6px 0;
 }
 
 .MarkerPopup .button {
-  background-color: var(--accent-color);
-  border: 1px solid hsl(214, 13%, 14%);
-  border-radius: 6px;
-  color: var(--primary-theme);
-  cursor: pointer;
-  display: block;
-  font-family: var(--primary-font);
-  font-size: 11px;
-  font-weight: 900;
-  margin: 10px auto;
-  padding: 10px 4px;
-  text-align: center;
-  text-transform: uppercase;
-  width: 50%;
-}
-
-.MarkerPopup .button:hover,
-.MarkerPopup .button:active {
+  border: none;
   background-color: var(--primary-theme);
-  border: 1px solid var(--accent-color);
-  color: var(--accent-color);
-  transition: all 150ms ease-in-out;
+  color: var(--text-color);
+  cursor: pointer;
+  font-family: var(--primary-font);
+  font-style: italic;
+  font-size: 11px;
+  margin: 5px 0;
+  text-decoration: underline;
 }
 
 .MarkerPopup .button:active {
-  transform: translate(1px, 1px);
+  font-weight: 500;
 }

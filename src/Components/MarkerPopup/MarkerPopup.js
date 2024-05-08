@@ -29,11 +29,6 @@ function MarkerPopup({
     <Popup className="MarkerPopup">
       <h3>{title !== null ? title : "Location's name unspecified"}</h3>
       <ul>
-        {/*<li>
-          {address !== null ?             <span>
-              <strong>ADDRESS:</strong>{" "}{address}
-            </span>: "Address unspecified"}
-  </li> */}
         <li>
           {company !== null ? (
             <span>
@@ -59,7 +54,7 @@ function MarkerPopup({
         className="button"
         onClick={handleClick}
       >
-        View Profile
+        View More
       </button>
     </Popup>
   );
