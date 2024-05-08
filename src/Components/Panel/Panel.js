@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import About from "../About/About";
-/*import Instructions from "../Instructions/Instructions";*/
 import Research from "../Research/Research";
 import AboutButton from "../AboutButton/AboutButton";
 import "./Panel.css";
