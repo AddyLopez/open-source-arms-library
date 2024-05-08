@@ -77,28 +77,6 @@ h6 {
   font-size: 15px;
 }
 
-.Panel .accordion-icon {
-  cursor: pointer;
-  background-color: var(--primary-theme);
-  border: 1px solid var(--primary-theme);
-  color: var(--accent-color);
-  padding: 0px 10px;
-  border-radius: 6px;
-  font-size: 25.5px;
-  font-weight: 450;
-}
-
-.Panel .accordion-icon:hover,
-.Panel .accordion-icon:active {
-  background-color: var(--accent-color);
-  color: var(--primary-theme);
-  transition: all 150ms ease-in-out;
-}
-
-.Panel .accordion-icon:active {
-  transform: translate(1px, 1px);
-}
-
 .accordion-content-hide {
   max-height: 0;
   overflow: hidden;
