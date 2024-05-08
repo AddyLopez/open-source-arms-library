@@ -22,7 +22,6 @@ function DetailsSupplyChain({ weaponsArray, weaponsIndex }) {
                         rel="noreferrer"
                       >
                         &#40;source{index > 0 ? `-0${index + 1}` : ""}&#41;
-                        {""}
                       </a>
                     );
                   } else {
