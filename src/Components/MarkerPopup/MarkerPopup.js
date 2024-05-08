@@ -18,11 +18,10 @@ function MarkerPopup({
     weaponsArray[weaponsIndex].manufacturing[manufacturingIndex].site_address;*/
   // console.log(title, address);
 
-  const handleClick = (event) => {
+  const handleClick = () => {
     // console.log(event.target);
     //console.log(weaponsIndex, manufacturingIndex);
-    const markerPopupButton = document.getElementById("markerpopup-button");
-    updatePanel(weaponsIndex, manufacturingIndex, markerPopupButton);
+    updatePanel(weaponsIndex, manufacturingIndex);
   };
 
   return (
