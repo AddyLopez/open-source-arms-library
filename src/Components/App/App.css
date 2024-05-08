@@ -1,9 +1,7 @@
 :root {
-  --accent-color: hsl(69, 41%, 57%);
-  --primary-theme: hsl(214, 13%, 24%);
-  --secondary-theme: hsl(215, 19%, 40%);
-  --text-color: hsl(35, 44%, 92%);
+  --primary-theme: hsl(234, 52%, 40%);
   --primary-font: "Poppins", sans-serif;
+  --text-color: hsl(0, 0%, 100%);
 }
 
 body {
