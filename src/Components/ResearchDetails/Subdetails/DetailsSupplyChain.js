@@ -26,7 +26,7 @@ function DetailsSupplyChain({ weaponsArray, weaponsIndex }) {
                           >
                             source{index > 0 ? `-0${index + 1}` : ""}
                           </a>
-                          &#41;
+                          &#41;{" "}
                         </span>
                       </>
                     );
