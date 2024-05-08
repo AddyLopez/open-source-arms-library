@@ -1,6 +1,8 @@
 # Open Source Arms Library
 
 Access this project here: [https://opensourcearmslibrary.netlify.app/](https://opensourcearmslibrary.netlify.app/)
+Current version: V2
+Projected release of V3: May 8, 2024
 
 ## Description
 
@@ -12,10 +14,3 @@ known to be used in U.S. imperialist wars.
 
 - React
 - React Leaflet JS
-
-### Accessibility Ratings
-
-Results of Lighthouse accessibility audits:
-
-- for desktops: 100/100
-- for mobile devices: 100/100
