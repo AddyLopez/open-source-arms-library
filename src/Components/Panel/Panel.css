@@ -36,6 +36,7 @@ h6 {
 
 .Panel h1 {
   font-size: 27px;
+  text-transform: uppercase;
 }
 
 .Panel h1 a {
