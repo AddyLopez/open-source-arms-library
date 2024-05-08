@@ -64,7 +64,7 @@ const Research = memo(function Research({
                 weaponsIndex={weaponsIndex}
                 manufacturingIndex={manufacturingIndex}
               />
-              <Contribute selected={selected} />
+              <Contribute profileIsActive={profileIsActive} />
             </>
           ) : (
             ""
