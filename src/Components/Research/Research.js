@@ -22,8 +22,8 @@ const Research = memo(function Research({
     <section className="Research">
       <header>
         <div
-          id="accordion-icon"
-          className="accordion-icon"
+          id="research-icon"
+          className="research-icon"
           onClick={() => {
             if (profileIsActive === true) {
               setProfileIsActive(!profileIsActive);
@@ -43,9 +43,7 @@ const Research = memo(function Research({
         <article
           ref={nodeRef}
           className={
-            profileIsActive
-              ? "accordion-content-show full-screen"
-              : "accordion-content-hide"
+            profileIsActive ? "content-show full-screen" : "content-hide"
           }
         >
           {manufacturingIndex !== null ? (
