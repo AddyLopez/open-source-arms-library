@@ -10,33 +10,20 @@ const { BaseLayer } = LayersControl;
 function App() {
   const [weaponsIndex, setWeaponsIndex] = useState(null);
   const [manufacturingIndex, setManufacturingIndex] = useState(null);
-  const [selected, setSelected] = useState(null);
   const [profileIsActive, setProfileIsActive] = useState(false);
 
-  const toggleSelected = (event) => {
-    if (selected === event.target) {
-      return setSelected(null);
-    }
-    return setSelected(event.target);
-  };
-
-  const updatePanel = (weaponsIndex, manufacturingIndex, markerPopupButton) => {
+  const updatePanel = (weaponsIndex, manufacturingIndex) => {
     setProfileIsActive(true);
     setWeaponsIndex(weaponsIndex);
     setManufacturingIndex(manufacturingIndex);
-    setSelected(markerPopupButton);
     //console.log(weaponsIndex, manufacturingIndex);
   };
-  console.log(selected);
 
   return (
     <div className="App">
       <Panel
         weaponsIndex={weaponsIndex}
         manufacturingIndex={manufacturingIndex}
-        toggle={toggleSelected}
-        selected={selected}
-        setSelected={setSelected}
         setProfileIsActive={setProfileIsActive}
         profileIsActive={profileIsActive}
       />

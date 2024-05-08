@@ -7,9 +7,6 @@ import "./Panel.css";
 function Panel({
   weaponsIndex,
   manufacturingIndex,
-  toggle,
-  selected,
-  setSelected,
   profileIsActive,
   setProfileIsActive,
 }) {
@@ -37,11 +34,8 @@ function Panel({
         <About aboutIsOpen={aboutIsOpen} setAboutIsOpen={setAboutIsOpen} />
         {profileIsActive && (
           <Research
-            toggle={toggle}
             weaponsIndex={weaponsIndex}
             manufacturingIndex={manufacturingIndex}
-            selected={selected}
-            setSelected={setSelected}
             profileIsActive={profileIsActive}
             setProfileIsActive={setProfileIsActive}
           />

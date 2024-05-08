@@ -6,11 +6,8 @@ import { CSSTransition } from "react-transition-group";
 import "./Research.css";
 
 const Research = memo(function Research({
-  selected,
-  toggle,
   weaponsIndex,
   manufacturingIndex,
-  setSelected,
   profileIsActive,
   setProfileIsActive,
 }) {
@@ -21,23 +18,16 @@ const Research = memo(function Research({
     setInProp(!inProp);
   };
 
-  const accordionIcon = document.getElementById("accordion-icon");
-  const markerPopupButton = document.getElementById("markerpopup-button");
-
   return (
     <section className="Research">
       <header>
         <div
           id="accordion-icon"
           className="accordion-icon"
-          onClick={(event) => {
-            if (selected === markerPopupButton) {
-              setSelected(accordionIcon);
-            }
+          onClick={() => {
             if (profileIsActive === true) {
               setProfileIsActive(!profileIsActive);
             }
-            toggle(event);
             triggerTransition();
           }}
         >
