@@ -39,12 +39,14 @@
 .MarkerPopup h3 {
   border-bottom: 1px ridge var(--secondary-theme);
   font-size: 12px;
+  letter-spacing: 0.5px;
   padding: 6px 8px;
+  text-transform: capitalize;
   width: 85%;
 }
 
 .MarkerPopup li {
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .MarkerPopup .button {
