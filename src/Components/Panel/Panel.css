@@ -38,6 +38,15 @@ h6 {
   font-size: 27px;
 }
 
+.Panel h1 a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.Panel h1 a:visited {
+  color: var(--text-color);
+}
+
 .Panel main {
   background-color: var(--secondary-theme);
 }
