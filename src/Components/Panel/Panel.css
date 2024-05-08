@@ -61,13 +61,6 @@ h6 {
   line-height: 1.5;
 }
 
-.Panel .accordion header {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  padding: 12px 23px;
-}
-
 .Panel .accordion h2 {
   font-size: 18px;
   margin: 0;
