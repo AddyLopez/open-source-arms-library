@@ -13,14 +13,14 @@ function Contribute({ selected }) {
           : "Contribute static"
       }
     >
-      <h4>To contribute to OSAL: </h4>
+      <h4>Have something to contribute? </h4>
       <a
         href="/"
         title="Contribute to this project"
         target="_blank"
         rel="noreferrer"
       >
-        CLICK HERE
+        Click here
       </a>
     </footer>
   );
