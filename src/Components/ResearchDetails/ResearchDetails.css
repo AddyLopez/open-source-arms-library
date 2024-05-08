@@ -17,16 +17,16 @@
 }
 
 .ResearchDetails li a {
-  color: var(--primary-theme);
+  color: var(--text-color);
 }
 
 .ResearchDetails li a:visited {
-  color: var(--primary-theme);
+  color: var(--text-color);
 }
 
 .ResearchDetails li a:active {
   font-weight: 500;
-  color: var(--primary-theme);
+  color: var(--text-color);
 }
 
 .researchdetails-tag {
@@ -45,6 +45,5 @@ li.site-address {
 @media only screen and (max-width: 480px) {
   .ResearchDetails ul {
     font-size: 14px;
-    padding-left: 36px;
   }
 }
