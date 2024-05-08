@@ -42,33 +42,20 @@ function App() {
       <MapContainer
         id="map"
         center={[41, -86]}
-        zoom={5}
+        zoom={3}
         scrollWheelZoom={false}
       >
         <LayersControl position="topright">
-          <BaseLayer name="Jawg Dark" checked>
+          <BaseLayer name="Esri World Imagery" checked>
             <TileLayer
-              url="https://tile.jawg.io/jawg-dark/{z}/{x}/{y}{r}.png?access-token={accessToken}"
-              attribution='<a href="https://jawg.io" title="Tiles Courtesy of Jawg Maps" target="_blank">&copy; <b>Jawg</b>Maps</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-              accessToken="zdOJzkFJRW628L7JcL1zd8kfqUvvqeCoSLfgwUSmIccSXJnV3SRDwfoNc7xH9ycW"
+              url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+              attribution="Tiles Powered by Esri: &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community"
             />
           </BaseLayer>
-          <BaseLayer name="Stadia Alidade Smooth Dark">
+          <BaseLayer name="OpenStreetMap">
             <TileLayer
-              url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.{ext}"
-              attribution='&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-              minNativeZoom={0}
-              maxNativeZoom={20}
-              ext="png"
-            />
-          </BaseLayer>
-          <BaseLayer name="Stadia Stamen Toner">
-            <TileLayer
-              url="https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}{r}.{ext}"
-              attribution='&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-              minNativeZoom={0}
-              maxNativeZoom={20}
-              ext="png"
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             />
           </BaseLayer>
         </LayersControl>
