@@ -1,11 +1,11 @@
 #about-article {
-  background-color: var(--primary-theme);
   align-items: center;
+  background-color: var(--primary-theme);
+  border-bottom: 1px ridge var(--secondary-theme);
   display: flex;
   justify-content: space-between;
   margin: 0;
   padding: 10px 23px;
-  border-bottom: 1px ridge var(--secondary-theme);
 }
 
 #about-article p {
