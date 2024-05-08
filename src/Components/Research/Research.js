@@ -11,6 +11,8 @@ const Research = memo(function Research({
   weaponsIndex,
   manufacturingIndex,
   setSelected,
+  profileIsActive,
+  setProfileIsActive,
 }) {
   const [inProp, setInProp] = useState(false);
   const nodeRef = useRef(null);
@@ -21,7 +23,6 @@ const Research = memo(function Research({
 
   const accordionIcon = document.getElementById("accordion-icon");
   const markerPopupButton = document.getElementById("markerpopup-button");
-  const aboutButton = document.getElementById("about-button");
 
   return (
     <section className="Research">
@@ -32,6 +33,9 @@ const Research = memo(function Research({
           onClick={(event) => {
             if (selected === markerPopupButton) {
               setSelected(accordionIcon);
+            }
+            if (profileIsActive === true) {
+              setProfileIsActive(!profileIsActive);
             }
             toggle(event);
             triggerTransition();
@@ -49,7 +53,7 @@ const Research = memo(function Research({
         <article
           ref={nodeRef}
           className={
-            selected !== accordionIcon && selected !== aboutButton
+            profileIsActive
               ? "accordion-content-show full-screen"
               : "accordion-content-hide"
           }
