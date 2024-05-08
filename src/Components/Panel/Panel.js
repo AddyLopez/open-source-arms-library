@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import About from "../About/About";
 /*import Instructions from "../Instructions/Instructions";*/
 import Research from "../Research/Research";
@@ -13,6 +13,8 @@ function Panel({
   profileIsActive,
   setSelected,
 }) {
+  const [aboutIsOpen, setAboutIsOpen] = useState(true);
+
   return (
     <div className="Panel">
       <header className="primary-header">
@@ -26,11 +28,13 @@ function Panel({
             OSAL
           </a>
         </h1>
-        <AboutButton setSelected={setSelected} />
+        <AboutButton
+          aboutIsOpen={aboutIsOpen}
+          setAboutIsOpen={setAboutIsOpen}
+        />
       </header>
       <main className="accordion">
-        <About toggle={toggle} selected={selected} />
-        {/*<Instructions toggle={toggle} selected={selected} />*/}
+        <About aboutIsOpen={aboutIsOpen} setAboutIsOpen={setAboutIsOpen} />
         {profileIsActive && (
           <Research
             toggle={toggle}

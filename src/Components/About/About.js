@@ -3,7 +3,7 @@ import { CSSTransition } from "react-transition-group";
 
 import "./About.css";
 
-function About({ selected, toggle }) {
+function About({ aboutIsOpen, setAboutIsOpen }) {
   const [inProp, setInProp] = useState(false);
   const nodeRef = useRef(null);
 
@@ -17,9 +17,7 @@ function About({ selected, toggle }) {
       id="about"
       ref={nodeRef}
       className={
-        selected === aboutButton
-          ? "accordion-content-show"
-          : "accordion-content-hide"
+        aboutIsOpen ? "accordion-content-show" : "accordion-content-hide"
       }
     >
       <CSSTransition
@@ -36,11 +34,11 @@ function About({ selected, toggle }) {
           <div
             className="about-icon"
             onClick={(event) => {
-              toggle(event);
+              setAboutIsOpen(!aboutIsOpen);
               triggerTransition();
             }}
           >
-            {selected !== aboutButton ? "" : "x"}
+            {aboutIsOpen ? "x" : ""}
           </div>
         </article>
       </CSSTransition>
