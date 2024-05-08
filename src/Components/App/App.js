@@ -30,7 +30,8 @@ function App() {
       <MapContainer
         id="map"
         center={[41, -86]}
-        zoom={5}
+        zoom={4.25}
+        zoomSnap={0.25} // See https://leafletjs.com/examples/zoom-levels/#fractional-zoom
         scrollWheelZoom={false}
       >
         <LayersControl position="topright">
