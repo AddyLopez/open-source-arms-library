@@ -31,7 +31,7 @@
 }
 
 .MarkerPopup ul {
-  list-style: square;
+  list-style: none;
   padding-left: 20px;
   padding-right: 6px;
   line-height: 1.5;
