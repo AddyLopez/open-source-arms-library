@@ -10,29 +10,38 @@ const { BaseLayer } = LayersControl;
 function App() {
   const [weaponsIndex, setWeaponsIndex] = useState(null);
   const [manufacturingIndex, setManufacturingIndex] = useState(null);
-  const [selected, setSelected] = useState("");
-  //console.log(selected);
+  const [selected, setSelected] = useState(null);
+  const [profileIsActive, setProfileIsActive] = useState(false);
 
   const toggleSelected = (event) => {
-    if (event.target === selected) {
+    if (selected === event.target) {
       return setSelected(null);
     }
-    setSelected(event.target);
+    return setSelected(event.target);
   };
 
-  const updatePanel = (weaponsIndex, manufacturingIndex, researchHeader) => {
+  const updatePanel = (weaponsIndex, manufacturingIndex, markerPopupButton) => {
+    setProfileIsActive(true);
     setWeaponsIndex(weaponsIndex);
     setManufacturingIndex(manufacturingIndex);
-    setSelected(researchHeader);
-    //console.log(selected);
+    setSelected(markerPopupButton);
     //console.log(weaponsIndex, manufacturingIndex);
   };
+  console.log(selected);
 
   return (
     <div className="App">
+      <Panel
+        weaponsIndex={weaponsIndex}
+        manufacturingIndex={manufacturingIndex}
+        toggle={toggleSelected}
+        selected={selected}
+        setSelected={setSelected}
+        profileIsActive={profileIsActive}
+      />
       <MapContainer
-        className="Map"
-        center={[40, -40]}
+        id="map"
+        center={[41, -86]}
         zoom={3}
         scrollWheelZoom={false}
       >
@@ -52,12 +61,6 @@ function App() {
         </LayersControl>
         <Markers updatePanel={updatePanel} />
       </MapContainer>
-      <Panel
-        weaponsIndex={weaponsIndex}
-        manufacturingIndex={manufacturingIndex}
-        toggle={toggleSelected}
-        selected={selected}
-      />
     </div>
   );
 }

@@ -1,10 +1,17 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, memo } from "react";
 import ResearchDetails from "../ResearchDetails/ResearchDetails";
+import Contribute from "../Contribute/Contribute";
 import { CSSTransition } from "react-transition-group";
 
 import "./Research.css";
 
-function Research({ selected, toggle, weaponsIndex, manufacturingIndex }) {
+const Research = memo(function Research({
+  selected,
+  toggle,
+  weaponsIndex,
+  manufacturingIndex,
+  setSelected,
+}) {
   const [inProp, setInProp] = useState(false);
   const nodeRef = useRef(null);
 
@@ -12,20 +19,26 @@ function Research({ selected, toggle, weaponsIndex, manufacturingIndex }) {
     setInProp(!inProp);
   };
 
-  const researchHeader = document.getElementById("research-header");
+  const accordionIcon = document.getElementById("accordion-icon");
+  const markerPopupButton = document.getElementById("markerpopup-button");
+  const aboutButton = document.getElementById("about-button");
 
   return (
     <section className="Research">
-      <header
-        id="research-header"
-        onClick={(event) => {
-          toggle(event);
-          triggerTransition();
-        }}
-      >
-        <h2>Details of Research</h2>
-        <div className="accordion-icon">
-          {selected !== researchHeader ? "+" : "-"}
+      <header>
+        <h2>{selected !== accordionIcon ? "BACK TO MAP" : "EXPAND PROFILE"}</h2>
+        <div
+          id="accordion-icon"
+          className="accordion-icon"
+          onClick={(event) => {
+            if (selected === markerPopupButton) {
+              setSelected(accordionIcon);
+            }
+            toggle(event);
+            triggerTransition();
+          }}
+        >
+          {selected !== accordionIcon ? "-" : "+"}
         </div>
       </header>
       <CSSTransition
@@ -37,23 +50,26 @@ function Research({ selected, toggle, weaponsIndex, manufacturingIndex }) {
         <article
           ref={nodeRef}
           className={
-            selected !== researchHeader
-              ? "accordion-content-hide"
-              : "accordion-content-show"
+            selected !== accordionIcon && selected !== aboutButton
+              ? "accordion-content-show full-screen"
+              : "accordion-content-hide"
           }
         >
           {manufacturingIndex !== null ? (
-            <ResearchDetails
-              weaponsIndex={weaponsIndex}
-              manufacturingIndex={manufacturingIndex}
-            />
+            <>
+              <ResearchDetails
+                weaponsIndex={weaponsIndex}
+                manufacturingIndex={manufacturingIndex}
+              />
+              <Contribute selected={selected} />
+            </>
           ) : (
-            'Select a marker on the map and click "See Details."'
+            ""
           )}
         </article>
       </CSSTransition>
     </section>
   );
-}
+});
 
 export default Research;

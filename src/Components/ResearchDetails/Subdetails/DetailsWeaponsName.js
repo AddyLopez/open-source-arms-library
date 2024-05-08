@@ -19,7 +19,7 @@ function DetailsWeaponsName({ weaponsArray, weaponsIndex }) {
                   rel="noreferrer"
                   key={index}
                 >
-                  &#40;SOURCE&#41;
+                  SOURCE
                 </a>
               ) : (
                 ""
