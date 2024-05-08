@@ -21,7 +21,7 @@ function DetailsParentItem({ weaponsArray, weaponsIndex }) {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    SOURCE
+                    &#40;source&#41;
                   </a>
                 ) : (
                   ""
