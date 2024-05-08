@@ -71,7 +71,6 @@ h6 {
 
 .Panel header {
   padding: 0 13px;
-  border-bottom: 1px ridge var(--secondary-theme);
 }
 
 .Panel .accordion article {
