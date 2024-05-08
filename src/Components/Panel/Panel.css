@@ -38,21 +38,6 @@ h6 {
   font-size: 27px;
 }
 
-.Panel button {
-  background-color: var(--primary-theme);
-  border: none;
-  color: var(--text-color);
-  cursor: pointer;
-  display: block;
-  font-family: var(--primary-font);
-  font-size: 18px;
-  text-transform: capitalize;
-}
-
-.Panel button:hover {
-  text-decoration: underline;
-}
-
 .Panel main {
   background-color: var(--secondary-theme);
 }
