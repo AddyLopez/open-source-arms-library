@@ -3,10 +3,7 @@ import React from "react";
 function DetailsWeaponsName({ weaponsArray, weaponsIndex }) {
   const detailsWeaponsName = (
     <>
-      <span className="researchdetails-tag">
-        Weapon's Name&#40;<span className="researchdetails-small">s</span>
-        &#41;:
-      </span>
+      <span className="researchdetails-tag">Weapon's Name&#40;s&#41;:</span>
       <ul>
         {weaponsArray[weaponsIndex].names.map((nameItem, index) => {
           return (
