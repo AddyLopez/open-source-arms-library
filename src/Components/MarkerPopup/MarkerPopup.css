@@ -1,3 +1,43 @@
+.MarkerPopup h3 {
+  border-bottom: 1px ridge var(--secondary-theme);
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  padding: 6px 8px;
+  text-transform: capitalize;
+  width: 85%;
+}
+
+.MarkerPopup ul {
+  line-height: 1.5;
+  list-style: none;
+  padding-left: 8px;
+  padding-right: 6px;
+}
+
+.MarkerPopup li {
+  font-size: 12px;
+}
+
+.MarkerPopup span {
+  background: transparent;
+}
+
+.MarkerPopup .button {
+  border: none;
+  background-color: transparent;
+  color: var(--text-color);
+  cursor: pointer;
+  font-family: var(--primary-font);
+  font-size: 11px;
+  font-style: italic;
+  margin: 5px 0;
+  text-decoration: underline;
+}
+
+.MarkerPopup .button:active {
+  font-weight: 500;
+}
+
 .leaflet-popup-content-wrapper,
 .leaflet-popup-tip,
 .MarkerPopup span {
@@ -7,13 +47,9 @@
   font-weight: 300;
 }
 
-.MarkerPopup span {
-  background: transparent;
-}
-
 .leaflet-popup-content {
-  margin-right: 8px;
   margin-left: 8px;
+  margin-right: 8px;
 }
 
 .leaflet-popup-content-wrapper {
@@ -27,40 +63,4 @@
 
 .leaflet-container a.leaflet-popup-close-button {
   background: transparent;
-}
-
-.MarkerPopup ul {
-  list-style: none;
-  padding-left: 8px;
-  padding-right: 6px;
-  line-height: 1.5;
-}
-
-.MarkerPopup h3 {
-  border-bottom: 1px ridge var(--secondary-theme);
-  font-size: 12px;
-  letter-spacing: 0.5px;
-  padding: 6px 8px;
-  text-transform: capitalize;
-  width: 85%;
-}
-
-.MarkerPopup li {
-  font-size: 12px;
-}
-
-.MarkerPopup .button {
-  border: none;
-  background-color: var(--primary-theme);
-  color: var(--text-color);
-  cursor: pointer;
-  font-family: var(--primary-font);
-  font-style: italic;
-  font-size: 11px;
-  margin: 5px 0;
-  text-decoration: underline;
-}
-
-.MarkerPopup .button:active {
-  font-weight: 500;
 }
