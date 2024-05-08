@@ -16,6 +16,7 @@
 }
 
 .Contribute a {
+  color: var(--text-color);
   font-weight: 300;
   font-size: 14px;
   font-style: italic;
@@ -28,6 +29,7 @@
 }
 
 .Contribute a:active {
+  color: var(--text-color);
   font-weight: 500;
 }
 
