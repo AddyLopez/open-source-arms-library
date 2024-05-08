@@ -1,21 +1,23 @@
 :root {
-  --primary-theme: hsl(234, 52%, 40%);
   --primary-font: "Poppins", sans-serif;
-  --text-color: hsl(0, 0%, 100%);
+  --primary-theme: hsl(234, 52%, 40%);
   --secondary-theme: hsl(234, 52%, 10%);
+  --text-color: hsl(0, 0%, 100%);
 }
 
 body {
-  margin: 0;
   background-color: var(--primary-theme);
+  margin: 0;
 }
 
+/* Leaflet classes */
+
 #map {
-  position: fixed;
   bottom: 0;
-  z-index: 0;
   height: calc(100vh - 72px);
+  position: fixed;
   width: 100%;
+  z-index: 0;
 }
 
 .leaflet-top {
