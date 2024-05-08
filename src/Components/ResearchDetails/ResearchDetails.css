@@ -29,12 +29,10 @@
   color: var(--primary-theme);
 }
 
-/*
-.ResearchDetails li a:hover {
-  background-color: var(--accent-color);
+.ResearchDetails li a:active {
+  font-weight: 500;
   color: var(--primary-theme);
 }
-*/
 
 .researchdetails-tag {
   font-weight: 700;
