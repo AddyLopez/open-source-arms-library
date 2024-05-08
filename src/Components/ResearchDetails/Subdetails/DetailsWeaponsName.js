@@ -13,14 +13,18 @@ function DetailsWeaponsName({ weaponsArray, weaponsIndex }) {
             <li key={index}>
               {nameItem.name !== null ? nameItem.name : "Name unspecified"}{" "}
               {nameItem.source !== null ? (
-                <a
-                  href={nameItem.source}
-                  target="_blank"
-                  rel="noreferrer"
-                  key={index}
-                >
-                  &#40;source&#41;
-                </a>
+                <span>
+                  &#40;
+                  <a
+                    href={nameItem.source}
+                    target="_blank"
+                    rel="noreferrer"
+                    key={index}
+                  >
+                    source
+                  </a>
+                  &#41;
+                </span>
               ) : (
                 ""
               )}

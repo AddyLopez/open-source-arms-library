@@ -23,7 +23,6 @@
 
 .ResearchDetails li a {
   color: var(--primary-theme);
-  margin-right: 6px;
 }
 
 .ResearchDetails li a:visited {
