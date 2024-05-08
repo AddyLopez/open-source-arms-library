@@ -22,23 +22,20 @@
 }
 
 .ResearchDetails li a {
-  border: 1px solid var(--primary-theme);
-  border-radius: 4px;
   color: var(--primary-theme);
-  font-weight: 700;
   margin-right: 6px;
-  padding: 0 6px;
-  text-decoration: none;
 }
 
 .ResearchDetails li a:visited {
   color: var(--primary-theme);
 }
 
+/*
 .ResearchDetails li a:hover {
   background-color: var(--accent-color);
   color: var(--primary-theme);
 }
+*/
 
 .researchdetails-tag {
   font-weight: 700;
@@ -56,7 +53,6 @@
 @media only screen and (max-width: 480px) {
   .ResearchDetails ul {
     font-size: 14px;
-    list-style: square;
     padding-left: 36px;
   }
 }
