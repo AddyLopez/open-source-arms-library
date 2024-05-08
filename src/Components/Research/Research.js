@@ -26,7 +26,6 @@ const Research = memo(function Research({
   return (
     <section className="Research">
       <header>
-        <h2>{selected !== accordionIcon ? "BACK TO MAP" : "EXPAND PROFILE"}</h2>
         <div
           id="accordion-icon"
           className="accordion-icon"
