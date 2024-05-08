@@ -15,7 +15,7 @@ function Panel({
 }) {
   return (
     <div className="Panel">
-      <header className="header">
+      <header className="primary-header">
         <h1 className="desktop">
           <a href="/" title="To OSAL home page">
             OPEN SOURCE ARMS LIBRARY
