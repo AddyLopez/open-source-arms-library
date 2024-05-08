@@ -28,7 +28,7 @@ const ResearchDetails = memo(function ResearchDetails({
             manufacturingIndex={manufacturingIndex}
           />
         </li>
-        <li>
+        <li className="site-address">
           <DetailsAddress
             weaponsArray={weaponsArray}
             weaponsIndex={weaponsIndex}
