@@ -37,7 +37,7 @@ const Research = memo(function Research({
             triggerTransition();
           }}
         >
-          {selected !== accordionIcon ? "-" : "+"}
+          x
         </div>
       </header>
       <CSSTransition
