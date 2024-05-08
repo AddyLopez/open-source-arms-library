@@ -66,8 +66,7 @@ h6 {
 }
 
 .Panel main {
-  background-color: var(--text-color);
-  color: var(--primary-theme);
+  background-color: var(--secondary-theme);
 }
 
 .Panel header {
