@@ -1,4 +1,5 @@
 import React from "react";
+import "./AboutButton.css";
 
 function AboutButton({ setSelected }) {
   const handleClick = () => {
