@@ -21,7 +21,7 @@ function DetailsSupplyChain({ weaponsArray, weaponsIndex }) {
                         key={index}
                         rel="noreferrer"
                       >
-                        SOURCE{index > 0 ? `-0${index + 1}` : ""}
+                        &#40;source{index > 0 ? `-0${index + 1}` : ""}&#41;
                         {""}
                       </a>
                     );
