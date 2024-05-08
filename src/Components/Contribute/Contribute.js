@@ -1,17 +1,10 @@
 import React from "react";
 import "./Contribute.css";
 
-function Contribute({ selected }) {
-  const accordionIcon = document.getElementById("accordion-icon");
-  const aboutButton = document.getElementById("about-button");
-
+function Contribute({ profileIsActive }) {
   return (
     <footer
-      className={
-        selected !== accordionIcon && selected !== aboutButton
-          ? "Contribute fixed"
-          : "Contribute static"
-      }
+      className={profileIsActive ? "Contribute fixed" : "Contribute static"}
     >
       <h4>
         Have something to contribute?{" "}
