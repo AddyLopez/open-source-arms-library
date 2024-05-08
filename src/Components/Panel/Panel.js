@@ -16,8 +16,16 @@ function Panel({
   return (
     <div className="Panel">
       <header className="header">
-        <h1 className="desktop">OPEN SOURCE ARMS LIBRARY</h1>
-        <h1 className="mobile">OSAL</h1>
+        <h1 className="desktop">
+          <a href="/" title="To OSAL home page">
+            OPEN SOURCE ARMS LIBRARY
+          </a>
+        </h1>
+        <h1 className="mobile">
+          <a href="/" title="To OSAL home page">
+            OSAL
+          </a>
+        </h1>
         <AboutButton setSelected={setSelected} />
       </header>
       <main className="accordion">
