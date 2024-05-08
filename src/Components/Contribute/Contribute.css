@@ -23,6 +23,16 @@
   text-align: center;
 }
 
+.Contribute a:visited {
+  color: var(--text-color);
+}
+
+.Contribute a:active {
+  font-weight: 500;
+}
+
+/* utility classes */
+
 .fixed {
   position: fixed;
   bottom: 0px;
@@ -33,14 +43,6 @@
   position: static;
   bottom: auto;
   width: auto;
-}
-
-.Contribute a:visited {
-  color: var(--text-color);
-}
-
-.Contribute a:active {
-  font-weight: 500;
 }
 
 @media only screen and (max-width: 480px) {
