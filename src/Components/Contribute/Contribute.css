@@ -20,7 +20,7 @@
   font-weight: 300;
   font-size: 14px;
   font-style: italic;
-  margin-left: 16px;
+  margin-left: 10px;
   text-align: center;
 }
 
@@ -48,11 +48,17 @@
 }
 
 @media only screen and (max-width: 480px) {
-  .Contribute h4 {
-    font-size: 12px;
+  .Contribute {
+    justify-content: space-around;
   }
+
+  .Contribute h4 {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 280px) {
   .Contribute a {
-    font-size: 11px;
     margin-left: 0;
   }
 }
