@@ -40,7 +40,7 @@ function MarkerPopup({
         <li>
           {weaponNames !== null ? (
             <span>
-              <strong>WEAPON NAMES:</strong> {weaponNames}
+              <strong>WEAPON'S NAME:</strong> {weaponNames}
             </span>
           ) : (
             "Weapon names unspecified"
