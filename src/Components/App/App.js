@@ -19,6 +19,17 @@ function App() {
     //console.log(weaponsIndex, manufacturingIndex);
   };
 
+  /*
+  const randomizeMapContinent = () => {
+    const centers = [
+      [41, -86],
+      [48, 13],
+    ];
+    const randomIndex = Math.floor(Math.random() * 2);
+    return centers[randomIndex];
+  };
+  */
+
   return (
     <div className="App">
       <Panel
@@ -29,6 +40,7 @@ function App() {
       />
       <MapContainer
         id="map"
+        /*center={randomizeMapContinent()}*/
         center={[41, -86]}
         zoom={4.25}
         zoomSnap={0.25} // See https://leafletjs.com/examples/zoom-levels/#fractional-zoom
