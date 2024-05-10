@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
 import About from "../About/About";
-/*import Instructions from "../Instructions/Instructions";*/
 import Research from "../Research/Research";
 import AboutButton from "../AboutButton/AboutButton";
 import "./Panel.css";
@@ -8,28 +7,37 @@ import "./Panel.css";
 function Panel({
   weaponsIndex,
   manufacturingIndex,
-  toggle,
-  selected,
   profileIsActive,
-  setSelected,
+  setProfileIsActive,
 }) {
+  const [aboutIsOpen, setAboutIsOpen] = useState(true);
+
   return (
     <div className="Panel">
-      <header className="header">
-        <h1 className="desktop">OPEN SOURCE ARMS LIBRARY</h1>
-        <h1 className="mobile">OSAL</h1>
-        <AboutButton setSelected={setSelected} />
+      <header className="primary-header">
+        <h1 className="desktop">
+          <a href="/" title="To OSAL home page">
+            OPEN SOURCE ARMS LIBRARY
+          </a>
+        </h1>
+        <h1 className="mobile">
+          <a href="/" title="To OSAL home page">
+            OSAL
+          </a>
+        </h1>
+        <AboutButton
+          aboutIsOpen={aboutIsOpen}
+          setAboutIsOpen={setAboutIsOpen}
+        />
       </header>
       <main className="accordion">
-        <About toggle={toggle} selected={selected} />
-        {/*<Instructions toggle={toggle} selected={selected} />*/}
+        <About aboutIsOpen={aboutIsOpen} setAboutIsOpen={setAboutIsOpen} />
         {profileIsActive && (
           <Research
-            toggle={toggle}
             weaponsIndex={weaponsIndex}
             manufacturingIndex={manufacturingIndex}
-            selected={selected}
-            setSelected={setSelected}
+            profileIsActive={profileIsActive}
+            setProfileIsActive={setProfileIsActive}
           />
         )}
       </main>

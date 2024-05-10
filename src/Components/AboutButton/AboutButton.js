@@ -1,14 +1,16 @@
 import React from "react";
+import "./AboutButton.css";
 
-function AboutButton({ setSelected }) {
+function AboutButton({ aboutIsOpen, setAboutIsOpen }) {
   const handleClick = () => {
-    const aboutButton = document.getElementById("about-button");
-    return setSelected(aboutButton);
+    if (aboutIsOpen === false) {
+      return setAboutIsOpen(!aboutIsOpen);
+    }
   };
 
   return (
     <button id="about-button" className="About-Button" onClick={handleClick}>
-      ABOUT
+      About
     </button>
   );
 }

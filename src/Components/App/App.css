@@ -1,22 +1,23 @@
 :root {
-  --accent-color: hsl(69, 41%, 57%);
-  --primary-theme: hsl(214, 13%, 24%);
-  --secondary-theme: hsl(215, 19%, 40%);
-  --text-color: hsl(35, 44%, 92%);
-  --primary-font: "Orbitron", sans-serif;
+  --primary-font: "Poppins", sans-serif;
+  --primary-theme: hsl(234, 52%, 40%);
+  --secondary-theme: hsl(234, 52%, 10%);
+  --text-color: hsl(0, 0%, 100%);
 }
 
 body {
-  margin: 0;
   background-color: var(--primary-theme);
+  margin: 0;
 }
 
+/* Leaflet classes */
+
 #map {
-  position: fixed;
   bottom: 0;
-  z-index: 0;
   height: calc(100vh - 72px);
+  position: fixed;
   width: 100%;
+  z-index: 0;
 }
 
 .leaflet-top {
@@ -30,6 +31,17 @@ body {
 
 .leaflet-right {
   right: 13px;
+}
+
+.leaflet-controls-expanded,
+.leaflet-control-layers,
+.leaflet-control,
+.leaflet-control-layers-expanded {
+  font-family: var(--primary-font);
+}
+
+.leaflet-control-layers label {
+  background-color: var(--text-color);
 }
 
 @media only screen and (max-width: 992px) {

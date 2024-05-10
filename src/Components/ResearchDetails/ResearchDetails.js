@@ -20,15 +20,15 @@ const ResearchDetails = memo(function ResearchDetails({
 
   return (
     <section className="ResearchDetails">
-      <h3>
-        <DetailsHeader
-          weaponsArray={weaponsArray}
-          weaponsIndex={weaponsIndex}
-          manufacturingIndex={manufacturingIndex}
-        />
-      </h3>
       <ul className="outer-list">
         <li>
+          <DetailsHeader
+            weaponsArray={weaponsArray}
+            weaponsIndex={weaponsIndex}
+            manufacturingIndex={manufacturingIndex}
+          />
+        </li>
+        <li className="site-address">
           <DetailsAddress
             weaponsArray={weaponsArray}
             weaponsIndex={weaponsIndex}

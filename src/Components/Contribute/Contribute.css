@@ -12,23 +12,28 @@
   font-size: 15px;
   margin-top: 0;
   margin-bottom: 0;
+  text-transform: none;
 }
 
 .Contribute a {
-  background-color: var(--primary-theme);
-  border: 1px solid var(--primary-theme);
-  border-radius: 6px;
-  color: var(--accent-color);
-  display: block;
-  font-weight: 900;
+  color: var(--text-color);
+  font-weight: 300;
   font-size: 14px;
-  margin-left: 16px;
-  padding: 10px 8px;
+  font-style: italic;
+  margin-left: 10px;
   text-align: center;
-  text-decoration: none;
-  transition: all 150ms ease-in-out;
-  min-width: 15%;
 }
+
+.Contribute a:visited {
+  color: var(--text-color);
+}
+
+.Contribute a:active {
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+/* utility classes */
 
 .fixed {
   position: fixed;
@@ -42,34 +47,18 @@
   width: auto;
 }
 
-.Contribute a:visited {
-  color: var(--accent-color);
-  text-decoration: none;
-}
-
-.Contribute a:hover {
-  background-color: var(--accent-color);
-  border: 1px solid hsl(214, 13%, 14%);
-  color: var(--primary-theme);
-  transition: all 150ms ease-in-out;
-}
-
-.Contribute a:active {
-  transform: translate(1px, 1px);
-}
-
-@media only screen and (max-width: 768px) {
-  .Contribute {
-    justify-content: space-between;
-  }
-}
-
 @media only screen and (max-width: 480px) {
-  .Contribute h4 {
-    font-size: 12px;
+  .Contribute {
+    justify-content: space-around;
   }
+
+  .Contribute h4 {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 280px) {
   .Contribute a {
-    font-size: 11px;
     margin-left: 0;
   }
 }

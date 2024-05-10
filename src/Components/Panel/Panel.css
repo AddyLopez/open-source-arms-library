@@ -2,12 +2,11 @@
   background-color: var(--primary-theme);
   color: var(--text-color);
   font-family: var(--primary-font);
-  font-weight: 300;
   font-style: normal;
-  letter-spacing: 1.5px;
+  font-weight: 300;
   position: sticky;
-  z-index: 1000;
   width: 100%;
+  z-index: 1000;
 }
 
 .Panel h1,
@@ -19,7 +18,7 @@ h6 {
   text-transform: uppercase;
 }
 
-.Panel .header {
+.Panel .primary-header {
   align-items: center;
   background-color: var(--primary-theme);
   display: flex;
@@ -27,6 +26,34 @@ h6 {
   padding: 0 23px;
 }
 
+.Panel h1 {
+  font-size: 27px;
+  text-transform: uppercase;
+}
+
+.Panel h1 a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.Panel h1 a:visited {
+  color: var(--text-color);
+}
+
+.Panel main {
+  background-color: var(--secondary-theme);
+}
+
+.Panel header {
+  padding: 0 13px;
+}
+
+.Panel .accordion article {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* utility classes */
 .Panel .desktop {
   display: block;
 }
@@ -35,97 +62,12 @@ h6 {
   display: none;
 }
 
-.Panel h1 {
-  font-size: 27px;
-}
-
-.Panel button {
-  background-color: var(--accent-color);
-  border: 1px solid hsl(214, 13%, 14%);
-  border-radius: 6px;
-  color: var(--primary-theme);
-  cursor: pointer;
-  display: block;
-  font-family: var(--primary-font);
-  font-size: 14px;
-  font-weight: 900;
-  letter-spacing: 0.5px;
-  padding: 10px 8px;
-  text-align: center;
-  text-transform: uppercase;
-  min-width: 15%;
-}
-.Panel button:hover,
-.Panel button:active {
-  background-color: var(--primary-theme);
-  border: 1px solid var(--accent-color);
-  color: var(--accent-color);
-  transition: all 150ms ease-in-out;
-}
-
-.Panel button:active {
-  transform: translate(1px, 1px);
-}
-
-.Panel main {
-  background-color: var(--text-color);
-  color: var(--primary-theme);
-}
-
-.Panel header {
-  padding: 0 13px;
-  border-bottom: 1px ridge var(--secondary-theme);
-}
-
-.Panel .accordion article {
-  font-size: 14px;
-  line-height: 1.5;
-}
-
-.Panel .accordion header {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  padding: 12px 23px;
-}
-
-.Panel .accordion h2 {
-  font-size: 18px;
-  margin: 0;
-}
-
-.Panel .accordion h3 {
-  font-size: 15px;
-}
-
-.Panel .accordion-icon {
-  cursor: pointer;
-  background-color: var(--primary-theme);
-  border: 1px solid var(--primary-theme);
-  color: var(--accent-color);
-  padding: 0px 10px;
-  border-radius: 6px;
-  font-size: 25.5px;
-  font-weight: 450;
-}
-
-.Panel .accordion-icon:hover,
-.Panel .accordion-icon:active {
-  background-color: var(--accent-color);
-  color: var(--primary-theme);
-  transition: all 150ms ease-in-out;
-}
-
-.Panel .accordion-icon:active {
-  transform: translate(1px, 1px);
-}
-
-.accordion-content-hide {
+.content-hide {
   max-height: 0;
   overflow: hidden;
 }
 
-.accordion-content-show {
+.content-show {
   height: auto;
 }
 

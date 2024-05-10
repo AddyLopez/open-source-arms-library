@@ -6,7 +6,7 @@ function DetailsHeader({ weaponsArray, weaponsIndex, manufacturingIndex }) {
 
   const detailsHeader = (
     <>
-      Manufacturing Site:{" "}
+      <span className="researchdetails-tag">Manufacturing Site:</span>{" "}
       <span className="researchdetails-thin">
         {manufacturingSite.site_name !== null
           ? manufacturingSite.site_name

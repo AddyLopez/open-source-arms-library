@@ -14,14 +14,20 @@ function DetailsCompanies({ weaponsArray, weaponsIndex }) {
               {companiesItem.source.map((sourceItem, index) => {
                 if (sourceItem !== null) {
                   return (
-                    <a
-                      href={sourceItem}
-                      target="_blank"
-                      rel="noreferrer"
-                      key={index}
-                    >
-                      SOURCE{index > 0 ? `-0${index + 1}` : ""}
-                    </a>
+                    <>
+                      <span>
+                        &#40;
+                        <a
+                          href={sourceItem}
+                          target="_blank"
+                          rel="noreferrer"
+                          key={index}
+                        >
+                          source{index > 0 ? `-0${index + 1}` : ""}
+                        </a>
+                        &#41;{" "}
+                      </span>
+                    </>
                   );
                 } else {
                   return "";

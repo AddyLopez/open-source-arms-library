@@ -3,24 +3,19 @@ import { CSSTransition } from "react-transition-group";
 
 import "./About.css";
 
-function About({ selected, toggle }) {
+function About({ aboutIsOpen, setAboutIsOpen }) {
   const [inProp, setInProp] = useState(false);
   const nodeRef = useRef(null);
 
   const triggerTransition = () => {
     setInProp(!inProp);
   };
-  const aboutButton = document.getElementById("about-button");
 
   return (
     <section
       id="about"
       ref={nodeRef}
-      className={
-        selected === aboutButton
-          ? "accordion-content-show"
-          : "accordion-content-hide"
-      }
+      className={aboutIsOpen ? "content-show" : "content-hide"}
     >
       <CSSTransition
         nodeRef={nodeRef}
@@ -30,17 +25,17 @@ function About({ selected, toggle }) {
       >
         <article id="about-article">
           <p>
-            Explore the map and select a marker. Click "VIEW PROFILE" on the
-            pop-up to learn more about where Israeli-used arms are manufactured.
+            Explore the world map and select a marker. Click "View More" for
+            more information on the weapon.
           </p>
           <div
             className="about-icon"
-            onClick={(event) => {
-              toggle(event);
+            onClick={() => {
+              setAboutIsOpen(!aboutIsOpen);
               triggerTransition();
             }}
           >
-            {selected !== aboutButton ? "" : "x"}
+            {aboutIsOpen ? "x" : ""}
           </div>
         </article>
       </CSSTransition>

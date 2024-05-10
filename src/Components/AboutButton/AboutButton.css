@@ -1,0 +1,14 @@
+.About-Button {
+  background-color: var(--primary-theme);
+  border: none;
+  color: var(--text-color);
+  cursor: pointer;
+  display: block;
+  font-family: var(--primary-font);
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.About-Button:hover {
+  text-decoration: underline;
+}

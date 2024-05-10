@@ -15,15 +15,22 @@ function DetailsSupplyChain({ weaponsArray, weaponsIndex }) {
                 {supplyChainItem.source.map((sourceItem, index) => {
                   if (sourceItem !== null) {
                     return (
-                      <a
-                        href={sourceItem}
-                        target="_blank"
-                        key={index}
-                        rel="noreferrer"
-                      >
-                        SOURCE{index > 0 ? `-0${index + 1}` : ""}
-                        {""}
-                      </a>
+                      <>
+                        <span>
+                          &#40;
+                          <a
+                            href={sourceItem}
+                            target="_blank"
+                            key={index}
+                            rel="noreferrer"
+                          >
+                            {supplyChainItem.source.length > 1
+                              ? `source-0${index + 1}`
+                              : "source"}
+                          </a>
+                          &#41;{" "}
+                        </span>
+                      </>
                     );
                   } else {
                     return "";

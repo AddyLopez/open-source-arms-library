@@ -6,11 +6,10 @@ import { CSSTransition } from "react-transition-group";
 import "./Research.css";
 
 const Research = memo(function Research({
-  selected,
-  toggle,
   weaponsIndex,
   manufacturingIndex,
-  setSelected,
+  profileIsActive,
+  setProfileIsActive,
 }) {
   const [inProp, setInProp] = useState(false);
   const nodeRef = useRef(null);
@@ -19,26 +18,20 @@ const Research = memo(function Research({
     setInProp(!inProp);
   };
 
-  const accordionIcon = document.getElementById("accordion-icon");
-  const markerPopupButton = document.getElementById("markerpopup-button");
-  const aboutButton = document.getElementById("about-button");
-
   return (
     <section className="Research">
       <header>
-        <h2>{selected !== accordionIcon ? "BACK TO MAP" : "EXPAND PROFILE"}</h2>
         <div
-          id="accordion-icon"
-          className="accordion-icon"
-          onClick={(event) => {
-            if (selected === markerPopupButton) {
-              setSelected(accordionIcon);
+          id="research-icon"
+          className="research-icon"
+          onClick={() => {
+            if (profileIsActive === true) {
+              setProfileIsActive(!profileIsActive);
             }
-            toggle(event);
             triggerTransition();
           }}
         >
-          {selected !== accordionIcon ? "-" : "+"}
+          x
         </div>
       </header>
       <CSSTransition
@@ -50,9 +43,7 @@ const Research = memo(function Research({
         <article
           ref={nodeRef}
           className={
-            selected !== accordionIcon && selected !== aboutButton
-              ? "accordion-content-show full-screen"
-              : "accordion-content-hide"
+            profileIsActive ? "content-show full-screen" : "content-hide"
           }
         >
           {manufacturingIndex !== null ? (
@@ -61,7 +52,7 @@ const Research = memo(function Research({
                 weaponsIndex={weaponsIndex}
                 manufacturingIndex={manufacturingIndex}
               />
-              <Contribute selected={selected} />
+              <Contribute profileIsActive={profileIsActive} />
             </>
           ) : (
             ""

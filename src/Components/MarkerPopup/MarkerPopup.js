@@ -18,22 +18,16 @@ function MarkerPopup({
     weaponsArray[weaponsIndex].manufacturing[manufacturingIndex].site_address;*/
   // console.log(title, address);
 
-  const handleClick = (event) => {
+  const handleClick = () => {
     // console.log(event.target);
     //console.log(weaponsIndex, manufacturingIndex);
-    const markerPopupButton = document.getElementById("markerpopup-button");
-    updatePanel(weaponsIndex, manufacturingIndex, markerPopupButton);
+    updatePanel(weaponsIndex, manufacturingIndex);
   };
 
   return (
     <Popup className="MarkerPopup">
       <h3>{title !== null ? title : "Location's name unspecified"}</h3>
       <ul>
-        {/*<li>
-          {address !== null ?             <span>
-              <strong>ADDRESS:</strong>{" "}{address}
-            </span>: "Address unspecified"}
-  </li> */}
         <li>
           {company !== null ? (
             <span>
@@ -46,7 +40,7 @@ function MarkerPopup({
         <li>
           {weaponNames !== null ? (
             <span>
-              <strong>WEAPON NAMES:</strong> {weaponNames}
+              <strong>WEAPON'S NAME:</strong> {weaponNames}
             </span>
           ) : (
             "Weapon names unspecified"
@@ -59,7 +53,7 @@ function MarkerPopup({
         className="button"
         onClick={handleClick}
       >
-        View Profile
+        View More
       </button>
     </Popup>
   );

@@ -1,20 +1,55 @@
-.leaflet-popup-content-wrapper,
-.leaflet-popup-tip,
-.MarkerPopup span {
-  background-color: hsla(216, 12%, 24%, 0.8);
-  color: var(--text-color);
-  font-family: var(--primary-font);
-  letter-spacing: 1px;
-  font-weight: 300;
+.MarkerPopup h3 {
+  border-bottom: 1px ridge var(--secondary-theme);
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  padding: 6px 8px;
+  text-transform: capitalize;
+  width: 85%;
+}
+
+.MarkerPopup ul {
+  line-height: 1.5;
+  list-style: none;
+  padding-left: 8px;
+  padding-right: 6px;
+}
+
+.MarkerPopup li {
+  font-size: 12px;
 }
 
 .MarkerPopup span {
   background: transparent;
 }
 
+.MarkerPopup .button {
+  border: none;
+  background-color: transparent;
+  color: var(--text-color);
+  cursor: pointer;
+  font-family: var(--primary-font);
+  font-size: 11px;
+  font-style: italic;
+  margin: 5px 0;
+  text-decoration: underline;
+}
+
+.MarkerPopup .button:active {
+  font-weight: 500;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip,
+.MarkerPopup span {
+  background-color: var(--primary-theme);
+  color: var(--text-color);
+  font-family: var(--primary-font);
+  font-weight: 300;
+}
+
 .leaflet-popup-content {
-  margin-right: 8px;
   margin-left: 8px;
+  margin-right: 8px;
 }
 
 .leaflet-popup-content-wrapper {
@@ -28,53 +63,4 @@
 
 .leaflet-container a.leaflet-popup-close-button {
   background: transparent;
-}
-
-.MarkerPopup ul {
-  list-style: square;
-  padding-left: 20px;
-  padding-right: 6px;
-  line-height: 1.5;
-}
-
-.MarkerPopup h3 {
-  border-bottom: 1px ridge var(--secondary-theme);
-  font-size: 12px;
-  padding: 6px 8px;
-  width: 85%;
-}
-
-.MarkerPopup li {
-  font-size: 11px;
-  margin: 6px 0;
-}
-
-.MarkerPopup .button {
-  background-color: var(--accent-color);
-  border: 1px solid hsl(214, 13%, 14%);
-  border-radius: 6px;
-  color: var(--primary-theme);
-  cursor: pointer;
-  display: block;
-  font-family: var(--primary-font);
-  font-size: 11px;
-  font-weight: 900;
-  letter-spacing: 0.5px;
-  margin: 10px auto;
-  padding: 10px 4px;
-  text-align: center;
-  text-transform: uppercase;
-  width: 50%;
-}
-
-.MarkerPopup .button:hover,
-.MarkerPopup .button:active {
-  background-color: var(--primary-theme);
-  border: 1px solid var(--accent-color);
-  color: var(--accent-color);
-  transition: all 150ms ease-in-out;
-}
-
-.MarkerPopup .button:active {
-  transform: translate(1px, 1px);
 }

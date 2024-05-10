@@ -3,10 +3,7 @@ import React from "react";
 function DetailsParentItem({ weaponsArray, weaponsIndex }) {
   const detailsParentItem = (
     <>
-      <span className="researchdetails-tag">
-        Parent Item&#40;<span className="researchdetails-small">s</span>
-        &#41;:
-      </span>
+      <span className="researchdetails-tag">Parent Item&#40;s&#41;:</span>
       <ul>
         {weaponsArray[weaponsIndex].parent_item.map(
           (parentItemElement, index) => {
@@ -16,13 +13,17 @@ function DetailsParentItem({ weaponsArray, weaponsIndex }) {
                   ? parentItemElement.item
                   : "Parent item unspecified"}{" "}
                 {parentItemElement.source !== null ? (
-                  <a
-                    href={parentItemElement.source}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    SOURCE
-                  </a>
+                  <span>
+                    &#40;
+                    <a
+                      href={parentItemElement.source}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      source
+                    </a>
+                    &#41;
+                  </span>
                 ) : (
                   ""
                 )}
