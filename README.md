@@ -1,8 +1,8 @@
 # Open Source Arms Library
 
 Access this project here: [https://opensourcearmslibrary.netlify.app/](https://opensourcearmslibrary.netlify.app/)
-Current version: V2
-Projected release of V3: May 8, 2024
+
+- Current version: V3
 
 ## Description
 
