@@ -16,12 +16,18 @@ function Panel({
     <div className="Panel">
       <header className="primary-header">
         <h1 className="desktop">
-          <a href="/" title="To OSAL home page">
+          <a
+            href="https://www.opensourcearmslibrary.org/"
+            title="To OSAL home page"
+          >
             OPEN SOURCE ARMS LIBRARY
           </a>
         </h1>
         <h1 className="mobile">
-          <a href="/" title="To OSAL home page">
+          <a
+            href="https://www.opensourcearmslibrary.org/"
+            title="To OSAL home page"
+          >
             OSAL
           </a>
         </h1>
