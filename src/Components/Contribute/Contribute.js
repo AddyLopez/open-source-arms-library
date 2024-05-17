@@ -9,7 +9,7 @@ function Contribute({ profileIsActive }) {
       <h4>
         Have something to contribute?{" "}
         <a
-          href="/"
+          href="https://www.opensourcearmslibrary.org/#Services"
           title="Contribute to this project"
           target="_blank"
           rel="noreferrer"
