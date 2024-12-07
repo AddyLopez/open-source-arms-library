@@ -4,6 +4,8 @@ Access this project here: [https://opensourcearmslibrary.netlify.app/](https://o
 
 - Current version: V3
 
+- View the previous version here: [https://v2--opensourcearmslibrary.netlify.app/](https://v2--opensourcearmslibrary.netlify.app/)
+
 ## Description
 
 This application presents data from an open-source library of
